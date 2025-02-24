@@ -1,14 +1,18 @@
 // import { TransitionGroup } from 'react-transition-group';
 // import { useInView } from 'react-intersection-observer';
 // import Navbar from "./Navbar"
-import Template from './Template';
+
+import Templete from './Templete';
+
+
 
 
 function App() {
 
   return (
     <>
-      <Template />
+      {/* <Navbar /> */}
+      <Templete />
     </>
   )
 }
