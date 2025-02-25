@@ -1,8 +1,8 @@
-
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin'; // Assurez-vous de créer ce fichier pour les styles de transition
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -71,6 +71,7 @@ const Template = () => {
 
   return (
     <section className="nexsection">
+      <Link className='passer' to="/home">Passer >>></Link>
       <div className="sectiont">
         <div id="box1" className="box">
           Bienvenu dans votre Application LexCam

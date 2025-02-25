@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return ( 
         <div className="Navbar">
-            <h1>Lexcam</h1>
+            <h1 className="navbar-logo">
+                <Link href="/home">LexCam</Link>
+            </h1>
                 
             <ul className="navbar-menu">
                 <li className="navbar-item">

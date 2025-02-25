@@ -21,6 +21,22 @@ background-color: #242424;
   color: #fff;
   box-shadow: 0 0 10px rgba(131, 127, 127, 0.1);
 }
+.Navbar .navbar-logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.Navbar .navbar-logo a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Navbar .navbar-logo a:hover {
+  color: blue;
+  transition: all 0.5s ease-in-out;
+}
 
 .Navbar .navbar-menu {
   display: flex;
@@ -51,6 +67,15 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+section .passer{
+  margin-left: 90%;top: 0;
+  background-color: #fff;
+  color: #242424;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .box {
