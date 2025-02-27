@@ -1,4 +1,4 @@
-
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,20 +8,20 @@ const Navbar = () => {
         <Link to="/home">LexCam</Link>
       </h1>
       <ul className="navbar-menu">
-        <li className="navbar-item">
-          <Link to="/penal">Code penal</Link>
+      <li className="navbar-item">
+          <NavLink to="/penal" className={({ isActive }) => (isActive ? 'active' : '')}>Code penal</NavLink>
         </li>
         <li className="navbar-item">
-          <Link to="/">Code civil</Link>
+          <NavLink to="/civil" className={({ isActive }) => (isActive ? 'active' : '')}>Code civil</NavLink>
         </li>
         <li className="navbar-item">
-          <Link to="/">Code du Travail</Link>
+          <NavLink to="/travail" className={({ isActive }) => (isActive ? 'active' : '')}>Code du Travail</NavLink>
         </li>
         <li className="navbar-item">
-          <Link to="/">Code de la Route</Link>
+          <NavLink to="/raod" className={({ isActive }) => (isActive ? 'active' : '')}>Code de la Route</NavLink>
         </li>
         <li className="navbar-item">
-          <Link to="/">Code des impots</Link>
+          <NavLink to="/impot" className={({ isActive }) => (isActive ? 'active' : '')}>Code des impots</NavLink>
         </li>
       </ul>
     </div>
