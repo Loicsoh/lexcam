@@ -71,7 +71,7 @@ const Template = () => {
 
   return (
     <section className="nexsection">
-      <Link className='passer' to="/home">Passer >>></Link>
+      <Link className='passer' to="/home">Passer</Link>
       <div className="sectiont">
         <div id="box1" className="box">
           Bienvenu dans votre Application LexCam

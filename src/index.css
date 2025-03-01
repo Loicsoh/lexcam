@@ -60,11 +60,11 @@ background-color: #242424;
 }
 
 /* filepath: /d:/TAF/PROJETS/lexcam/src/Navbar.css */
-.navbar-menu .navbar-item .active {
+/* .navbar-menu .navbar-item .active {
   font-weight: bold;
   color: #f31255;
-  text-decoration: underline;
-}
+  text-decoration: underline; */
+
 
 section {
   display: flex;
@@ -83,6 +83,15 @@ section .passer{
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+section .passer:hover{
+  background-image: url('/src/assets/images/arrow-right-solid.svg');
+  background-size: cover;
+  background-position: 100%;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
 .box {
