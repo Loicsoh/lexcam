@@ -10,28 +10,24 @@
                 "titre": "Des crimes de trahison",
                 "sections": [
                   {
-                    "titre": "Section 1",
+                    "section 1": "Trahison",
                     "articles": [
                       {
-                        "numero": 1,
-                        "description": "Des crimes de trahison sont considérés comme..."
+                        "article 1": "Des crimes de trahison sont considérés comme..."
                       },
                       {
-                        "numero": 2,
-                        "description": "Description of article 2"
+                        "article 2": "Description of article 2"
                       }
                     ]
                   },
                   {
-                    "titre": "Section 2",
+                    "section 2": "De l'Espionnage",
                     "articles": [
                       {
-                        "numero": 3,
-                        "description": "Lorem ipsum dolor sit amet..."
+                        "article 3": "Lorem ipsum dolor sit amet..."
                       },
                       {
-                        "numero": 4,
-                        "description": "Description of article 4"
+                        "article 4": "Description of article 4"
                       }
                     ]
                   }
