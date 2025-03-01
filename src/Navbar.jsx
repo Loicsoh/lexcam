@@ -10,19 +10,19 @@ const Navbar = () => {
       </h1>
       <ul className="navbar-menu">
         <li className="navbar-item">
-            <NavLink className="siderbar" style={({isActive}) => { return { color: isActive ? 'red' : 'blue'}}} to="/penal">Code penal</NavLink>
+            <NavLink className="siderbar" style={({isActive}) => { return { color: 'blue', borderBottom: isActive ? '5px solid white' : 'none' }}} to="/penal">Code penal</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink className="siderbar" style={({isActive}) => { return { color: isActive ? 'red' : 'blue'}}} to="/civil" >Code civil</NavLink>
+            <NavLink className="siderbar" style={({isActive}) => { return { color: 'blue', borderBottom: isActive ? '5px solid white' : 'none'}}} to="/civil" >Code civil</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink className="siderbar" to="/travail" style={({isActive}) => { return { color: isActive ? 'red' : 'blue'}}}>Code du Travail</NavLink>
+            <NavLink className="siderbar"  style={({isActive}) => { return { color: 'blue', borderBottom: isActive ? '5px solid white' : 'none'}}} to="/travail">Code du Travail</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink className="siderbar" style={({isActive}) => { return { color: isActive ? 'red' : 'blue'}}} to="/raod" >Code de la Route</NavLink>
+            <NavLink className="siderbar" style={({isActive}) => { return { color: 'blue', borderBottom: isActive ? '5px solid white' : 'none'}}} to="/raod" >Code de la Route</NavLink>
           </li>
           <li className="navbar-item">
-            <NavLink className="siderbar" to="/impot" style={({isActive}) => { return { color: isActive ? 'red' : 'blue'}}}>Code des impots</NavLink>
+            <NavLink className="siderbar"  style={({isActive}) => { return { color: 'blue', borderBottom: isActive ? '5px solid white' : 'none'}}} to="/impot">Code des impots</NavLink>
           </li>
       </ul>
     </div>

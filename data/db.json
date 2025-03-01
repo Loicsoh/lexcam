@@ -1,7 +1,45 @@
 {
-    "livre.I" : [
-        {
-            
-        }
+    "livres": [
+      {
+        "id": "Des Crimes et des Delits",
+        "parties": [
+          {
+            "titre": "Des crimes contre la sureté de l'Etat",
+            "chapitres": [
+              {
+                "titre": "Des crimes de trahison",
+                "sections": [
+                  {
+                    "titre": "Section 1",
+                    "articles": [
+                      {
+                        "numero": 1,
+                        "description": "Des crimes de trahison sont considérés comme..."
+                      },
+                      {
+                        "numero": 2,
+                        "description": "Description of article 2"
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Section 2",
+                    "articles": [
+                      {
+                        "numero": 3,
+                        "description": "Lorem ipsum dolor sit amet..."
+                      },
+                      {
+                        "numero": 4,
+                        "description": "Description of article 4"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ]
-}
+  }
