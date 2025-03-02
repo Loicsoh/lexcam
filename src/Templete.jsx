@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
@@ -77,13 +77,13 @@ const Template = () => {
           Bienvenu dans votre Application LexCam
         </div>
         <div id="box2" className="box">
-          box2
+          <p>Une Application qui vous permet de maitriser la loie juridique du cameroun commme le font de votre poche en un laps de temps</p>
         </div>
         <div id="box3" className="box">
-          box3
+          <p>Contrairement aux supports physiques, amener avec vous ou que vous soyez vos loies juridique numerique, consultez à tout moment et sortez de l&apos;ignorence</p>
         </div>
         <div id="box4" className="box">
-          box4
+          <p></p>
         </div>
         <div id="lastsection" className="box">
           last box

@@ -1,6 +1,12 @@
+
+import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
+
 const Penal = () => {
+
+    
+
     return ( 
         
         <div className="penal">
@@ -22,6 +28,15 @@ const Penal = () => {
                 </form>
                 </div>
             </div>
+
+            {/* <div className="containt">
+                {livres && livres.map((livre, index) => (
+                    <div key={index}>
+                        <h3>{livre.title}</h3>
+                        <p>{livre.description}</p>
+                    </div>
+                ))}
+            </div> */}
         </div>
      );
 }
