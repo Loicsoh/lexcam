@@ -31,7 +31,7 @@ const Home = () => {
 
 
             livre_3 = { titre: 'livre3', auteur: 'auteur3', annee: 2002 },
-        ]; 
+        ]
         }
   ]);
 
