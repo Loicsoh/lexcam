@@ -2,35 +2,35 @@
   "livres": [
     {
       "id": "Des crimes contre la sureté de l'Etat",
-      "parties 1": [
+      "parties": [
         {
           "titre": "Des crimes contre la sureté de l'Etat",
           "chapitres": [
             {
-              "chapitre 1": "Des crimes de trahison",
+              "titre": "Des crimes de trahison",
               "sections": [
                 {
-                  "section 1": "description section 1",
+                  "titre": "Section 1",
                   "articles": [
                     {
-                      "article" : 1,
+                      "numero": 1,
                       "description": "Des crimes de trahison sont considérés comme..."
                     },
                     {
-                      "article" : 2,
+                      "numero": 2,
                       "description": "Description of article 2"
                     }
                   ]
                 },
                 {
-                  "secction 2": " Description section 2",
+                  "titre": "Section 2",
                   "articles": [
                     {
-                      "article" : 3,
+                      "numero": 3,
                       "description": "Lorem ipsum dolor sit amet..."
                     },
                     {
-                      "article" : 4,                    
+                      "numero": 4,
                       "description": "Description of article 4"
                     }
                   ]
