@@ -20,6 +20,17 @@ const Banniere = () => {
                     </p>
                 </div>
             </div>
+
+            <div className="travail">
+                <div className="travail-img">
+                    <img src="" alt="" />
+                </div>
+                <div className="travail texte">
+                    <p>
+                        Nous vison a rendre le <b>code civil du cameroun</b> accessible a tous, en offrant une plaforme intuitive pour la consultation des textes de loi relatifs aux relations entre citoyens, aux contrats, aux biens et a la famille.
+                    </p>
+                </div>
+            </div>
         </div>
      );
 }
