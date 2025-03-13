@@ -2,6 +2,7 @@
 // import Livrelist from "./Livrelist";
 import { useState } from "react";
 import Navbar from "./Navbar";
+import Banniere from "./banniere";
 
 const Home = () => {
 
@@ -13,7 +14,7 @@ const Home = () => {
       <div className='container'>
         <h1>page d&apos;acceuil</h1>
 
-        
+        <Banniere />
         
       </div>
     </div>
