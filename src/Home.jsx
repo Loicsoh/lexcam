@@ -2,7 +2,6 @@
 // import Livrelist from "./Livrelist";
 import { useState } from "react";
 import Navbar from "./Navbar";
-import Livrelist from "./Livrelist";
 
 const Home = () => {
 
@@ -14,7 +13,7 @@ const Home = () => {
       <div className='container'>
         <h1>page d&apos;acceuil</h1>
 
-        <Livrelist />
+        
         
       </div>
     </div>

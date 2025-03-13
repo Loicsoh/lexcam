@@ -1,5 +1,6 @@
 
 import Navbar from "./Navbar";
+import Livrelist from "./Livrelist";
 
 
 const Penal = () => {
@@ -24,18 +25,11 @@ const Penal = () => {
                     {/* <label htmlFor="alineatNumber">Numéro d&apos;alinéa:</label> */}
                     <input type="text" id="alineatNumber" name="alineatNumber" placeholder="Exemple: 64" />
                     <button type="submit">Rechercher</button>
+
+                    <Livrelist />
                 </form>
                 </div>
             </div>
-
-            {/* <div className="containt">
-                {livres && livres.map((livre, index) => (
-                    <div key={index}>
-                        <h3>{livre.title}</h3>
-                        <p>{livre.description}</p>
-                    </div>
-                ))}
-            </div> */}
         </div>
      );
 }
