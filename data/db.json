@@ -1,42 +1,67 @@
 {
   "livres": [
     {
-      "id": "Des crimes contre la sureté de l'Etat",
-      "parties": [
+      "id": 1,
+      "titre": "livre 1: Dispositions generales", "theme": "partie: Champ application des lois pénales",
+      "chapitres": [
         {
-          "titre": "Des crimes contre la sureté de l'Etat",
-          "chapitres": [
-            {
-              "titre": "Des crimes de trahison",
-              "sections": [
-                {
-                  "titre": "Section 1",
-                  "articles": [
-                    {
-                      "numero": 1,
-                      "description": "Des crimes de trahison sont considérés comme..."
-                    },
-                    {
-                      "numero": 2,
-                      "description": "Description of article 2"
-                    }
-                  ]
-                },
-                {
-                  "titre": "Section 2",
-                  "articles": [
-                    {
-                      "numero": 3,
-                      "description": "Lorem ipsum dolor sit amet..."
-                    },
-                    {
-                      "numero": 4,
-                      "description": "Description of article 4"
-                    }
-                  ]
-                }
-              ]
-            }
+          "titre": "Chapitre 1: Territorialité de la loi pénale",
+          "articles": [
+            { "num": 1, "description": "Blabla article 1" },
+            { "num": 2, "description": "Blabla article 2" },
+            { "num": 3, "description": "Blabla article 3" },
+            { "num": 4, "description": "Blabla article 4" },
+            { "num": 5, "description": "Blabla article 5" }
+          ]
+        },
+        {
+          "titre": "Chapitre 2: Territorialité de la loi pénale",
+          "articles": [
+            { "num": 6, "description": "Blabla article 6" },
+            { "num": 7, "description": "Blabla article 7" },
+            { "num": 8, "description": "Blabla article 8" },
+            { "num": 9, "description": "Blabla article 9" },
+            { "num": 10, "description": "Blabla article 10" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Livre 2: Autre titre",
+      "chapitres": [
+        {
+          "titre": "Chapitre 1: Thème 1",
+          "articles": [
+            { "num": 1, "description": "Description article 1" },
+            { "num": 2, "description": "Description article 2" }
+          ]
+        },
+        {
+          "titre": "Chapitre 2: Thème 2",
+          "articles": [
+            { "num": 3, "description": "Description article 3" },
+            { "num": 4, "description": "Description article 4" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Livre 3: Encore un autre titre",
+      "chapitres": [
+        {
+          "titre": "Chapitre 1: Thème 1",
+          "articles": [
+            { "num": 1, "description": "Description article 1" },
+            { "num": 2, "description": "Description article 2" }
+          ]
+        },
+        {
+          "titre": "Chapitre 2: Thème 2",
+          "articles": [
+            { "num": 3, "description": "Description article 3" },
+            { "num": 4, "description": "Description article 4" }
           ]
         }
       ]

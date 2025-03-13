@@ -20,25 +20,16 @@ const Livrelist = () => {
       <h1>Liste des livres</h1>
       {livres.map((livre) => (
         <div className="livre" key={livre.id}>
-          <a href="#" className="livre-titre">titre :{livre.id}</a>
+          <h2>{livre.titre}</h2>
+          <a href="">{livre.theme}</a>
           <div className="livre-chapitre">
-            {livre.parties.map((partie, index) => (
-              <div key={index}>
-                <h3>partie :{partie.titre}</h3>
-                {partie.chapitres.map((chapitre, index) => (
-                  <div key={index}>
-                    <h4>chapitre :{chapitre.titre}</h4>
-                    {chapitre.sections.map((section, index) => (
-                      <div key={index}>
-                        <p> section :{section.titre}</p>
-                        {section.articles.map((article, index) => (
-                          <div key={index}>
-                            <h5>article : {article.numero}</h5>
-                            <a href='#' className='article'>{article.description}</a>
-                          </div>
-                        ))}
-                      </div>
-                    ))}
+            {livre.chapitres.map((chapitre, chapitreIndex) => (
+              <div key={chapitreIndex}>
+                <h3>{chapitre.titre}</h3>
+                {chapitre.articles.map((article, articleIndex) => (
+                  <div key={articleIndex}>
+                    <h4>Article {article.num}</h4>
+                    <p>{article.description}</p>
                   </div>
                 ))}
               </div>
