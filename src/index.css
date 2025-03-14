@@ -114,7 +114,8 @@ section .passer:hover{
   align-items: center;
   margin: 0 auto;
   padding: 20px;
-  border-radius: 88px;
+  border-top-right-radius: 88px;
+  border-top-left-radius: 88px;
   background-color: #312f2f;
 }
 
@@ -238,10 +239,29 @@ section .passer:hover{
 .Livrelist {
   background-color: #2E4053;
   width: 100%;
+  margin-top: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.Livrelist .content-livre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.Livrelist h1 {
+  text-align: center;
 }
 
 .livre {
-  background-color: #34C759;
+  background-color: rgba(236, 219, 219, 0.034);
+  border-radius: 5px;
+  width: 950px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
 }
 
 

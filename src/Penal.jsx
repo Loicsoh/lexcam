@@ -26,9 +26,9 @@ const Penal = () => {
                         <input type="text" id="alineatNumber" name="alineatNumber" placeholder="Exemple: 64" />
                         <button type="submit">Rechercher</button>
 
-                        <Livrelist />
                     </form>
                 </div>
+                <Livrelist />
             </div>
         </div>
      );

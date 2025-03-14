@@ -47,6 +47,26 @@
       ]
     },
     {
+      "id": 4,
+      "titre": "Livre 4: Encore un autre titre",
+      "chapitres": [
+        {
+          "titre": "Chapitre 1: Thème 1",
+          "articles": [
+            { "num": 1, "description": "Description article 1" },
+            { "num": 2, "description": "Description article 2" }
+          ]
+        },
+        {
+          "titre": "Chapitre 2: Thème 2",
+          "articles": [
+            { "num": 3, "description": "Description article 3" },
+            { "num": 4, "description": "Description article 4" }
+          ]
+        }
+      ]
+    },
+    {
       "id": 3,
       "titre": "Livre 3: Encore un autre titre",
       "chapitres": [

@@ -19,6 +19,7 @@ const Livrelist = () => {
     <div className="Livrelist">
       <h1>Liste des livres</h1>
       
+      <div className="content-livre">
       {livres.map((livre) => (
         <div className="livre" key={livre.id}>
           <h2>{livre.titre}</h2>
@@ -38,6 +39,8 @@ const Livrelist = () => {
           </div>
         </div>
       ))}
+      </div>
+      
     </div>
   );
 }
