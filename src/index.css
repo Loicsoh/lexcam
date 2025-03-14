@@ -181,6 +181,57 @@ section .passer:hover{
   background-color: #0056b3;
 }
 
+ /* style du banniere.jsx */
+ 
+.contain-cards {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  flex-wrap: wrap;
+  
+}
+
+.contain-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(155, 155, 155, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 500px;
+  height: 240px;
+  box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.1);
+}
+
+.contain-cards .card:hover {
+  background: rgba(155, 155, 155, 0.2);
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1.1);
+}
+
+.contain-cards .card .img-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.contain-cards .card .texte-card p {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contain-cards .card .texte-card b{
+  color: rgb(134, 128, 128);
+}
+
+
+
+
+/* style du fichier livrelist.jsx */
 .Livrelist {
   background-color: #2E4053;
   width: 100%;
