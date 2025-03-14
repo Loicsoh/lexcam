@@ -245,10 +245,11 @@ section .passer:hover{
 }
 
 .Livrelist .content-livre {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
 }
 
 .Livrelist h1 {
@@ -258,11 +259,13 @@ section .passer:hover{
 .livre {
   background-color: rgba(236, 219, 219, 0.034);
   border-radius: 5px;
-  width: 550px;
+  width: 350px;
   height: auto;
   margin: 10px;
   padding: 10px;
+  margin-left: 25px;
 }
+
 
 
 

@@ -2,7 +2,7 @@
   "livres": [
     {
       "id": 1,
-      "titre": "livre 1: Dispositions generales", "theme": "partie: Champ application des lois pénales",
+      "titre": "livre 1: Dispositions generales", "theme": "partie 1: Champ application des lois pénales",
       "chapitres": [
         {
           "titre": "Chapitre 1: Territorialité de la loi pénale",
@@ -47,8 +47,8 @@
       ]
     },
     {
-      "id": 4,
-      "titre": "Livre 4: Encore un autre titre",
+      "id": 3,
+      "titre": "Livre 3: Encore un autre titre",
       "chapitres": [
         {
           "titre": "Chapitre 1: Thème 1",
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "id": 3,
-      "titre": "Livre 3: Encore un autre titre",
+      "id": 4,
+      "titre": "Livre 4: Encore un autre titre",
       "chapitres": [
         {
           "titre": "Chapitre 1: Thème 1",
