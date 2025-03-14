@@ -18,6 +18,7 @@ const Livrelist = () => {
   return (
     <div className="Livrelist">
       <h1>Liste des livres</h1>
+      
       {livres.map((livre) => (
         <div className="livre" key={livre.id}>
           <h2>{livre.titre}</h2>
@@ -26,12 +27,12 @@ const Livrelist = () => {
             {livre.chapitres.map((chapitre, chapitreIndex) => (
               <div key={chapitreIndex}>
                 <h3>{chapitre.titre}</h3>
-                {chapitre.articles.map((article, articleIndex) => (
+                {/* {chapitre.articles.map((article, articleIndex) => (
                   <div key={articleIndex}>
                     <h4>Article {article.num}</h4>
                     <p>{article.description}</p>
                   </div>
-                ))}
+                ))} */}
               </div>
             ))}
           </div>

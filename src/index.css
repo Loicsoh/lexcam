@@ -114,7 +114,8 @@ section .passer:hover{
   align-items: center;
   margin: 0 auto;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 88px;
+  background-color: #312f2f;
 }
 
 .penal-title h1 {
@@ -132,7 +133,7 @@ section .passer:hover{
 .penal-title img {
   vertical-align: middle;
   margin: 0 10px;
-  width: 65px;
+  /* width: 65px; */
   height: 65px;
   border-radius: 100%;
 }
@@ -233,11 +234,10 @@ section .passer:hover{
 
 
 /* style du fichier livrelist.jsx */
+
 .Livrelist {
   background-color: #2E4053;
   width: 100%;
-
-
 }
 
 .livre {
