@@ -248,7 +248,7 @@ section .passer:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  flex-wrap: wrap;
 }
 
 .Livrelist h1 {
@@ -258,7 +258,7 @@ section .passer:hover{
 .livre {
   background-color: rgba(236, 219, 219, 0.034);
   border-radius: 5px;
-  width: 950px;
+  width: 550px;
   height: auto;
   margin: 10px;
   padding: 10px;
