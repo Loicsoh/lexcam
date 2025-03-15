@@ -28,12 +28,12 @@ const Livrelist = () => {
             {livre.chapitres.map((chapitre, chapitreIndex) => (
               <div key={chapitreIndex}>
                 <h3>{chapitre.titre}</h3>
-                {/* {chapitre.articles.map((article, articleIndex) => (
+                {chapitre.articles.map((article, articleIndex) => (
                   <div key={articleIndex}>
                     <h4>Article {article.num}</h4>
                     <p>{article.description}</p>
                   </div>
-                ))} */}
+                ))}
               </div>
             ))}
           </div>
