@@ -1,87 +1,208 @@
 {
-  "livres": [
+  "title": "Code pénal du Cameroun - Version 2019",
+  "last_updated": "2019-12-24",
+  "preliminary_title": {
+    "name": "Dispositions générales",
+    "articles": [
+      {
+        "number": 1,
+        "title": "Objet du Code pénal",
+        "content": "Ce Code définit les infractions et fixe les peines applicables au Cameroun.",
+        "details": "Établit que seules les infractions prévues par la loi sont punissables."
+      },
+      {
+        "number": 2,
+        "title": "Principe de légalité",
+        "content": "Il n’y a ni infraction ni peine sans une loi qui les prévoit.",
+        "details": "Garantit qu’aucune sanction ne peut être imposée sans base légale préalable."
+      }
+    ]
+  },
+  "books": [
     {
-      "id": 1,
-      "titre": "livre 1: Dispositions generales", "theme": "partie 1: Champ application des lois pénales",
-      "chapitres": [
+      "id": "book_1",
+      "name": "Livre I : De l’application de la loi pénale",
+      "chapters": [
         {
-          "titre": "Chapitre 1: Territorialité de la loi pénale",
+          "id": "chapter_1_1",
+          "name": "Dispositions préliminaires",
           "articles": [
-            { "num": 1, "description": "Blabla article 1" },
-            { "num": 2, "description": "Blabla article 2" },
-            { "num": 3, "description": "Blabla article 3" },
-            { "num": 4, "description": "Blabla article 4" },
-            { "num": 5, "description": "Blabla article 5" }
+            {
+              "number": 3,
+              "title": "Application générale",
+              "content": "La loi pénale s’applique à tous, sauf immunités prévues par la loi.",
+              "details": "Exclut les immunités diplomatiques ou parlementaires définies ailleurs."
+            },
+            {
+              "number": 4,
+              "title": "Définitions",
+              "content": "Définit les crimes (peines afflictives et infamantes), délits (peines correctionnelles), contraventions (peines de police).",
+              "details": "Crimes = peine de mort, réclusion ; Délits = emprisonnement ≤ 10 ans ; Contraventions = amende ou emprisonnement court."
+            }
           ]
         },
         {
-          "titre": "Chapitre 2: Territorialité de la loi pénale",
-          "articles": [
-            { "num": 6, "description": "Blabla article 6" },
-            { "num": 7, "description": "Blabla article 7" },
-            { "num": 8, "description": "Blabla article 8" },
-            { "num": 9, "description": "Blabla article 9" },
-            { "num": 10, "description": "Blabla article 10" }
+          "id": "chapter_1_2",
+          "name": "De l’application de la loi pénale dans le temps et dans l’espace",
+          "sections": [
+            {
+              "id": "section_1_2_1",
+              "name": "Application dans le temps",
+              "articles": [
+                {
+                  "number": 5,
+                  "title": "Non-rétroactivité",
+                  "content": "Une loi pénale plus sévère ne s’applique pas aux faits antérieurs.",
+                  "details": "Protège contre les aggravations rétroactives des peines."
+                },
+                {
+                  "number": 6,
+                  "title": "Rétroactivité in mitius",
+                  "content": "Une loi plus douce s’applique immédiatement, même aux faits antérieurs.",
+                  "details": "Permet de réduire les peines déjà prononcées si une nouvelle loi est plus clémente."
+                }
+              ]
+            },
+            {
+              "id": "section_1_2_2",
+              "name": "Application dans l’espace",
+              "articles": [
+                {
+                  "number": 7,
+                  "title": "Territorialité",
+                  "content": "La loi pénale s’applique aux infractions commises sur le territoire camerounais.",
+                  "details": "Inclut le sol, les eaux territoriales et l’espace aérien."
+                },
+                {
+                  "number": 8,
+                  "title": "Extraterritorialité",
+                  "content": "Infractions commises à l’étranger par des Camerounais ou contre l’État sont punissables.",
+                  "details": "Condition : crime ou délit puni d’au moins 6 mois d’emprisonnement."
+                },
+                {
+                  "number": 9,
+                  "title": "Infractions à bord",
+                  "content": "Infractions commises à bord de navires ou aéronefs camerounais relèvent de la loi camerounaise.",
+                  "details": "Juridiction étendue aux registres camerounais."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_1_3",
+          "name": "Des peines",
+          "sections": [
+            {
+              "id": "section_1_3_1",
+              "name": "Nature et classification des peines",
+              "articles": [
+                {
+                  "number": 18,
+                  "title": "Peines principales",
+                  "content": "Peine de mort, réclusion criminelle (à perpétuité ou temporaire), emprisonnement (de 10 jours à 10 ans), amende.",
+                  "details": "Peine de mort réservée aux crimes graves (ex. : trahison).",
+                  "penalties": [
+                    { "type": "Peine de mort", "applicable_to": "crimes graves" },
+                    { "type": "Réclusion criminelle", "duration": "perpétuité ou temporaire" },
+                    { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+                    { "type": "Amende", "amount": "variable" }
+                  ]
+                },
+                {
+                  "number": 19,
+                  "title": "Peines accessoires",
+                  "content": "Déchéance des droits civiques, interdiction professionnelle, confiscation.",
+                  "details": "Automatiques ou facultatives selon l’infraction.",
+                  "penalties": [
+                    { "type": "Déchéance des droits civiques", "duration": "variable" },
+                    { "type": "Interdiction professionnelle", "duration": "variable" },
+                    { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+                  ]
+                },
+                {
+                  "number": 20,
+                  "title": "Peines alternatives",
+                  "content": "Travail d’intérêt général (TIG), sanction-réparation.",
+                  "details": "TIG = jusqu’à 240 heures ; sanction-réparation = indemnisation de la victime.",
+                  "penalties": [
+                    { "type": "Travail d’intérêt général", "duration": "jusqu’à 240 heures" },
+                    { "type": "Sanction-réparation", "amount": "indemnisation de la victime" }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "section_1_3_2",
+              "name": "Modalités d’exécution des peines",
+              "articles": [
+                {
+                  "number": 25,
+                  "title": "Sursis",
+                  "content": "Suspension de l’exécution d’une peine d’emprisonnement ≤ 5 ans.",
+                  "details": "Applicable si pas de récidive dans les 5 ans."
+                },
+                {
+                  "number": 28,
+                  "title": "Prescription des peines",
+                  "content": "10 ans pour les crimes, 3 ans pour les délits, 1 an pour les contraventions.",
+                  "details": "Délai court à partir de la condamnation définitive.",
+                  "prescription": [
+                    { "type": "Crimes", "duration": "10 ans" },
+                    { "type": "Délits", "duration": "3 ans" },
+                    { "type": "Contraventions", "duration": "1 an" }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "id": 2,
-      "titre": "Livre 2: Autre titre",
-      "chapitres": [
+      "id": "book_2",
+      "name": "Livre II : Des infractions et des peines",
+      "chapters": [
         {
-          "titre": "Chapitre 1: Thème 1",
-          "articles": [
-            { "num": 1, "description": "Description article 1" },
-            { "num": 2, "description": "Description article 2" }
-          ]
-        },
-        {
-          "titre": "Chapitre 2: Thème 2",
-          "articles": [
-            { "num": 3, "description": "Description article 3" },
-            { "num": 4, "description": "Description article 4" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titre": "Livre 3: Encore un autre titre",
-      "chapitres": [
-        {
-          "titre": "Chapitre 1: Thème 1",
-          "articles": [
-            { "num": 1, "description": "Description article 1" },
-            { "num": 2, "description": "Description article 2" }
-          ]
-        },
-        {
-          "titre": "Chapitre 2: Thème 2",
-          "articles": [
-            { "num": 3, "description": "Description article 3" },
-            { "num": 4, "description": "Description article 4" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "titre": "Livre 4: Encore un autre titre",
-      "chapitres": [
-        {
-          "titre": "Chapitre 1: Thème 1",
-          "articles": [
-            { "num": 1, "description": "Description article 1" },
-            { "num": 2, "description": "Description article 2" }
-          ]
-        },
-        {
-          "titre": "Chapitre 2: Thème 2",
-          "articles": [
-            { "num": 3, "description": "Description article 3" },
-            { "num": 4, "description": "Description article 4" }
+          "id": "chapter_2_1",
+          "name": "Des infractions contre la sûreté de l’État et la paix publique",
+          "sections": [
+            {
+              "id": "section_2_1_1",
+              "name": "Atteintes à la sûreté de l’État",
+              "articles": [
+                {
+                  "number": 102,
+                  "title": "Trahison",
+                  "content": "Livrer des secrets à une puissance étrangère.",
+                  "penalties": [
+                    { "type": "Peine de mort" }
+                  ]
+                },
+                {
+                  "number": 103,
+                  "title": "Espionnage",
+                  "content": "Recueillir ou transmettre des informations au profit d’une puissance étrangère.",
+                  "penalties": [
+                    { "type": "Réclusion criminelle", "duration": "perpétuité" }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "section_2_1_2",
+              "name": "Troubles à la paix publique",
+              "articles": [
+                {
+                  "number": 154,
+                  "title": "Attroupement illégal",
+                  "content": "Participation à un attroupement non autorisé.",
+                  "penalties": [
+                    { "type": "Emprisonnement", "duration": "3 mois à 1 an" }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
