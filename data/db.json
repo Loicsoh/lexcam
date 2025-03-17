@@ -52,6 +52,172 @@
               ]
             }
           ]
+        },
+        {
+          "id": "chapter_1_3",
+          "name": "Des peines",
+          "sections": [
+            {
+              "id": "section_1_3_1",
+              "name": "Nature et classification des peines",
+              "articles": [
+                {
+                  "number": 18,
+                  "title": "Peines principales",
+                  "content": "Peine de mort, réclusion criminelle, emprisonnement, amende.",
+                  "penalties": [
+                    { "type": "Peine de mort" },
+                    { "type": "Réclusion criminelle", "duration": "perpétuité ou temporaire" }
+                  ]
+                },
+                {
+                  "number": 20,
+                  "title": "Peines alternatives",
+                  "content": "Travail d’intérêt général, sanction-réparation.",
+                  "penalties": [
+                    { "type": "Travail d’intérêt général", "duration": "jusqu’à 240 heures" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_1_4",
+          "name": "De la responsabilité pénale",
+          "sections": [
+            {
+              "id": "section_1_4_1",
+              "name": "Des personnes responsables",
+              "articles": [
+                { "number": 74, "title": "Personnes physiques", "content": "Toute personne physique est responsable." },
+                { "number": "74-1", "title": "Personnes morales", "content": "Les personnes morales sont responsables pénalement." }
+              ]
+            },
+            {
+              "id": "section_1_4_2",
+              "name": "Des causes d’irresponsabilité",
+              "articles": [
+                { "number": 80, "title": "Minorité", "content": "Atténuation pour les moins de 18 ans." },
+                { "number": 82, "title": "Légitime défense", "content": "Acte en légitime défense n’est pas punissable." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book_2",
+      "name": "Livre II : Des infractions et des peines",
+      "chapters": [
+        {
+          "id": "chapter_2_1",
+          "name": "Des infractions contre la sûreté de l’État et la paix publique",
+          "sections": [
+            {
+              "id": "section_2_1_1",
+              "name": "Atteintes à la sûreté de l’État",
+              "articles": [
+                { "number": 102, "title": "Trahison", "content": "Livrer des secrets à une puissance étrangère.", "penalties": [{ "type": "Peine de mort" }] },
+                { "number": 103, "title": "Espionnage", "content": "Recueillir ou transmettre des informations à une puissance étrangère.", "penalties": [{ "type": "Réclusion criminelle", "duration": "perpétuité" }] }
+              ]
+            },
+            {
+              "id": "section_2_1_2",
+              "name": "Troubles à la paix publique",
+              "articles": [
+                { "number": 154, "title": "Attroupement illégal", "content": "Participation à un attroupement non autorisé.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 1 an" }] },
+                { "number": 241, "title": "Outrage aux races, religions, tribus ou ethnies", "content": "Incitations à la haine tribale ou ethnique (modifié 2019).", "penalties": [{ "type": "Emprisonnement", "duration": "jusqu’à 2 ans" }, { "type": "Amende", "amount": "jusqu’à 2 millions FCFA" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_2",
+          "name": "Des infractions contre les personnes",
+          "sections": [
+            {
+              "id": "section_2_2_1",
+              "name": "Atteintes à la vie et à l’intégrité",
+              "articles": [
+                { "number": 275, "title": "Homicide volontaire", "content": "Tuer intentionnellement une personne.", "penalties": [{ "type": "Réclusion criminelle", "duration": "perpétuité" }] },
+                { "number": 278, "title": "Coups et blessures", "content": "Blesser volontairement une personne.", "penalties": [{ "type": "Emprisonnement", "duration": "6 mois à 5 ans" }] }
+              ]
+            },
+            {
+              "id": "section_2_2_2",
+              "name": "Atteintes à la liberté",
+              "articles": [
+                { "number": 292, "title": "Viol", "content": "Acte sexuel imposé par violence.", "penalties": [{ "type": "Emprisonnement", "duration": "5 à 10 ans" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_3",
+          "name": "Des infractions contre les biens",
+          "sections": [
+            {
+              "id": "section_2_3_1",
+              "name": "Vol et extorsion",
+              "articles": [
+                { "number": 318, "title": "Vol simple", "content": "Soustraction frauduleuse d’un bien.", "penalties": [{ "type": "Emprisonnement", "duration": "1 à 5 ans" }] },
+                { "number": 320, "title": "Vol aggravé", "content": "Vol avec violence ou arme.", "penalties": [{ "type": "Réclusion criminelle", "duration": "10 ans à perpétuité" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_4",
+          "name": "Des infractions contre la famille et la moralité",
+          "sections": [
+            {
+              "id": "section_2_4_1",
+              "name": "Infractions contre la famille",
+              "articles": [
+                { "number": 356, "title": "Abandon de famille", "content": "Négliger ses devoirs familiaux.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 1 an" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_5",
+          "name": "Des infractions contre l’ordre public et l’administration",
+          "sections": [
+            {
+              "id": "section_2_5_1",
+              "name": "Atteintes à l’ordre public",
+              "articles": [
+                { "number": 231, "title": "Trouble à l’ordre public", "content": "Perturber la tranquillité publique.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 2 ans" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_6",
+          "name": "Des faux",
+          "sections": [
+            {
+              "id": "section_2_6_1",
+              "name": "Faux en écritures publiques",
+              "articles": [
+                { "number": 185, "title": "Falsification de documents officiels", "content": "Falsifier un document public.", "penalties": [{ "type": "Emprisonnement", "duration": "5 à 10 ans" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chapter_2_7",
+          "name": "Des infractions liées aux technologies",
+          "sections": [
+            {
+              "id": "section_2_7_1",
+              "name": "Cybercriminalité",
+              "articles": [
+                { "number": "248-1", "title": "Diffusion de fausses nouvelles", "content": "Propager des fausses informations via moyens électroniques (renforcé 2019).", "penalties": [{ "type": "Emprisonnement", "duration": "6 mois à 2 ans" }] }
+              ]
+            }
+          ]
         }
       ]
     }
