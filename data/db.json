@@ -1,20 +1,18 @@
 {
-  "title": "Code pénal du Cameroun - Version 2019",
-  "last_updated": "2019-12-24",
   "preliminary_title": {
     "name": "Dispositions générales",
     "articles": [
       {
         "number": 1,
         "title": "Objet du Code pénal",
-        "content": "Ce Code définit les infractions et fixe les peines applicables au Cameroun.",
-        "details": "Établit que seules les infractions prévues par la loi sont punissables."
+        "content": "Le présent Code définit les infractions et fixe les peines applicables sur le territoire de la République du Cameroun.",
+        "details": "Ce Code constitue la base légale pour la répression des infractions au Cameroun, remplaçant les lois antérieures de 1965 et 1967, tout en intégrant les modifications de 2019."
       },
       {
         "number": 2,
         "title": "Principe de légalité",
-        "content": "Il n’y a ni infraction ni peine sans une loi qui les prévoit.",
-        "details": "Garantit qu’aucune sanction ne peut être imposée sans base légale préalable."
+        "content": "Il n’y a ni infraction ni peine sans une loi qui les prévoit au préalable.",
+        "details": "Ce principe garantit que nul ne peut être puni pour un fait non expressément qualifié d’infraction par une loi en vigueur au moment des faits, conformément à l’article 37 de la Constitution camerounaise."
       }
     ]
   },
@@ -27,8 +25,18 @@
           "id": "chapter_1_1",
           "name": "Dispositions préliminaires",
           "articles": [
-            { "number": 3, "title": "Application générale", "content": "La loi pénale s’applique à tous, sauf immunités prévues par la loi." },
-            { "number": 4, "title": "Définitions", "content": "Définit les crimes, délits, contraventions." }
+            {
+              "number": 3,
+              "title": "Application générale",
+              "content": "La loi pénale s’applique à tous sans distinction, sous réserve des immunités ou privilèges prévus par la loi.",
+              "details": "Les immunités incluent celles des diplomates (Convention de Vienne) et des parlementaires (Constitution), définies par des textes spécifiques."
+            },
+            {
+              "number": 4,
+              "title": "Définitions",
+              "content": "Les infractions se divisent en crimes, délits et contraventions selon la nature des peines qui leur sont applicables : les crimes entraînent des peines afflictives et infamantes, les délits des peines correctionnelles, les contraventions des peines de police.",
+              "details": "Crimes : peine de mort, réclusion criminelle ; Délits : emprisonnement de 10 jours à 10 ans ; Contraventions : amendes ou emprisonnement jusqu’à 10 jours."
+            }
           ]
         },
         {
@@ -39,16 +47,42 @@
               "id": "section_1_2_1",
               "name": "Application dans le temps",
               "articles": [
-                { "number": 5, "title": "Non-rétroactivité", "content": "Une loi pénale plus sévère ne s’applique pas aux faits antérieurs." },
-                { "number": 6, "title": "Rétroactivité in mitius", "content": "Une loi plus douce s’applique immédiatement." }
+                {
+                  "number": 5,
+                  "title": "Non-rétroactivité",
+                  "content": "Nulle infraction ne peut être punie en vertu d’une loi promulguée postérieurement aux faits, sauf disposition contraire plus favorable au prévenu.",
+                  "details": "Protège contre l’application rétroactive de lois aggravant les peines, sauf si la nouvelle loi est plus douce (voir article 6)."
+                },
+                {
+                  "number": 6,
+                  "title": "Rétroactivité in mitius",
+                  "content": "Lorsque la loi nouvelle est plus favorable au prévenu, elle s’applique aux faits commis avant son entrée en vigueur, sauf si une condamnation définitive a été prononcée.",
+                  "details": "Permet une révision des peines ou des acquittements si la nouvelle loi supprime ou atténue la répression."
+                }
               ]
             },
             {
               "id": "section_1_2_2",
               "name": "Application dans l’espace",
               "articles": [
-                { "number": 7, "title": "Territorialité", "content": "La loi s’applique aux infractions commises au Cameroun." },
-                { "number": 8, "title": "Extraterritorialité", "content": "Infractions à l’étranger par des Camerounais sont punissables." }
+                {
+                  "number": 7,
+                  "title": "Territorialité",
+                  "content": "La loi pénale camerounaise s’applique à toutes les infractions commises sur le territoire national, y compris le sol, les eaux territoriales et l’espace aérien.",
+                  "details": "Le territoire comprend également les zones économiques exclusives pour certaines infractions spécifiques."
+                },
+                {
+                  "number": 8,
+                  "title": "Extraterritorialité",
+                  "content": "La loi pénale s’applique aux infractions commises hors du territoire par un ressortissant camerounais ou contre les intérêts fondamentaux de l’État, à condition qu’elles soient punies d’au moins 6 mois d’emprisonnement.",
+                  "details": "Exige la double incrimination : l’acte doit être punissable dans le pays où il a été commis, sauf pour les crimes contre l’État."
+                },
+                {
+                  "number": 9,
+                  "title": "Infractions à bord",
+                  "content": "Les infractions commises à bord de navires ou d’aéronefs immatriculés au Cameroun sont soumises à la loi camerounaise, quel que soit le lieu de l’infraction.",
+                  "details": "S’applique aux bâtiments battant pavillon camerounais ou aux aéronefs enregistrés au registre national."
+                }
               ]
             }
           ]
@@ -57,183 +91,1136 @@
           "id": "chapter_1_3",
           "name": "Des peines",
           "sections": [
-            {
-              "id": "section_1_3_1",
-              "name": "Nature et classification des peines",
-              "articles": [
-                {
-                  "number": 18,
-                  "title": "Peines principales",
-                  "content": "Peine de mort, réclusion criminelle, emprisonnement, amende.",
-                  "penalties": [
-                    { "type": "Peine de mort" },
-                    { "type": "Réclusion criminelle", "duration": "perpétuité ou temporaire" }
-                  ]
-                },
-                {
-                  "number": 20,
-                  "title": "Peines alternatives",
-                  "content": "Travail d’intérêt général, sanction-réparation.",
-                  "penalties": [
-                    { "type": "Travail d’intérêt général", "duration": "jusqu’à 240 heures" }
-                  ]
-                }
-              ]
-            }
+          {
+          "id": "section_1_3_1",
+          "name": "Nature et classification des peines",
+          "articles": [
+          {
+          "number": 10,
+          "title": "Peines applicables aux crimes",
+          "content": "Les peines applicables aux crimes sont la peine de mort, la réclusion criminelle à perpétuité et la réclusion criminelle de 10 à 20 ans.",
+          "penalties": [
+          { "type": "Peine de mort" },
+          { "type": "Réclusion criminelle", "duration": "perpétuité" },
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+          ],
+          "details": "La peine de mort est réservée aux infractions les plus graves (ex. : trahison, meurtre avec préméditation)."
+          },
+          {
+          "number": 11,
+          "title": "Peines applicables aux délits",
+          "content": "Les peines applicables aux délits sont l’emprisonnement de 10 jours à 10 ans et l’amende supérieure à 25 000 FCFA.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+          { "type": "Amende", "amount": "supérieure à 25 000 FCFA" }
+          ],
+          "details": "Les peines peuvent être cumulées ou substituées par des peines alternatives selon le juge."
+          },
+          {
+          "number": 12,
+          "title": "Peines applicables aux contraventions",
+          "content": "Les peines applicables aux contraventions sont l’emprisonnement jusqu’à 10 jours et l’amende jusqu’à 25 000 FCFA.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "jusqu’à 10 jours" },
+          { "type": "Amende", "amount": "jusqu’à 25 000 FCFA" }
+          ],
+          "details": "Ces peines sont définies par décret dans la partie réglementaire."
+          },
+          {
+          "number": 13,
+          "title": "Peines criminelles",
+          "content": "Les peines criminelles sont afflictives et infamantes : peine de mort, réclusion criminelle à perpétuité, réclusion criminelle temporaire.",
+          "penalties": [
+          { "type": "Peine de mort" },
+          { "type": "Réclusion criminelle", "duration": "perpétuité" },
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
           ]
-        },
-        {
+          },
+          {
+          "number": 14,
+          "title": "Peines correctionnelles",
+          "content": "Les peines correctionnelles sont l’emprisonnement de 10 jours à 10 ans et l’amende au-dessus de 25 000 FCFA.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+          { "type": "Amende", "amount": "supérieure à 25 000 FCFA" }
+          ]
+          },
+          {
+          "number": 15,
+          "title": "Peines de police",
+          "content": "Les peines de police sont l’emprisonnement jusqu’à 10 jours et l’amende jusqu’à 25 000 FCFA.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "jusqu’à 10 jours" },
+          { "type": "Amende", "amount": "jusqu’à 25 000 FCFA" }
+          ]
+          },
+          {
+          "number": 16,
+          "title": "Peines applicables aux personnes morales",
+          "content": "Les peines applicables aux personnes morales sont l’amende, la dissolution, l’interdiction d’exercer certaines activités, la confiscation.",
+          "penalties": [
+          { "type": "Amende", "amount": "variable selon l’infraction" },
+          { "type": "Dissolution" },
+          { "type": "Interdiction d’exercer", "duration": "variable" },
+          { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+          ],
+          "details": "Introduit en 2016 pour responsabiliser les entreprises et associations."
+          },
+          {
+          "number": 17,
+          "title": "Cumul des peines",
+          "content": "En cas de pluralité d’infractions, les peines peuvent être cumulées dans la limite du maximum légal prévu pour l’infraction la plus grave.",
+          "details": "Le cumul ne peut excéder 20 ans de réclusion criminelle ou 10 ans d’emprisonnement pour les délits."
+          },
+          {
+          "number": 18,
+          "title": "Peines principales",
+          "content": "Les peines principales sont la peine de mort, la réclusion criminelle, l’emprisonnement et l’amende.",
+          "penalties": [
+          { "type": "Peine de mort" },
+          { "type": "Réclusion criminelle", "duration": "perpétuité ou temporaire" },
+          { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+          { "type": "Amende", "amount": "variable selon l’infraction" }
+          ],
+          "details": "Constituent le socle des sanctions pénales."
+          },
+          {
+          "number": 19,
+          "title": "Peines accessoires",
+          "content": "Les peines accessoires incluent la déchéance des droits civiques, l’interdiction d’exercer une profession ou une activité, la confiscation des objets saisis.",
+          "penalties": [
+          { "type": "Déchéance des droits civiques", "duration": "1 à 10 ans ou perpétuité" },
+          { "type": "Interdiction professionnelle", "duration": "1 à 5 ans" },
+          { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+          ],
+          "details": "Peuvent être automatiques ou prononcées par le juge en fonction de la gravité."
+          },
+          {
+          "number": 20,
+          "title": "Peines alternatives",
+          "content": "Les peines alternatives sont le travail d’intérêt général (TIG) et la sanction-réparation.",
+          "penalties": [
+          { "type": "Travail d’intérêt général", "duration": "40 à 240 heures" },
+          { "type": "Sanction-réparation", "amount": "indemnisation fixée par le juge" }
+          ],
+          "details": "Introduites en 2016 pour favoriser la réinsertion ; TIG applicable aux délits mineurs."
+          }
+          ]
+          },
+          {
+          "id": "section_1_3_2",
+          "name": "Modalités d’exécution des peines",
+          "articles": [
+          {
+          "number": 21,
+          "title": "Confusion des peines",
+          "content": "En cas de condamnations multiples, les peines d’emprisonnement ou de réclusion peuvent être confondues dans la limite du maximum légal de la peine la plus grave.",
+          "details": "Exemple : deux peines de 5 ans peuvent être confondues en une seule de 10 ans maximum."
+          },
+          {
+          "number": 22,
+          "title": "Suspension de l’exécution",
+          "content": "L’exécution d’une peine peut être suspendue pour des raisons médicales ou humanitaires sur décision du juge.",
+          "details": "Exemple : maladie grave ou grossesse avancée."
+          },
+          {
+          "number": 23,
+          "title": "Fractionnement des peines",
+          "content": "Les peines d’emprisonnement inférieures à 1 an peuvent être fractionnées pour permettre au condamné de conserver son emploi ou ses obligations familiales.",
+          "details": "Décision prise par le juge d’application des peines."
+          },
+          {
+          "number": 24,
+          "title": "Libération conditionnelle",
+          "content": "La libération conditionnelle peut être accordée après la moitié de la peine pour les délits ou les deux tiers pour les crimes, sous condition de bonne conduite.",
+          "details": "Non applicable à la réclusion criminelle à perpétuité avant 15 ans."
+          },
+          {
+          "number": 25,
+          "title": "Sursis simple",
+          "content": "Le sursis simple suspend l’exécution d’une peine d’emprisonnement n’excédant pas 5 ans pendant une période de 5 ans.",
+          "details": "Si aucune récidive n’est constatée dans les 5 ans, la peine est effacée."
+          },
+          {
+          "number": 26,
+          "title": "Sursis avec mise à l’épreuve",
+          "content": "Le sursis avec mise à l’épreuve suspend la peine sous réserve que le condamné respecte des obligations fixées par le juge pendant 1 à 3 ans.",
+          "details": "Obligations possibles : suivi social, interdiction de fréquenter certains lieux."
+          },
+          {
+          "number": 27,
+          "title": "Réhabilitation",
+          "content": "La réhabilitation efface les condamnations du casier judiciaire après un délai de 5 ans pour les délits et 10 ans pour les crimes, sous réserve de bonne conduite.",
+          "details": "Non applicable aux condamnés à perpétuité sauf grâce spéciale."
+          },
+          {
+          "number": 28,
+          "title": "Prescription des peines",
+          "content": "Les peines se prescrivent par 10 ans pour les crimes, 3 ans pour les délits et 1 an pour les contraventions, à compter de la date où la condamnation est devenue définitive.",
+          "prescription": [
+          { "type": "Crimes", "duration": "10 ans" },
+          { "type": "Délits", "duration": "3 ans" },
+          { "type": "Contraventions", "duration": "1 an" }
+          ],
+          "details": "La prescription est suspendue par des actes comme une arrestation ou un recours en grâce."
+          }
+          ]
+          },
+          {
+          "id": "section_1_3_3",
+          "name": "Circonstances aggravantes et atténuantes",
+          "articles": [
+          {
+          "number": 29,
+          "title": "Circonstances aggravantes générales",
+          "content": "Les peines peuvent être aggravées en cas de récidive, de préméditation, d’usage d’arme ou de commission en bande organisée.",
+          "details": "Exemple : vol simple devient vol aggravé avec une arme."
+          },
+          {
+          "number": 30,
+          "title": "Circonstances atténuantes",
+          "content": "Le juge peut réduire la peine en cas de circonstances atténuantes telles que le jeune âge, l’absence d’antécédents ou le repentir.",
+          "details": "Permet une individualisation de la peine."
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_1_4",
           "name": "De la responsabilité pénale",
           "sections": [
-            {
-              "id": "section_1_4_1",
-              "name": "Des personnes responsables",
-              "articles": [
-                { "number": 74, "title": "Personnes physiques", "content": "Toute personne physique est responsable." },
-                { "number": "74-1", "title": "Personnes morales", "content": "Les personnes morales sont responsables pénalement." }
-              ]
-            },
-            {
-              "id": "section_1_4_2",
-              "name": "Des causes d’irresponsabilité",
-              "articles": [
-                { "number": 80, "title": "Minorité", "content": "Atténuation pour les moins de 18 ans." },
-                { "number": 82, "title": "Légitime défense", "content": "Acte en légitime défense n’est pas punissable." }
-              ]
-            }
+          {
+          "id": "section_1_4_1",
+          "name": "Des personnes responsables",
+          "articles": [
+          {
+          "number": 74,
+          "title": "Responsabilité des personnes physiques",
+          "content": "Toute personne physique ayant commis une infraction est pénalement responsable, sauf si une cause d’irresponsabilité est reconnue.",
+          "details": "Pas de distinction de sexe, d’âge ou de statut, sauf exceptions prévues (mineurs, démence)."
+          },
+          {
+          "number": "74-1",
+          "title": "Responsabilité des personnes morales",
+          "content": "Les personnes morales, à l’exclusion de l’État, des collectivités publiques et des missions de service public, sont pénalement responsables des infractions commises pour leur compte par leurs organes ou représentants.",
+          "penalties": [
+          { "type": "Amende", "amount": "jusqu’à 5 fois celle applicable aux personnes physiques" },
+          { "type": "Dissolution" },
+          { "type": "Interdiction d’exercer", "duration": "1 à 5 ans" },
+          { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+          ],
+          "details": "Introduit en 2016 pour sanctionner les entreprises ou associations."
+          },
+          {
+          "number": 75,
+          "title": "Auteurs principaux",
+          "content": "Est auteur principal celui qui commet directement l’infraction ou participe à sa réalisation par un acte positif.",
+          "details": "Responsabilité pleine et entière."
+          },
+          {
+          "number": 76,
+          "title": "Co-auteurs",
+          "content": "Sont co-auteurs ceux qui participent volontairement et consciemment à la commission d’une infraction, par aide ou assistance.",
+          "details": "Encourent les mêmes peines que l’auteur principal."
+          },
+          {
+          "number": 77,
+          "title": "Complices",
+          "content": "Est complice celui qui, sans participer directement, facilite l’infraction par aide, conseil ou provocation volontaire.",
+          "details": "Peine identique à celle de l’auteur, sauf décision judiciaire contraire."
+          }
           ]
-        }
-      ]
-    },
-    {
-      "id": "book_2",
-      "name": "Livre II : Des infractions et des peines",
-      "chapters": [
-        {
+          },
+          {
+          "id": "section_1_4_2",
+          "name": "Des causes d’irresponsabilité ou d’atténuation",
+          "articles": [
+          {
+          "number": 78,
+          "title": "Absence d’intention",
+          "content": "Nul n’est pénalement responsable d’un fait non intentionnel, sauf si la loi prévoit une responsabilité pour négligence ou imprudence.",
+          "details": "S’applique aux infractions dolosives ; exceptions pour les délits non intentionnels (ex. : homicide involontaire)."
+          },
+          {
+          "number": 79,
+          "title": "Erreur de fait",
+          "content": "N’est pas pénalement responsable celui qui agit sous l’effet d’une erreur de fait invincible ayant exclu l’intention criminelle.",
+          "details": "Exemple : croire qu’un bien appartient à soi-même lors d’un vol supposé."
+          },
+          {
+          "number": 80,
+          "title": "Minorité",
+          "content": "Les mineurs de moins de 18 ans sont pénalement responsables selon leur âge : moins de 10 ans (irresponsabilité totale), 10 à 14 ans (mesures éducatives privilégiées), 14 à 18 ans (peines atténuées).",
+          "details": "Le juge peut substituer des mesures éducatives aux peines pour les mineurs de 10 à 18 ans."
+          },
+          {
+          "number": 81,
+          "title": "Démence",
+          "content": "Nul n’est pénalement responsable s’il était atteint, au moment des faits, d’un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes.",
+          "details": "Une expertise médicale est obligatoire pour établir l’irresponsabilité."
+          },
+          {
+          "number": 82,
+          "title": "Légitime défense",
+          "content": "N’est pas pénalement responsable la personne qui, face à une atteinte injuste, actuelle et réelle contre elle-même ou autrui, accomplit un acte nécessaire et proportionné pour se défendre.",
+          "details": "La riposte doit être immédiate et mesurée à la gravité de l’attaque."
+          },
+          {
+          "number": 83,
+          "title": "Contrainte",
+          "content": "N’est pas pénalement responsable celui qui agit sous la contrainte d’une force irrésistible, physique ou morale, à laquelle il n’a pu se soustraire.",
+          "details": "La contrainte doit être prouvée et extérieure à la volonté de l’auteur."
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          }
+          ],
+          
+        
+          "books": [
+          {
+          "id": "book_2",
+          "name": "Livre II : Des infractions et des peines",
+          "chapters": [
+          {
           "id": "chapter_2_1",
           "name": "Des infractions contre la sûreté de l’État et la paix publique",
           "sections": [
-            {
-              "id": "section_2_1_1",
-              "name": "Atteintes à la sûreté de l’État",
-              "articles": [
-                { "number": 102, "title": "Trahison", "content": "Livrer des secrets à une puissance étrangère.", "penalties": [{ "type": "Peine de mort" }] },
-                { "number": 103, "title": "Espionnage", "content": "Recueillir ou transmettre des informations à une puissance étrangère.", "penalties": [{ "type": "Réclusion criminelle", "duration": "perpétuité" }] }
-              ]
-            },
-            {
-              "id": "section_2_1_2",
-              "name": "Troubles à la paix publique",
-              "articles": [
-                { "number": 154, "title": "Attroupement illégal", "content": "Participation à un attroupement non autorisé.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 1 an" }] },
-                { "number": 241, "title": "Outrage aux races, religions, tribus ou ethnies", "content": "Incitations à la haine tribale ou ethnique (modifié 2019).", "penalties": [{ "type": "Emprisonnement", "duration": "jusqu’à 2 ans" }, { "type": "Amende", "amount": "jusqu’à 2 millions FCFA" }] }
-              ]
-            }
+          {
+          "id": "section_2_1_1",
+          "name": "Atteintes à la sûreté de l’État",
+          "articles": [
+          {
+          "number": 102,
+          "title": "Trahison",
+          "content": "Est coupable de trahison tout Camerounais qui porte les armes contre la République ou livre à une puissance étrangère des secrets intéressant la défense nationale.",
+          "penalties": [
+          { "type": "Peine de mort" }
+          ],
+          "details": "Infraction imprescriptible visant à protéger la souveraineté nationale."
+          },
+          {
+          "number": 103,
+          "title": "Espionnage",
+          "content": "Est coupable d’espionnage quiconque, dans un but hostile à la République, recueille, conserve ou transmet à une puissance étrangère ou à ses agents des informations classifiées ou des objets de nature à nuire à la défense nationale.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "perpétuité" }
+          ],
+          "details": "S’applique même en temps de paix."
+          },
+          {
+          "number": 104,
+          "title": "Intelligence avec l’ennemi",
+          "content": "Est puni quiconque, en temps de guerre, entretient des intelligences avec une puissance ennemie ou ses agents en vue de favoriser ses entreprises contre le Cameroun.",
+          "penalties": [
+          { "type": "Peine de mort" }
           ]
-        },
-        {
+          },
+          {
+          "number": 105,
+          "title": "Provocation à la guerre civile",
+          "content": "Est puni quiconque provoque directement à la guerre civile par des discours, écrits ou tout autre moyen de propagande.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+          ]
+          },
+          {
+          "number": 106,
+          "title": "Sabotage",
+          "content": "Est puni quiconque détruit, détériore ou rend inutilisable des installations ou matériels d’intérêt militaire ou stratégique dans l’intention de nuire à la défense nationale.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "perpétuité" }
+          ]
+          },
+          {
+          "number": 111,
+          "title": "Rébellion armée",
+          "content": "Est coupable de rébellion armée quiconque prend part à un soulèvement armé contre les autorités légitimes de l’État ou ses institutions.",
+          "penalties": [
+          { "type": "Peine de mort" },
+          { "type": "Réclusion criminelle", "duration": "perpétuité" }
+          ],
+          "details": "Peine maximale en cas de violence effective."
+          },
+          {
+          "number": 112,
+          "title": "Tentative contre la sûreté de l’État",
+          "content": "La tentative des infractions prévues aux articles 102 à 111 est punissable comme l’infraction consommée.",
+          "penalties": [
+          { "type": "Peine identique à l’infraction visée" }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "section_2_1_2",
+          "name": "Troubles à la paix publique",
+          "articles": [
+          {
+          "number": 113,
+          "title": "Incitation à la révolte",
+          "content": "Est puni quiconque, par discours, écrits ou actes, incite directement à la révolte contre les autorités publiques.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 154,
+          "title": "Attroupement illégal",
+          "content": "Est puni quiconque participe à un attroupement non autorisé ayant troublé ou menacé de troubler l’ordre public.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "3 mois à 1 an" },
+          { "type": "Amende", "amount": "20 000 à 200 000 FCFA" }
+          ]
+          },
+          {
+          "number": 155,
+          "title": "Attroupement armé",
+          "content": "Est puni quiconque participe à un attroupement armé ou muni d’objets pouvant servir d’armes.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 156,
+          "title": "Résistance aux ordres publics",
+          "content": "Est puni quiconque s’oppose par la force à l’exécution d’un ordre légal donné par une autorité publique.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 3 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 157,
+          "title": "Outrage aux autorités",
+          "content": "Est puni quiconque, par paroles, gestes, écrits ou images, outrage un fonctionnaire ou agent public dans l’exercice de ses fonctions.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 2 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ],
+          "details": "Peine aggravée si l’outrage vise un magistrat ou un officier de police judiciaire."
+          },
+          {
+          "number": 158,
+          "title": "Outrage au Chef de l’État",
+          "content": "Est puni quiconque outrage le Président de la République par des propos, écrits ou images tendant à porter atteinte à son honneur ou à sa dignité.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "100 000 à 2 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 159,
+          "title": "Diffusion de fausses nouvelles",
+          "content": "Est puni quiconque répand des fausses nouvelles de nature à troubler l’ordre public ou à alarmer la population.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 2 ans" },
+          { "type": "Amende", "amount": "50 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 160,
+          "title": "Corruption de fonctionnaire",
+          "content": "Est puni quiconque corrompt ou tente de corrompre un fonctionnaire pour obtenir un acte contraire à ses devoirs.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "200 000 à 2 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 161,
+          "title": "Détournement de biens publics",
+          "content": "Est puni quiconque détourne des fonds publics ou des biens confiés à sa garde en raison de sa fonction.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" },
+          { "type": "Amende", "amount": "double de la valeur détournée" }
+          ],
+          "details": "Peine aggravée si le montant dépasse 500 000 FCFA."
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_2",
           "name": "Des infractions contre les personnes",
           "sections": [
-            {
-              "id": "section_2_2_1",
-              "name": "Atteintes à la vie et à l’intégrité",
-              "articles": [
-                { "number": 275, "title": "Homicide volontaire", "content": "Tuer intentionnellement une personne.", "penalties": [{ "type": "Réclusion criminelle", "duration": "perpétuité" }] },
-                { "number": 278, "title": "Coups et blessures", "content": "Blesser volontairement une personne.", "penalties": [{ "type": "Emprisonnement", "duration": "6 mois à 5 ans" }] }
-              ]
-            },
-            {
-              "id": "section_2_2_2",
-              "name": "Atteintes à la liberté",
-              "articles": [
-                { "number": 292, "title": "Viol", "content": "Acte sexuel imposé par violence.", "penalties": [{ "type": "Emprisonnement", "duration": "5 à 10 ans" }] }
-              ]
-            }
+          {
+          "id": "section_2_2_1",
+          "name": "Atteintes à la vie et à l’intégrité physique",
+          "articles": [
+          {
+          "number": 275,
+          "title": "Homicide volontaire",
+          "content": "Quiconque cause volontairement la mort d’autrui est coupable d’homicide volontaire.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "perpétuité" }
           ]
-        },
-        {
+          },
+          {
+          "number": 276,
+          "title": "Meurtre",
+          "content": "L’homicide volontaire commis avec préméditation ou guet-apens est qualifié de meurtre.",
+          "penalties": [
+          { "type": "Peine de mort" }
+          ],
+          "details": "La préméditation implique un dessein formé avant l’acte."
+          },
+          {
+          "number": 277,
+          "title": "Infanticide",
+          "content": "La mère qui cause volontairement la mort de son enfant nouveau-né est coupable d’infanticide.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" }
+          ],
+          "details": "Peine atténuée par rapport à l’homicide en raison du contexte post-partum."
+          },
+          {
+          "number": 278,
+          "title": "Coups et blessures volontaires",
+          "content": "Quiconque porte volontairement des coups ou fait des blessures à autrui est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ],
+          "details": "Peine aggravée si incapacité permanente ou mutilation."
+          },
+          {
+          "number": 279,
+          "title": "Coups mortels",
+          "content": "Quiconque porte des coups ou fait des blessures ayant entraîné la mort sans intention de la donner est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 280,
+          "title": "Homicide involontaire",
+          "content": "Quiconque, par maladresse, imprudence ou négligence, cause la mort d’autrui est coupable d’homicide involontaire.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 281,
+          "title": "Blessures involontaires",
+          "content": "Quiconque, par maladresse, imprudence ou négligence, cause à autrui une blessure ou une incapacité est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 mois à 2 ans" },
+          { "type": "Amende", "amount": "25 000 à 200 000 FCFA" }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "section_2_2_2",
+          "name": "Atteintes à la liberté et à la dignité",
+          "articles": [
+          {
+          "number": 282,
+          "title": "Enlèvement",
+          "content": "Quiconque enlève ou séquestre une personne contre son gré est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 283,
+          "title": "Enlèvement de mineur",
+          "content": "Quiconque enlève un mineur de moins de 16 ans est puni.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+          ]
+          },
+          {
+          "number": 284,
+          "title": "Menaces",
+          "content": "Quiconque profère des menaces de mort ou de violences graves contre une personne est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 285,
+          "title": "Chantage",
+          "content": "Quiconque exerce un chantage pour obtenir un avantage ou une somme d’argent est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "2 à 7 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 286,
+          "title": "Diffamation",
+          "content": "Quiconque impute à une personne un fait portant atteinte à son honneur ou à sa considération est coupable de diffamation.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 2 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ],
+          "details": "La vérité du fait peut être une défense si elle est prouvée."
+          },
+          {
+          "number": 287,
+          "title": "Injure publique",
+          "content": "Quiconque adresse publiquement à une personne des propos outrageants ou méprisants est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 mois à 1 an" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
+          ]
+          },
+          {
+          "number": 292,
+          "title": "Viol",
+          "content": "Quiconque, par violence, contrainte ou surprise, a des rapports sexuels avec une personne est coupable de viol.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" }
+          ],
+          "details": "Peine portée à la réclusion criminelle à perpétuité si la victime est mineure de moins de 16 ans, enceinte, ou vulnérable."
+          },
+          {
+          "number": 293,
+          "title": "Attentat à la pudeur",
+          "content": "Quiconque commet un acte contraire à la pudeur sur une personne sans son consentement est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 294,
+          "title": "Harcèlement sexuel",
+          "content": "Quiconque use de pressions ou d’abus d’autorité pour obtenir des faveurs sexuelles est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 3 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 295,
+          "title": "Esclavage",
+          "content": "Quiconque réduit une personne en esclavage ou la soumet à des conditions analogues est puni.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" },
+          { "type": "Amende", "amount": "1 000 000 à 10 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 296,
+          "title": "Traite des personnes",
+          "content": "Quiconque recrute, transporte, héberge ou exploite une personne par la force, la tromperie ou l’abus de pouvoir dans un but d’exploitation est puni.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" },
+          { "type": "Amende", "amount": "1 000 000 à 10 000 000 FCFA" }
+          ],
+          "details": "Exploitation inclut prostitution, travail forcé, ou prélèvement d’organes."
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_3",
           "name": "Des infractions contre les biens",
           "sections": [
-            {
-              "id": "section_2_3_1",
-              "name": "Vol et extorsion",
-              "articles": [
-                { "number": 318, "title": "Vol simple", "content": "Soustraction frauduleuse d’un bien.", "penalties": [{ "type": "Emprisonnement", "duration": "1 à 5 ans" }] },
-                { "number": 320, "title": "Vol aggravé", "content": "Vol avec violence ou arme.", "penalties": [{ "type": "Réclusion criminelle", "duration": "10 ans à perpétuité" }] }
-              ]
-            }
+          {
+          "id": "section_2_3_1",
+          "name": "Vol et extorsion",
+          "articles": [
+          {
+          "number": 314,
+          "title": "Escroquerie",
+          "content": "Quiconque, par usage de faux noms, fausses qualités ou manœuvres frauduleuses, obtient un bien ou un avantage est coupable d’escroquerie.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
           ]
-        },
-        {
+          },
+          {
+          "number": 315,
+          "title": "Abus de confiance",
+          "content": "Quiconque détourne ou dissipe, au préjudice d’autrui, des fonds, valeurs ou biens qui lui ont été remis à titre temporaire est coupable d’abus de confiance.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 7 ans" },
+          { "type": "Amende", "amount": "50 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 316,
+          "title": "Extorsion",
+          "content": "Quiconque, par violence ou menaces, extorque des fonds, biens ou signatures est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 317,
+          "title": "Chantage à caractère économique",
+          "content": "Quiconque use de menaces pour obtenir un avantage économique indu est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "2 à 7 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 318,
+          "title": "Vol simple",
+          "content": "Quiconque soustrait frauduleusement un bien appartenant à autrui est coupable de vol simple.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 319,
+          "title": "Vol qualifié",
+          "content": "Le vol commis avec violence, usage d’arme ou en bande organisée est qualifié de vol qualifié.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+          ]
+          },
+          {
+          "number": 320,
+          "title": "Vol aggravé",
+          "content": "Le vol commis la nuit, par effraction ou avec port d’arme est un vol aggravé.",
+          "penalties": [
+          { "type": "Réclusion criminelle", "duration": "10 à perpétuité" }
+          ],
+          "details": "Circonstances aggravantes cumulables."
+          }
+          ]
+          },
+          {
+          "id": "section_2_3_2",
+          "name": "Destruction et dégradation",
+          "articles": [
+          {
+          "number": 321,
+          "title": "Destruction volontaire",
+          "content": "Quiconque détruit volontairement un bien appartenant à autrui est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 3 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 322,
+          "title": "Incendie volontaire",
+          "content": "Quiconque met volontairement le feu à un bien appartenant à autrui est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ],
+          "details": "Peine portée à la réclusion si danger pour les personnes."
+          },
+          {
+          "number": 323,
+          "title": "Dégradation volontaire",
+          "content": "Quiconque dégrade volontairement un bien appartenant à autrui sans le détruire est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "3 mois à 2 ans" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_4",
           "name": "Des infractions contre la famille et la moralité",
           "sections": [
-            {
-              "id": "section_2_4_1",
-              "name": "Infractions contre la famille",
-              "articles": [
-                { "number": 356, "title": "Abandon de famille", "content": "Négliger ses devoirs familiaux.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 1 an" }] }
-              ]
-            }
+          {
+          "id": "section_2_4_1",
+          "name": "Infractions contre la famille",
+          "articles": [
+          {
+          "number": 356,
+          "title": "Abandon de famille",
+          "content": "Quiconque se soustrait volontairement à ses obligations alimentaires envers son conjoint ou ses enfants est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "3 mois à 1 an" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
           ]
-        },
-        {
+          },
+          {
+          "number": 357,
+          "title": "Bigamie",
+          "content": "Quiconque, étant marié, contracte un second mariage avant dissolution du premier est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 358,
+          "title": "Entrave à l’éducation",
+          "content": "Quiconque empêche volontairement un enfant mineur de fréquenter l’école est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 mois à 1 an" },
+          { "type": "Amende", "amount": "25 000 à 200 000 FCFA" }
+          ],
+          "details": "Introduit en 2016 pour promouvoir l’éducation."
+          }
+          ]
+          },
+          {
+          "id": "section_2_4_2",
+          "name": "Infractions contre la moralité",
+          "articles": [
+          {
+          "number": 343,
+          "title": "Prostitution forcée",
+          "content": "Quiconque contraint une personne à se prostituer ou tire profit de cette activité est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 344,
+          "title": " Proxénétisme",
+          "content": "Quiconque vit des revenus de la prostitution d’autrui ou facilite cette activité est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "2 à 7 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 345,
+          "title": "Actes homosexuels",
+          "content": "Quiconque a des rapports sexuels avec une personne de même sexe est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ],
+          "details": "Disposition controversée maintenue dans le Code de 2016."
+          },
+          {
+          "number": 346,
+          "title": "Outrage public à la pudeur",
+          "content": "Quiconque commet un acte public contraire à la pudeur est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "3 mois à 2 ans" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
+          ]
+          },
+          {
+          "number": 347,
+          "title": "Actes indécents avec mineur",
+          "content": "Quiconque commet des actes indécents avec un mineur de moins de 16 ans est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_5",
           "name": "Des infractions contre l’ordre public et l’administration",
           "sections": [
-            {
-              "id": "section_2_5_1",
-              "name": "Atteintes à l’ordre public",
-              "articles": [
-                { "number": 231, "title": "Trouble à l’ordre public", "content": "Perturber la tranquillité publique.", "penalties": [{ "type": "Emprisonnement", "duration": "3 mois à 2 ans" }] }
-              ]
-            }
+          {
+          "id": "section_2_5_1",
+          "name": "Atteintes à l’ordre public",
+          "articles": [
+          {
+          "number": 231,
+          "title": "Trouble à l’ordre public",
+          "content": "Quiconque trouble l’ordre public par des actes, paroles ou écrits est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "3 mois à 2 ans" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
           ]
-        },
-        {
+          },
+          {
+          "number": 232,
+          "title": "Manifestation illégale",
+          "content": "Quiconque organise ou participe à une manifestation non autorisée est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 3 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 233,
+          "title": "Port illégal d’arme",
+          "content": "Quiconque porte ou transporte une arme sans autorisation est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 234,
+          "title": "Fabrication illégale d’armes",
+          "content": "Quiconque fabrique ou modifie des armes sans autorisation est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "200 000 à 2 000 000 FCFA" }
+          ]
+          },
+          {
+          "number": 241,
+          "title": "Outrage aux races, religions, tribus ou ethnies",
+          "content": "Quiconque, par quelque moyen que ce soit, y compris les réseaux sociaux, provoque à la haine ou à la discrimination contre une race, une religion, une tribu ou une ethnie est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 2 ans" },
+          { "type": "Amende", "amount": "50 000 à 2 000 000 FCFA" }
+          ],
+          "details": "Modifié en 2019 pour inclure les discours haineux en ligne et renforcer les sanctions."
+          }
+          ]
+          },
+          {
+          "id": "section_2_5_2",
+          "name": "Atteintes à l’administration",
+          "articles": [
+          {
+          "number": 242,
+          "title": "Usurpation de fonction",
+          "content": "Quiconque usurpe une fonction publique ou porte un uniforme réservé aux agents publics est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 243,
+          "title": "Refus d’obtempérer",
+          "content": "Quiconque refuse d’obtempérer à une réquisition légale d’un agent public est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 mois à 1 an" },
+          { "type": "Amende", "amount": "25 000 à 250 000 FCFA" }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_6",
           "name": "Des faux",
           "sections": [
-            {
-              "id": "section_2_6_1",
-              "name": "Faux en écritures publiques",
-              "articles": [
-                { "number": 185, "title": "Falsification de documents officiels", "content": "Falsifier un document public.", "penalties": [{ "type": "Emprisonnement", "duration": "5 à 10 ans" }] }
-              ]
-            }
+          {
+          "id": "section_2_6_1",
+          "name": "Faux en écritures publiques",
+          "articles": [
+          {
+          "number": 185,
+          "title": "Faux en écritures publiques",
+          "content": "Quiconque falsifie ou altère un document public ou officiel est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
           ]
-        },
-        {
+          },
+          {
+          "number": 186,
+          "title": "Usage de faux en écritures publiques",
+          "content": "Quiconque fait usage d’un document public falsifié est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "100 000 à 1 000 000 FCFA" }
+          ]
+          }
+          ]
+          },
+          {
+          "id": "section_2_6_2",
+          "name": "Faux en écritures privées",
+          "articles": [
+          {
+          "number": 190,
+          "title": "Faux en écritures privées",
+          "content": "Quiconque falsifie un document privé (contrat, lettre) est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          },
+          {
+          "number": 191,
+          "title": "Usage de faux en écritures privées",
+          "content": "Quiconque fait usage d’un document privé falsifié est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "1 à 5 ans" },
+          { "type": "Amende", "amount": "50 000 à 500 000 FCFA" }
+          ]
+          }
+          ]
+          }
+          ]
+          },
+          {
           "id": "chapter_2_7",
           "name": "Des infractions liées aux technologies",
           "sections": [
-            {
-              "id": "section_2_7_1",
-              "name": "Cybercriminalité",
-              "articles": [
-                { "number": "248-1", "title": "Diffusion de fausses nouvelles", "content": "Propager des fausses informations via moyens électroniques (renforcé 2019).", "penalties": [{ "type": "Emprisonnement", "duration": "6 mois à 2 ans" }] }
-              ]
-            }
+          {
+          "id": "section_2_7_1",
+          "name": "Cybercriminalité",
+          "articles": [
+          {
+          "number": 248,
+          "title": "Piratage informatique",
+          "content": "Quiconque accède frauduleusement à un système informatique ou y introduit des données nuisibles est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "2 à 7 ans" },
+          { "type": "Amende", "amount": "100 000 à 2 000 000 FCFA" }
           ]
-        }
-      ]
-    }
-  ],
-  "regulatory_part": {
-    "name": "Partie réglementaire : Des contraventions",
-    "articles": [
-      { "number": 362, "title": "Bruit excessif", "content": "Perturber la tranquillité par du bruit.", "penalties": [{ "type": "Amende", "amount": "jusqu’à 100 000 FCFA" }] },
-      { "number": 370, "title": "Fin des contraventions", "content": "Dernier article des contraventions." }
-    ]
-  },
-  "final_provisions": {
-    "name": "Dispositions transitoires et finales",
-    "articles": [
-      { "number": 371, "title": "Abrogation", "content": "Abroge les lois antérieures de 1965 et 1967." },
-      { "number": 372, "title": "Entrée en vigueur", "content": "Le Code entre en vigueur à sa publication." }
-    ]
-  }
-}
+          },
+          {
+          "number": "248-1",
+          "title": "Diffusion de fausses nouvelles via moyens électroniques",
+          "content": "Quiconque utilise un moyen électronique pour diffuser des fausses nouvelles troublant l’ordre public ou portant atteinte à la réputation est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "6 mois à 2 ans" },
+          { "type": "Amende", "amount": "50 000 à 1 000 000 FCFA" }
+          ],
+          "details": "Renforcé en 2019 pour lutter contre la désinformation en ligne."
+          },
+          {
+          "number": 249,
+          "title": "Fraude électronique",
+          "content": "Quiconque utilise un système électronique pour commettre une fraude ou un détournement est puni.",
+          "penalties": [
+          { "type": "Emprisonnement", "duration": "5 à 10 ans" },
+          { "type": "Amende", "amount": "200 000 à 2 000 000 FCFA" }
+          ]
+          }
+          ]
+          }
+          ]
+          }
+          ]
+          }
+          ],
+          
+          "regulatory_part": {
+          "name": "Partie réglementaire : Des contraventions",
+          "articles": [
+          {
+          "number": 362,
+          "title": "Bruit excessif",
+          "content": "Est puni quiconque cause un bruit excessif troublant la tranquillité publique, notamment la nuit ou dans des zones résidentielles.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 25 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 10 jours", "condition": "en cas de récidive" }
+          ],
+          "details": "S’applique aux nuisances sonores comme les klaxons intempestifs ou la musique forte."
+          },
+          {
+          "number": 363,
+          "title": "Divagation d’animaux",
+          "content": "Est puni le propriétaire qui laisse divaguer ses animaux sur la voie publique ou sur les propriétés d’autrui sans autorisation.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 25 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 5 jours", "condition": "en cas de récidive ou de dommages" }
+          ],
+          "details": "Concerne les animaux domestiques (bovins, chiens) causant des troubles ou accidents."
+          },
+          {
+          "number": 364,
+          "title": "Dépôt d’ordures hors des lieux prévus",
+          "content": "Est puni quiconque dépose des ordures ou déchets en dehors des lieux désignés par les autorités compétentes.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 20 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 5 jours", "condition": "en cas de récidive" }
+          ],
+          "details": "Vise à maintenir la salubrité publique dans les zones urbaines et rurales."
+          },
+          {
+          "number": 365,
+          "title": "Ivresse publique",
+          "content": "Est puni quiconque se trouve en état d’ivresse manifeste sur la voie publique ou dans un lieu public.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 15 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 3 jours", "condition": "si trouble à l’ordre public" }
+          ],
+          "details": "L’ivresse doit être constatée par un agent public pour engager des poursuites."
+          },
+          {
+          "number": 366,
+          "title": "Mendicité agressive",
+          "content": "Est puni quiconque exerce une mendicité agressive ou insistante dans un lieu public.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 15 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 5 jours", "condition": "en cas de récidive" }
+          ],
+          "details": "S’applique lorsque la mendicité perturbe les passants ou crée un sentiment d’insécurité."
+          },
+          {
+          "number": 367,
+          "title": "Non-respect des règlements de circulation",
+          "content": "Est puni quiconque enfreint les règlements mineurs de circulation, tels que le stationnement interdit ou le défaut de signalisation.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 25 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 5 jours", "condition": "en cas de récidive ou danger" }
+          ],
+          "details": "Ne couvre pas les infractions graves (ex. : conduite en état d’ivresse, qui relève des délits)."
+          },
+          {
+          "number": 368,
+          "title": "Violation des arrêtés municipaux",
+          "content": "Est puni quiconque contrevient aux arrêtés municipaux relatifs à l’hygiène, à la salubrité ou à l’ordre public.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 20 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 5 jours", "condition": "en cas de récidive" }
+          ],
+          "details": "Exemples : vente ambulante non autorisée, non-respect des heures de marché."
+          },
+          {
+          "number": 369,
+          "title": "Perturbation légère de la voie publique",
+          "content": "Est puni quiconque encombre ou perturbe légèrement la voie publique sans autorisation.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 15 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 3 jours", "condition": "en cas de récidive" }
+          ],
+          "details": "Exemples : étalage sauvage, obstruction temporaire par des objets."
+          },
+          {
+          "number": 370,
+          "title": "Autres contraventions de police",
+          "content": "Sont punies les autres contraventions prévues par des règlements spécifiques ou par défaut dans le cadre de la police administrative.",
+          "penalties": [
+          { "type": "Amende", "amount": "5 000 à 25 000 FCFA" },
+          { "type": "Emprisonnement", "duration": "1 à 10 jours", "condition": "selon la gravité" }
+          ],
+          "details": "Article générique permettant l’application de sanctions pour des infractions mineures non listées explicitement."
+          }
+          ]
+          },
+        
+        
+          "final_provisions": {
+          "name": "Dispositions transitoires et finales",
+          "articles": [
+          {
+          "number": 371,
+          "title": "Abrogation",
+          "content": "Sont abrogées toutes les dispositions antérieures contraires au présent Code, notamment la loi n° 65-LF-24 du 12 novembre 1965 et la loi n° 67-LF-1 du 12 juin 1967 portant Code pénal, ainsi que leurs modifications ultérieures.",
+          "details": "Cette disposition met fin aux anciens Codes pénaux hérités de la période post-indépendance et unifie le droit pénal camerounais sous un seul texte consolidé."
+          },
+          {
+          "number": 372,
+          "title": "Entrée en vigueur",
+          "content": "Le présent Code entre en vigueur à la date de sa publication au Journal Officiel de la République du Cameroun, sous réserve des modifications introduites par la loi n° 2019/020 du 24 décembre 2019.",
+          "details": "Publié initialement le 12 juillet 2016, le Code a été amendé en 2019, avec effet immédiat à partir de la publication des modifications au Journal Officiel."
+          }
+          ]
+          }
+          }
+          

@@ -6,7 +6,6 @@ const Livrelist = () => {
   const [openSections, setOpenSections] = useState({
     preliminary_title: false,
     book_1: false,
-    book_2: false,
     regulatory_part: false,
     final_provisions: false,
   });
