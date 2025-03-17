@@ -119,6 +119,7 @@ const Livrelist = () => {
         </div>
       ))}
 
+
       {/* Partie réglementaire */}
       <h2
         onClick={() => toggleSection("regulatory_part")}
