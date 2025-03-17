@@ -2,7 +2,19 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const PenalCodeViewer = () => {
+  const [penalCodeData, setPenalCodeData] = useState(null);
   const [selectedBook, setSelectedBook] = useState(null);
+
+  useEffect(() => {
+    // Charger les données à partir du fichier JSON
+    axios.get('/data/db.json')
+      .then(response => {
+        setPenalCodeData(response.data);
+      })
+      .catch(error => {
+        console.error('Erreur lors du chargement des données:', error);
+      });
+  }, []);
 
   const renderArticles = (articles) => (
     <ul>
@@ -25,10 +37,14 @@ const PenalCodeViewer = () => {
     </ul>
   );
 
+  if (!penalCodeData) {
+    return <div>Chargement...</div>;
+  }
+
   return (
     <div>
       <h1>{penalCodeData.title}</h1>
-      <h2>Titre préliminaire</h2>
+      <h2>{penalCodeData.preliminary_title.name}</h2>
       {renderArticles(penalCodeData.preliminary_title.articles)}
 
       <h2>Livres</h2>
@@ -42,14 +58,7 @@ const PenalCodeViewer = () => {
               {book.chapters.map((chapter) => (
                 <div key={chapter.id}>
                   <h4>{chapter.name}</h4>
-                  {chapter.sections
-                    ? chapter.sections.map((section) => (
-                        <div key={section.id}>
-                          <h5>{section.name}</h5>
-                          {renderArticles(section.articles)}
-                        </div>
-                      ))
-                    : renderArticles(chapter.articles)}
+                  {chapter.articles && renderArticles(chapter.articles)}
                 </div>
               ))}
             </div>
