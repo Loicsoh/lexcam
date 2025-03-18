@@ -179,22 +179,22 @@ const Livrelist = () => {
 
       {/* Contenu des sections */}
       <div className="livrelist-content">
-  {openSections.preliminary_title && (
-    <div>{renderArticles(penalCodeData.preliminary_title.articles)}</div>
-  )}
-  {openSections.book_1 && (
-    <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_1").chapters)}</div>
-  )}
-  {openSections.book_2 && (
-    <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_2").chapters)}</div>
-  )}
-  {openSections.regulatory_part && (
-    <div>{renderArticles(penalCodeData.regulatory_part.articles)}</div>
-  )}
-  {openSections.final_provisions && (
-    <div>{renderArticles(penalCodeData.final_provisions.articles)}</div>
-  )}
-</div>
+        {openSections.preliminary_title && (
+          <div>{renderArticles(penalCodeData.preliminary_title.articles)}</div>
+        )}
+        {openSections.book_1 && (
+          <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_1").chapters)}</div>
+        )}
+        {openSections.book_2 && (
+          <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_2").chapters)}</div>
+        )}
+        {openSections.regulatory_part && (
+          <div>{renderArticles(penalCodeData.regulatory_part.articles)}</div>
+        )}
+        {openSections.final_provisions && (
+          <div>{renderArticles(penalCodeData.final_provisions.articles)}</div>
+        )}
+      </div>
     </div>
   );
 };
