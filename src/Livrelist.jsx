@@ -23,7 +23,7 @@ const Livrelist = () => {
         console.error('Erreur lors du chargement des données:', error);
       });
   }, []);
-
+// fonction d'ouverture et fermeture des sections
   const toggleSection = (section) => {
     setOpenSections((prev) => ({
       ...prev,
@@ -31,6 +31,7 @@ const Livrelist = () => {
     }));
   };
 
+// fonction de filtre des articles
   const filterArticles = (articles) => {
     if (!searchTerm) return articles;
     return articles.filter(
@@ -39,6 +40,8 @@ const Livrelist = () => {
         article.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
   };
+
+  // fonction de rendu des articles
 
   const renderArticles = (articles) => {
     const filteredArticles = filterArticles(articles);
@@ -77,6 +80,7 @@ const Livrelist = () => {
     );
   };
 
+  // fonction de rendu des sections
   const renderSections = (sections) => (
     <div>
       {sections.map((section) => (
@@ -88,6 +92,7 @@ const Livrelist = () => {
     </div>
   );
 
+  // fonction de rendu des chapitres
   const renderChapters = (chapters) => (
     <div>
       {chapters.map((chapter) => (
@@ -123,7 +128,7 @@ const Livrelist = () => {
         />
       </div>
 
-      {/* Conteneur des grands titres alignés horizontalement */}
+      {/* Liste des sections */}
       <div className="livrelist-sections-container">
         {/* Titre préliminaire */}
         <div
