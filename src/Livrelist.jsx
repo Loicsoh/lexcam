@@ -11,7 +11,7 @@ const Livrelist = () => {
     final_provisions: false,
   });
 
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     // Charger les données à partir du fichier JSON
@@ -31,15 +31,15 @@ const Livrelist = () => {
     }));
   };
 
-// fonction de filtre des articles
-  const filterArticles = (articles) => {
-    if (!searchTerm) return articles;
-    return articles.filter(
-      (article) =>
-        article.number.toString().includes(searchTerm) ||
-        article.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  };
+// // fonction de filtre des articles
+//   const filterArticles = (articles) => {
+//     if (!searchTerm) return articles;
+//     return articles.filter(
+//       (article) =>
+//         article.number.toString().includes(searchTerm) ||
+//         article.title.toLowerCase().includes(searchTerm.toLowerCase())
+//     );
+//   };
 
   // fonction de rendu des articles
 
@@ -117,7 +117,7 @@ const Livrelist = () => {
         Dernière mise à jour : {penalCodeData.last_updated}
       </p>
 
-      {/* Barre de recherche */}
+      {/* Barre de recherche
       <div className="livrelist-search-bar">
         <input
           type="text"
@@ -126,7 +126,7 @@ const Livrelist = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="livrelist-search-input"
         />
-      </div>
+      </div> */}
 
       {/* Liste des sections */}
       <div className="livrelist-sections-container">
