@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Search from './search';
 
 const Livrelist = () => {
   const [penalCodeData, setPenalCodeData] = useState(null);
@@ -12,7 +11,7 @@ const Livrelist = () => {
     final_provisions: false,
   });
 
-  // const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     // Charger les données à partir du fichier JSON
@@ -32,26 +31,49 @@ const Livrelist = () => {
     }));
   };
 
-// // fonction de filtre des articles
-//   const filterArticles = (articles) => {
-//     if (!searchTerm) return articles;
-//     return articles.filter(
-//       (article) =>
-//         article.number.toString().includes(searchTerm) ||
-//         article.title.toLowerCase().includes(searchTerm.toLowerCase())
-//     );
-//   };
+// fonction de filtre des articles
+  const filterArticles = (articles) => {
+    if (!searchTerm) return articles;
+    return articles.filter(
+      (article) =>
+        article.number.toString().includes(searchTerm) ||
+        article.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  };
 
   // fonction de rendu des articles
 
   const renderArticles = (articles) => {
-    if (!articles || articles.length === 0) return <p>Aucun résultat trouvé</p>;
+    const filteredArticles = filterArticles(articles);
+    if (filteredArticles.length === 0) return <p>Aucun résultat trouvé</p>;
     return (
       <ul className="livrelist-article-list">
-        {articles.map((article) => (
+        {filteredArticles.map((article) => (
           <li key={article.number} className="livrelist-article-item">
             <strong>Article {article.number} : {article.title}</strong>
             <p>{article.content}</p>
+            {article.details && <p><em>Détails : {article.details}</em></p>}
+            {article.penalties && (
+              <ul>
+                {article.penalties.map((penalty, index) => (
+                  <li key={index}>
+                    {penalty.type}{" "}
+                    {penalty.duration ? `- ${penalty.duration}` : ""}{" "}
+                    {penalty.amount ? `- ${penalty.amount}` : ""}{" "}
+                    {penalty.condition ? `(${penalty.condition})` : ""}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {article.prescription && (
+              <ul>
+                {article.prescription.map((pres, index) => (
+                  <li key={index}>
+                    Prescription {pres.type} - {pres.duration}
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ul>
@@ -89,14 +111,13 @@ const Livrelist = () => {
   }
 
   return (
-
     <div className="livrelist-container">
       <h1 className="livrelist-title">{penalCodeData.title}</h1>
       <p className="livrelist-last-updated">
         Dernière mise à jour : {penalCodeData.last_updated}
       </p>
 
-      {/* Barre de recherche
+      {/* Barre de recherche */}
       <div className="livrelist-search-bar">
         <input
           type="text"
@@ -105,7 +126,7 @@ const Livrelist = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="livrelist-search-input"
         />
-      </div> */}
+      </div>
 
       {/* Liste des sections */}
       <div className="livrelist-sections-container">
