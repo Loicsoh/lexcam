@@ -138,12 +138,32 @@ section .passer:hover{
   height: 65px;
   border-radius: 100%;
 }
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container h2 {
+  color: white;
+  text-align: center;
+}
 
 .search input{
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
   width: 350px;
   height: 35px;
+  border-radius:10px;
+  border: 1px solid #3498db;
+}
+
+.search button {
+  font-size: 19px;
+  margin-top: 12px;
+  font-weight: bold;
+  height: 35px;
+  width: 150px;
   border-radius:10px;
   border: 1px solid #3498db;
 }

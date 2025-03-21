@@ -115,7 +115,7 @@ const Search = () => {
       <form className="search" onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Entrez un numéro ou un titre"
+          placeholder="Entrez un numéro d'article ou un titre"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-input"
