@@ -112,7 +112,7 @@ const Search = () => {
   return (
     <div className="search-container">
       <h2>Rechercher un article ou une section</h2>
-      <form onSubmit={handleSearch}>
+      <form className="search" onSubmit={handleSearch}>
         <input
           type="text"
           placeholder="Entrez un numéro ou un titre"

@@ -139,11 +139,31 @@ section .passer:hover{
   border-radius: 100%;
 }
 
+.search input{
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  height: auto;
+}
 .search-result-item {
   background-color: rgba(24, 194, 236, 0.144);
   border-radius: 10px;
 }
 
+.search-result-item h3 {
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.article-item {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-wrap: flex;
+}
 
  /* style du banniere.jsx */
  
