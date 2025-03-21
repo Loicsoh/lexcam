@@ -113,9 +113,7 @@ const Livrelist = () => {
               {openSections[book.id] ? "▼" : "▶"} {book.name}
             </h2>
           </div>
-          {openSections[book.id] && (
-            <div>{renderChapters(book.chapters)}</div>
-          )}
+          
           </div>
         ))}
 
@@ -129,10 +127,6 @@ const Livrelist = () => {
             {penalCodeData.regulatory_part.name}
           </h2>
         </div>
-        
-        {openSections.regulatory_part && (
-          <div>{renderArticles(penalCodeData.regulatory_part.articles)}</div>
-        )}
 
         {/* Dispositions finales */}
         <div
@@ -144,9 +138,6 @@ const Livrelist = () => {
             {penalCodeData.final_provisions.name}
           </h2>
         </div>
-        {openSections.final_provisions && (
-          <div>{renderArticles(penacodeData.final_provisions.articles)}</div>
-        )}
       </div>
 
       {/* Contenu des sections */}

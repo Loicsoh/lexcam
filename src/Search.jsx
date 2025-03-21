@@ -1,9 +1,21 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import axios from "axios";
 
-const Search = ({ penalCodeData }) => {
+const Search = () => {
+  const [penalCodeData, setPenalCodeData] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+
+  React.useEffect(() => {
+    axios.get('/data/db.json')
+      .then(response => {
+        setPenalCodeData(response.data);
+      })
+      .catch(error => {
+        console.error('Erreur lors du chargement des données:', error);
+      });
+  }, []);
 
   const handleSearch = (e) => {
     e.preventDefault();
