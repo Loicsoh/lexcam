@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
 
-const Search = () => {
+const Searchlivre1 = () => {
   const [penalCodeData, setPenalCodeData] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
   React.useEffect(() => {
-    axios.get('/data/db.json')
+    axios.get('/data/livre1.json')
       .then(response => {
         setPenalCodeData(response.data);
       })
@@ -30,19 +30,7 @@ const Search = () => {
     const results = [];
 
     // Recherche dans Titre préliminaire
-    if (penalCodeData.preliminary_title) {
-      const filteredArticles = penalCodeData.preliminary_title.articles.filter(
-        (article) =>
-          article.number.toString().includes(searchTerm) ||
-          article.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      if (filteredArticles.length > 0) {
-        results.push({
-          name: penalCodeData.preliminary_title.name,
-          articles: filteredArticles,
-        });
-      }
-    }
+    
 
     // Recherche dans les Livres
     penalCodeData.books.forEach((book) => {
@@ -94,19 +82,7 @@ const Search = () => {
     }
 
     // Recherche dans Dispositions finales
-    if (penalCodeData.final_provisions) {
-      const filteredArticles = penalCodeData.final_provisions.articles.filter(
-        (article) =>
-          article.number.toString().includes(searchTerm) ||
-          article.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      if (filteredArticles.length > 0) {
-        results.push({
-          name: penalCodeData.final_provisions.name,
-          articles: filteredArticles,
-        });
-      }
-    }
+    
 
     setSearchResults(results);
   };
@@ -191,7 +167,7 @@ const Search = () => {
   );
 };
 
-Search.propTypes = {
+Searchlivre1.propTypes = {
   penalCodeData: PropTypes.shape({
     preliminary_title: PropTypes.shape({
       name: PropTypes.string,
@@ -238,31 +214,8 @@ Search.propTypes = {
         ),
       })
     ),
-    regulatory_part: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-          penalties: PropTypes.arrayOf(PropTypes.object),
-        })
-      ),
-    }),
-    final_provisions: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-        })
-      ),
-    }),
+    
   }).isRequired,
 };
 
-
-export default Search;
+export default Searchlivre1;

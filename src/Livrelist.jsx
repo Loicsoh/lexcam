@@ -12,8 +12,8 @@ const Livrelist = () => {
     final_provisions: false,
   });
 
+  // Charger les données à partir du fichier JSON
   useEffect(() => {
-    // Charger les données à partir du fichier JSON
     axios.get('/data/db.json')
       .then(response => {
         setPenalCodeData(response.data);
