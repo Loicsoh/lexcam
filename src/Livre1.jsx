@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Search from './Search';
 
-const Livrelist = () => {
+const Livre1 = () => {
   const [penalCodeData, setPenalCodeData] = useState(null);
   const [openSections, setOpenSections] = useState({
     preliminary_title: false,
@@ -14,7 +14,7 @@ const Livrelist = () => {
 
   // Charger les données à partir du fichier JSON
   useEffect(() => {
-    axios.get('/data/db.json')
+    axios.get('/data/livre1.json')
       .then(response => {
         setPenalCodeData(response.data);
       })
@@ -162,4 +162,4 @@ const Livrelist = () => {
   );
 };
 
-export default Livrelist;
+export default Livre1;
