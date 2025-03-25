@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Search from './Search';
+import Livre1 from './livre1';
 
 const Livrelist = () => {
   const [penalCodeData, setPenalCodeData] = useState(null);
@@ -145,9 +146,7 @@ const Livrelist = () => {
         {openSections.preliminary_title && (
           <div>{renderArticles(penalCodeData.preliminary_title.articles)}</div>
         )}
-        {openSections.book_1 && (
-          <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_1").chapters)}</div>
-        )}
+        <Livre1 />
         {openSections.book_2 && (
           <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_2").chapters)}</div>
         )}

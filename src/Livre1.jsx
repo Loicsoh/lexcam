@@ -1,22 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Search from './Search';
 
 const Livre1 = () => {
-  const [penalCodeData, setPenalCodeData] = useState(null);
+  const [penalCodeDat, setPenalCodeDat] = useState(null);
   const [openSections, setOpenSections] = useState({
-    preliminary_title: false,
     book_1: false,
-    book_2: false,
-    regulatory_part: false,
-    final_provisions: false,
   });
 
   // Charger les données à partir du fichier JSON
   useEffect(() => {
     axios.get('/data/livre1.json')
       .then(response => {
-        setPenalCodeData(response.data);
+        setPenalCodeDat(response.data);
       })
       .catch(error => {
         console.error('Erreur lors du chargement des données:', error);
@@ -75,35 +70,14 @@ const Livre1 = () => {
     </div>
   );
 
-  if (!penalCodeData) {
-    return <div>Chargement...</div>;
+  if (!penalCodeDat) {
+    return <div></div>;
   }
 
   return (
     <div className="livrelist-container">
-      <Search />
-
-      <h1 className="livrelist-title">{penalCodeData.title}</h1>
-      <p className="livrelist-last-updated">
-        Soit la loi penal de N° :2016/19 {penalCodeData.last_updated}
-      </p>
-
-
-      {/* Liste des sections */}
-      <div className="livrelist-sections-container">
-        {/* Titre préliminaire */}
-        <div
-          className="livrelist-section"
-          onClick={() => toggleSection("preliminary_title")}
-        >
-          <h2>
-            {openSections.preliminary_title ? "▼" : "▶"}{" "}
-            {penalCodeData.preliminary_title.name}
-          </h2>
-        </div>
-
         {/* Livres */}
-        {penalCodeData.books.map((book) => (
+        {penalCodeDat.books.map((book) => (
           <div key={book.id}>
             <div
             className="livrelist-section"
@@ -116,46 +90,10 @@ const Livre1 = () => {
           
           </div>
         ))}
-
-        {/* Partie réglementaire */}
-        <div
-          className="livrelist-section"
-          onClick={() => toggleSection("regulatory_part")}
-        >
-          <h2 className='section-title'>
-            {openSections.regulatory_part ? "▼" : "▶"}{" "}
-            {penalCodeData.regulatory_part.name}
-          </h2>
-        </div>
-
-        {/* Dispositions finales */}
-        <div
-          className="livrelist-section"
-          onClick={() => toggleSection("final_provisions")}
-        >
-          <h2>
-            {openSections.final_provisions ? "▼" : "▶"}{" "}
-            {penalCodeData.final_provisions.name}
-          </h2>
-        </div>
-      </div>
-
       {/* Contenu des sections */}
       <div className="livrelist-content">
-        {openSections.preliminary_title && (
-          <div>{renderArticles(penalCodeData.preliminary_title.articles)}</div>
-        )}
         {openSections.book_1 && (
-          <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_1").chapters)}</div>
-        )}
-        {openSections.book_2 && (
-          <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_2").chapters)}</div>
-        )}
-        {openSections.regulatory_part && (
-          <div>{renderArticles(penalCodeData.regulatory_part.articles)}</div>
-        )}
-        {openSections.final_provisions && (
-          <div>{renderArticles(penalCodeData.final_provisions.articles)}</div>
+          <div>{renderChapters(penalCodeDat.books.find(book => book.id === "book_1").chapters)}</div>
         )}
       </div>
     </div>

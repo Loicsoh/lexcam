@@ -89,7 +89,7 @@ const Searchlivre1 = () => {
 
   return (
     <div className="search-container">
-      <h2>Rechercher un article ou une section</h2>
+      {/* <h2>Rechercher un article ou une section</h2>
       <form className="search" onSubmit={handleSearch}>
         <input
           type="text"
@@ -101,7 +101,7 @@ const Searchlivre1 = () => {
         <button type="submit" className="search-button">
           Rechercher
         </button>
-      </form>
+      </form> */}
 
       <div className="search-results">
         {searchResults.length === 0 && searchTerm && (

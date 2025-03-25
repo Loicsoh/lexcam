@@ -16,6 +16,15 @@ const Search = () => {
         console.error('Erreur lors du chargement des données:', error);
       });
   }, []);
+  React.useEffect(() => {
+    axios.get('/data/livre1.json')
+      .then(response => {
+        setPenalCodeData(response.data);
+      })
+      .catch(error => {
+        console.error('Erreur lors du chargement des données:', error);
+      });
+  }, []);
 
   
 
