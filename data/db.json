@@ -16,6 +16,371 @@
       }
     ]
   },
+
+  "books": [
+        {
+          "id": "book_1",
+          "name": "Livre I : De l’application de la loi pénale",
+          "chapters": [
+            {
+              "id": "chapter_1_1",
+              "name": "Dispositions préliminaires",
+              "articles": [
+                {
+                  "number": "03",
+                  "title": "Application générale",
+                  "content": "La loi pénale s’applique à tous sans distinction, sous réserve des immunités ou privilèges prévus par la loi.",
+                  "details": "Les immunités incluent celles des diplomates (Convention de Vienne) et des parlementaires (Constitution), définies par des textes spécifiques."
+                },
+                {
+                  "number": "04",
+                  "title": "Définitions",
+                  "content": "Les infractions se divisent en crimes, délits et contraventions selon la nature des peines qui leur sont applicables : les crimes entraînent des peines afflictives et infamantes, les délits des peines correctionnelles, les contraventions des peines de police.",
+                  "details": "Crimes : peine de mort, réclusion criminelle ; Délits : emprisonnement de 10 jours à 10 ans ; Contraventions : amendes ou emprisonnement jusqu’à 10 jours."
+                }
+              ]
+            },
+            {
+              "id": "chapter_1_2",
+              "name": "De l’application de la loi pénale dans le temps et dans l’espace",
+              "sections": [
+                {
+                  "id": "section_1_2_1",
+                  "name": "Application dans le temps",
+                  "articles": [
+                    {
+                      "number": "05",
+                      "title": "Non-rétroactivité",
+                      "content": "Nulle infraction ne peut être punie en vertu d’une loi promulguée postérieurement aux faits, sauf disposition contraire plus favorable au prévenu.",
+                      "details": "Protège contre l’application rétroactive de lois aggravant les peines, sauf si la nouvelle loi est plus douce (voir article 6)."
+                    },
+                    {
+                      "number": "06",
+                      "title": "Rétroactivité in mitius",
+                      "content": "Lorsque la loi nouvelle est plus favorable au prévenu, elle s’applique aux faits commis avant son entrée en vigueur, sauf si une condamnation définitive a été prononcée.",
+                      "details": "Permet une révision des peines ou des acquittements si la nouvelle loi supprime ou atténue la répression."
+                    }
+                  ]
+                },
+                {
+                  "id": "section_1_2_2",
+                  "name": "Application dans l’espace",
+                  "articles": [
+                    {
+                      "number": "07",
+                      "title": "Territorialité",
+                      "content": "La loi pénale camerounaise s’applique à toutes les infractions commises sur le territoire national, y compris le sol, les eaux territoriales et l’espace aérien.",
+                      "details": "Le territoire comprend également les zones économiques exclusives pour certaines infractions spécifiques."
+                    },
+                    {
+                      "number": "08",
+                      "title": "Extraterritorialité",
+                      "content": "La loi pénale s’applique aux infractions commises hors du territoire par un ressortissant camerounais ou contre les intérêts fondamentaux de l’État, à condition qu’elles soient punies d’au moins 6 mois d’emprisonnement.",
+                      "details": "Exige la double incrimination : l’acte doit être punissable dans le pays où il a été commis, sauf pour les crimes contre l’État."
+                    },
+                    {
+                      "number": "09",
+                      "title": "Infractions à bord",
+                      "content": "Les infractions commises à bord de navires ou d’aéronefs immatriculés au Cameroun sont soumises à la loi camerounaise, quel que soit le lieu de l’infraction.",
+                      "details": "S’applique aux bâtiments battant pavillon camerounais ou aux aéronefs enregistrés au registre national."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chapter_1_3",
+              "name": "Des peines",
+              "sections": [
+              {
+              "id": "section_1_3_1",
+              "name": "Nature et classification des peines",
+              "articles": [
+              {
+              "number": 10,
+              "title": "Peines applicables aux crimes",
+              "content": "Les peines applicables aux crimes sont la peine de mort, la réclusion criminelle à perpétuité et la réclusion criminelle de 10 à 20 ans.",
+              "penalties": [
+              { "type": "Peine de mort" },
+              { "type": "Réclusion criminelle", "duration": "perpétuité" },
+              { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+              ],
+              "details": "La peine de mort est réservée aux infractions les plus graves (ex. : trahison, meurtre avec préméditation)."
+              },
+              {
+              "number": 11,
+              "title": "Peines applicables aux délits",
+              "content": "Les peines applicables aux délits sont l’emprisonnement de 10 jours à 10 ans et l’amende supérieure à 25 000 FCFA.",
+              "penalties": [
+              { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+              { "type": "Amende", "amount": "supérieure à 25 000 FCFA" }
+              ],
+              "details": "Les peines peuvent être cumulées ou substituées par des peines alternatives selon le juge."
+              },
+              {
+              "number": 12,
+              "title": "Peines applicables aux contraventions",
+              "content": "Les peines applicables aux contraventions sont l’emprisonnement jusqu’à 10 jours et l’amende jusqu’à 25 000 FCFA.",
+              "penalties": [
+              { "type": "Emprisonnement", "duration": "jusqu’à 10 jours" },
+              { "type": "Amende", "amount": "jusqu’à 25 000 FCFA" }
+              ],
+              "details": "Ces peines sont définies par décret dans la partie réglementaire."
+              },
+              {
+              "number": 13,
+              "title": "Peines criminelles",
+              "content": "Les peines criminelles sont afflictives et infamantes : peine de mort, réclusion criminelle à perpétuité, réclusion criminelle temporaire.",
+              "penalties": [
+              { "type": "Peine de mort" },
+              { "type": "Réclusion criminelle", "duration": "perpétuité" },
+              { "type": "Réclusion criminelle", "duration": "10 à 20 ans" }
+              ]
+              },
+              {
+              "number": 14,
+              "title": "Peines correctionnelles",
+              "content": "Les peines correctionnelles sont l’emprisonnement de 10 jours à 10 ans et l’amende au-dessus de 25 000 FCFA.",
+              "penalties": [
+              { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+              { "type": "Amende", "amount": "supérieure à 25 000 FCFA" }
+              ]
+              },
+              {
+              "number": 15,
+              "title": "Peines de police",
+              "content": "Les peines de police sont l’emprisonnement jusqu’à 10 jours et l’amende jusqu’à 25 000 FCFA.",
+              "penalties": [
+              { "type": "Emprisonnement", "duration": "jusqu’à 10 jours" },
+              { "type": "Amende", "amount": "jusqu’à 25 000 FCFA" }
+              ]
+              },
+              {
+              "number": 16,
+              "title": "Peines applicables aux personnes morales",
+              "content": "Les peines applicables aux personnes morales sont l’amende, la dissolution, l’interdiction d’exercer certaines activités, la confiscation.",
+              "penalties": [
+              { "type": "Amende", "amount": "variable selon l’infraction" },
+              { "type": "Dissolution" },
+              { "type": "Interdiction d’exercer", "duration": "variable" },
+              { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+              ],
+              "details": "Introduit en 2016 pour responsabiliser les entreprises et associations."
+              },
+              {
+              "number": 17,
+              "title": "Cumul des peines",
+              "content": "En cas de pluralité d’infractions, les peines peuvent être cumulées dans la limite du maximum légal prévu pour l’infraction la plus grave.",
+              "details": "Le cumul ne peut excéder 20 ans de réclusion criminelle ou 10 ans d’emprisonnement pour les délits."
+              },
+              {
+              "number": 18,
+              "title": "Peines principales",
+              "content": "Les peines principales sont la peine de mort, la réclusion criminelle, l’emprisonnement et l’amende.",
+              "penalties": [
+              { "type": "Peine de mort" },
+              { "type": "Réclusion criminelle", "duration": "perpétuité ou temporaire" },
+              { "type": "Emprisonnement", "duration": "10 jours à 10 ans" },
+              { "type": "Amende", "amount": "variable selon l’infraction" }
+              ],
+              "details": "Constituent le socle des sanctions pénales."
+              },
+              {
+              "number": 19,
+              "title": "Peines accessoires",
+              "content": "Les peines accessoires incluent la déchéance des droits civiques, l’interdiction d’exercer une profession ou une activité, la confiscation des objets saisis.",
+              "penalties": [
+              { "type": "Déchéance des droits civiques", "duration": "1 à 10 ans ou perpétuité" },
+              { "type": "Interdiction professionnelle", "duration": "1 à 5 ans" },
+              { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+              ],
+              "details": "Peuvent être automatiques ou prononcées par le juge en fonction de la gravité."
+              },
+              {
+              "number": 20,
+              "title": "Peines alternatives",
+              "content": "Les peines alternatives sont le travail d’intérêt général (TIG) et la sanction-réparation.",
+              "penalties": [
+              { "type": "Travail d’intérêt général", "duration": "40 à 240 heures" },
+              { "type": "Sanction-réparation", "amount": "indemnisation fixée par le juge" }
+              ],
+              "details": "Introduites en 2016 pour favoriser la réinsertion ; TIG applicable aux délits mineurs."
+              }
+              ]
+              },
+              {
+              "id": "section_1_3_2",
+              "name": "Modalités d’exécution des peines",
+              "articles": [
+              {
+              "number": 21,
+              "title": "Confusion des peines",
+              "content": "En cas de condamnations multiples, les peines d’emprisonnement ou de réclusion peuvent être confondues dans la limite du maximum légal de la peine la plus grave.",
+              "details": "Exemple : deux peines de 5 ans peuvent être confondues en une seule de 10 ans maximum."
+              },
+              {
+              "number": 22,
+              "title": "Suspension de l’exécution",
+              "content": "L’exécution d’une peine peut être suspendue pour des raisons médicales ou humanitaires sur décision du juge.",
+              "details": "Exemple : maladie grave ou grossesse avancée."
+              },
+              {
+              "number": 23,
+              "title": "Fractionnement des peines",
+              "content": "Les peines d’emprisonnement inférieures à 1 an peuvent être fractionnées pour permettre au condamné de conserver son emploi ou ses obligations familiales.",
+              "details": "Décision prise par le juge d’application des peines."
+              },
+              {
+              "number": 24,
+              "title": "Libération conditionnelle",
+              "content": "La libération conditionnelle peut être accordée après la moitié de la peine pour les délits ou les deux tiers pour les crimes, sous condition de bonne conduite.",
+              "details": "Non applicable à la réclusion criminelle à perpétuité avant 15 ans."
+              },
+              {
+              "number": 25,
+              "title": "Sursis simple",
+              "content": "Le sursis simple suspend l’exécution d’une peine d’emprisonnement n’excédant pas 5 ans pendant une période de 5 ans.",
+              "details": "Si aucune récidive n’est constatée dans les 5 ans, la peine est effacée."
+              },
+              {
+              "number": 26,
+              "title": "Sursis avec mise à l’épreuve",
+              "content": "Le sursis avec mise à l’épreuve suspend la peine sous réserve que le condamné respecte des obligations fixées par le juge pendant 1 à 3 ans.",
+              "details": "Obligations possibles : suivi social, interdiction de fréquenter certains lieux."
+              },
+              {
+              "number": 27,
+              "title": "Réhabilitation",
+              "content": "La réhabilitation efface les condamnations du casier judiciaire après un délai de 5 ans pour les délits et 10 ans pour les crimes, sous réserve de bonne conduite.",
+              "details": "Non applicable aux condamnés à perpétuité sauf grâce spéciale."
+              },
+              {
+              "number": 28,
+              "title": "Prescription des peines",
+              "content": "Les peines se prescrivent par 10 ans pour les crimes, 3 ans pour les délits et 1 an pour les contraventions, à compter de la date où la condamnation est devenue définitive.",
+              "prescription": [
+              { "type": "Crimes", "duration": "10 ans" },
+              { "type": "Délits", "duration": "3 ans" },
+              { "type": "Contraventions", "duration": "1 an" }
+              ],
+              "details": "La prescription est suspendue par des actes comme une arrestation ou un recours en grâce."
+              }
+              ]
+              },
+              {
+              "id": "section_1_3_3",
+              "name": "Circonstances aggravantes et atténuantes",
+              "articles": [
+              {
+              "number": 29,
+              "title": "Circonstances aggravantes générales",
+              "content": "Les peines peuvent être aggravées en cas de récidive, de préméditation, d’usage d’arme ou de commission en bande organisée.",
+              "details": "Exemple : vol simple devient vol aggravé avec une arme."
+              },
+              {
+              "number": 30,
+              "title": "Circonstances atténuantes",
+              "content": "Le juge peut réduire la peine en cas de circonstances atténuantes telles que le jeune âge, l’absence d’antécédents ou le repentir.",
+              "details": "Permet une individualisation de la peine."
+              }
+              ]
+              }
+              ]
+              },
+              {
+              "id": "chapter_1_4",
+              "name": "De la responsabilité pénale",
+              "sections": [
+              {
+              "id": "section_1_4_1",
+              "name": "Des personnes responsables",
+              "articles": [
+              {
+              "number": 74,
+              "title": "Responsabilité des personnes physiques",
+              "content": "Toute personne physique ayant commis une infraction est pénalement responsable, sauf si une cause d’irresponsabilité est reconnue.",
+              "details": "Pas de distinction de sexe, d’âge ou de statut, sauf exceptions prévues (mineurs, démence)."
+              },
+              {
+              "number": "74-1",
+              "title": "Responsabilité des personnes morales",
+              "content": "Les personnes morales, à l’exclusion de l’État, des collectivités publiques et des missions de service public, sont pénalement responsables des infractions commises pour leur compte par leurs organes ou représentants.",
+              "penalties": [
+              { "type": "Amende", "amount": "jusqu’à 5 fois celle applicable aux personnes physiques" },
+              { "type": "Dissolution" },
+              { "type": "Interdiction d’exercer", "duration": "1 à 5 ans" },
+              { "type": "Confiscation", "amount": "biens liés à l’infraction" }
+              ],
+              "details": "Introduit en 2016 pour sanctionner les entreprises ou associations."
+              },
+              {
+              "number": 75,
+              "title": "Auteurs principaux",
+              "content": "Est auteur principal celui qui commet directement l’infraction ou participe à sa réalisation par un acte positif.",
+              "details": "Responsabilité pleine et entière."
+              },
+              {
+              "number": 76,
+              "title": "Co-auteurs",
+              "content": "Sont co-auteurs ceux qui participent volontairement et consciemment à la commission d’une infraction, par aide ou assistance.",
+              "details": "Encourent les mêmes peines que l’auteur principal."
+              },
+              {
+              "number": 77,
+              "title": "Complices",
+              "content": "Est complice celui qui, sans participer directement, facilite l’infraction par aide, conseil ou provocation volontaire.",
+              "details": "Peine identique à celle de l’auteur, sauf décision judiciaire contraire."
+              }
+              ]
+              },
+              {
+              "id": "section_1_4_2",
+              "name": "Des causes d’irresponsabilité ou d’atténuation",
+              "articles": [
+              {
+              "number": 78,
+              "title": "Absence d’intention",
+              "content": "Nul n’est pénalement responsable d’un fait non intentionnel, sauf si la loi prévoit une responsabilité pour négligence ou imprudence.",
+              "details": "S’applique aux infractions dolosives ; exceptions pour les délits non intentionnels (ex. : homicide involontaire)."
+              },
+              {
+              "number": 79,
+              "title": "Erreur de fait",
+              "content": "N’est pas pénalement responsable celui qui agit sous l’effet d’une erreur de fait invincible ayant exclu l’intention criminelle.",
+              "details": "Exemple : croire qu’un bien appartient à soi-même lors d’un vol supposé."
+              },
+              {
+              "number": 80,
+              "title": "Minorité",
+              "content": "Les mineurs de moins de 18 ans sont pénalement responsables selon leur âge : moins de 10 ans (irresponsabilité totale), 10 à 14 ans (mesures éducatives privilégiées), 14 à 18 ans (peines atténuées).",
+              "details": "Le juge peut substituer des mesures éducatives aux peines pour les mineurs de 10 à 18 ans."
+              },
+              {
+              "number": 81,
+              "title": "Démence",
+              "content": "Nul n’est pénalement responsable s’il était atteint, au moment des faits, d’un trouble psychique ou neuropsychique ayant aboli son discernement ou le contrôle de ses actes.",
+              "details": "Une expertise médicale est obligatoire pour établir l’irresponsabilité."
+              },
+              {
+              "number": 82,
+              "title": "Légitime défense",
+              "content": "N’est pas pénalement responsable la personne qui, face à une atteinte injuste, actuelle et réelle contre elle-même ou autrui, accomplit un acte nécessaire et proportionné pour se défendre.",
+              "details": "La riposte doit être immédiate et mesurée à la gravité de l’attaque."
+              },
+              {
+              "number": 83,
+              "title": "Contrainte",
+              "content": "N’est pas pénalement responsable celui qui agit sous la contrainte d’une force irrésistible, physique ou morale, à laquelle il n’a pu se soustraire.",
+              "details": "La contrainte doit être prouvée et extérieure à la volonté de l’auteur."
+              }
+              ]
+              }
+              ]
+              }
+              ]
+              }
+              ],
+
           "books": [
           {
           "id": "book_2",

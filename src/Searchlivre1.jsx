@@ -1,40 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import axios from "axios";
 
 const Searchlivre1 = () => {
-  const [penalCodeData, setPenalCodeData] = useState({});
-  const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+  const [penalCodeData, setPenalCodeData] = useState({}); // Stocke les données JSON
+  const [searchTerm, setSearchTerm] = useState(""); // Terme de recherche
+  const [searchResults, setSearchResults] = useState([]); // Résultats de la recherche
 
-  React.useEffect(() => {
-    axios.get('/data/livre1.json')
-      .then(response => {
+  // Charger les données JSON depuis le fichier livre1.json
+  useEffect(() => {
+    axios
+      .get("/data/livre1.json")
+      .then((response) => {
         setPenalCodeData(response.data);
       })
-      .catch(error => {
-        console.error('Erreur lors du chargement des données:', error);
+      .catch((error) => {
+        console.error("Erreur lors du chargement des données :", error);
       });
   }, []);
 
-  
-
-  const handleSearch = (e) => {
-    e.preventDefault();
-
-    if (!searchTerm) {
+  // Effectuer la recherche à chaque modification de searchTerm ou penalCodeData
+  useEffect(() => {
+    if (!searchTerm || !penalCodeData.books) {
       setSearchResults([]);
       return;
     }
 
     const results = [];
 
-    // Recherche dans Titre préliminaire
-    
-
-    // Recherche dans les Livres
+    // Recherche dans les livres
     penalCodeData.books.forEach((book) => {
       book.chapters.forEach((chapter) => {
+        // Filtrer les articles du chapitre
         const filteredArticles = chapter.articles
           ? chapter.articles.filter(
               (article) =>
@@ -43,6 +40,7 @@ const Searchlivre1 = () => {
             )
           : [];
 
+        // Filtrer les sections du chapitre
         const filteredSections = chapter.sections
           ? chapter.sections
               .map((section) => ({
@@ -56,6 +54,7 @@ const Searchlivre1 = () => {
               .filter((section) => section.articles.length > 0)
           : [];
 
+        // Ajouter les résultats si des articles ou sections correspondent
         if (filteredArticles.length > 0 || filteredSections.length > 0) {
           results.push({
             name: `${book.name} - ${chapter.name}`,
@@ -66,46 +65,25 @@ const Searchlivre1 = () => {
       });
     });
 
-    // Recherche dans Partie réglementaire
-    if (penalCodeData.regulatory_part) {
-      const filteredArticles = penalCodeData.regulatory_part.articles.filter(
-        (article) =>
-          article.number.toString().includes(searchTerm) ||
-          article.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-      if (filteredArticles.length > 0) {
-        results.push({
-          name: penalCodeData.regulatory_part.name,
-          articles: filteredArticles,
-        });
-      }
-    }
-
-    // Recherche dans Dispositions finales
-    
-
     setSearchResults(results);
-  };
+  }, [searchTerm, penalCodeData]); // Déclencher la recherche à chaque modification de searchTerm ou penalCodeData
 
   return (
     <div className="search-container">
-      <h2>Rechercher un article ou une section</h2>
-      <form className="search" onSubmit={handleSearch}>
+      <h2>Rechercher un article ou une section du livre I</h2>
+      <form className="search">
         <input
           type="text"
           placeholder="Entrez un numéro d'article ou un titre"
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          onChange={(e) => setSearchTerm(e.target.value)} // Mettre à jour le terme de recherche
           className="search-input"
         />
-        <button type="submit" className="search-button">
-          Rechercher
-        </button>
       </form>
 
       <div className="search-results">
         {searchResults.length === 0 && searchTerm && (
-          <p className="no-results">Aucun résultat trouvé pour {searchTerm}.</p>
+          <p className="no-results">Aucun résultat trouvé pour "{searchTerm}".</p>
         )}
         {searchResults.map((result, index) => (
           <div key={index} className="search-result-item">
@@ -114,7 +92,9 @@ const Searchlivre1 = () => {
               <ul className="article-list">
                 {result.articles.map((article) => (
                   <li key={article.number} className="article-item">
-                    <strong>Article {article.number} : {article.title}</strong>
+                    <strong>
+                      Article {article.number} : {article.title}
+                    </strong>
                     <p>{article.content}</p>
                     {article.details && <p><em>Détails : {article.details}</em></p>}
                     {article.penalties && (
@@ -140,7 +120,9 @@ const Searchlivre1 = () => {
                   <ul className="article-list">
                     {section.articles.map((article) => (
                       <li key={article.number} className="article-item">
-                        <strong>Article {article.number} : {article.title}</strong>
+                        <strong>
+                          Article {article.number} : {article.title}
+                        </strong>
                         <p>{article.content}</p>
                         {article.details && <p><em>Détails : {article.details}</em></p>}
                         {article.penalties && (
@@ -169,18 +151,6 @@ const Searchlivre1 = () => {
 
 Searchlivre1.propTypes = {
   penalCodeData: PropTypes.shape({
-    preliminary_title: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-          penalties: PropTypes.arrayOf(PropTypes.object),
-        })
-      ),
-    }),
     books: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string,
@@ -214,8 +184,7 @@ Searchlivre1.propTypes = {
         ),
       })
     ),
-    
-  }).isRequired,
+  }),
 };
 
 export default Searchlivre1;
