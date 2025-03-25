@@ -1,50 +1,59 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Search = () => {
-  const [penalCodeData, setPenalCodeData] = useState({});
-  const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+  const [penalCodeData, setPenalCodeData] = useState(null); // Stocke les données combinées des deux fichiers JSON
+  const [searchTerm, setSearchTerm] = useState(""); // Terme de recherche
+  const [searchResults, setSearchResults] = useState([]); // Résultats de la recherche
 
-  React.useEffect(() => {
-    axios.get('/data/db.json')
-      .then(response => {
-        setPenalCodeData(response.data);
-      })
-      .catch(error => {
-        console.error('Erreur lors du chargement des données:', error);
-      });
+  // Charger les données des deux fichiers JSON
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [dbResponse, livre1Response] = await Promise.all([
+          axios.get("/data/db.json"), // Charger db.json
+          axios.get("/data/livre1.json"), // Charger livre1.json
+        ]);
+
+        // Fusionner les données des deux fichiers
+        const combinedData = {
+          preliminary_title: dbResponse.data.preliminary_title || livre1Response.data.preliminary_title,
+          books: [...(dbResponse.data.books || []), ...(livre1Response.data.books || [])],
+          regulatory_part: dbResponse.data.regulatory_part || livre1Response.data.regulatory_part,
+          final_provisions: dbResponse.data.final_provisions || livre1Response.data.final_provisions,
+        };
+
+        setPenalCodeData(combinedData); // Stocker les données combinées
+      } catch (error) {
+        console.error("Erreur lors du chargement des données :", error);
+      }
+    };
+
+    fetchData();
   }, []);
-  React.useEffect(() => {
-    axios.get('/data/livre1.json')
-      .then(response => {
-        setPenalCodeData(response.data);
-      })
-      .catch(error => {
-        console.error('Erreur lors du chargement des données:', error);
-      });
-  }, []);
 
-  
-
+  // Fonction pour gérer la recherche
   const handleSearch = (e) => {
     e.preventDefault();
 
-    if (!searchTerm) {
+    if (!searchTerm || !penalCodeData) {
       setSearchResults([]);
       return;
     }
 
     const results = [];
 
-    // Recherche dans Titre préliminaire
-    if (penalCodeData.preliminary_title) {
-      const filteredArticles = penalCodeData.preliminary_title.articles.filter(
+    // Fonction utilitaire pour filtrer les articles
+    const filterArticles = (articles) =>
+      articles.filter(
         (article) =>
           article.number.toString().includes(searchTerm) ||
           article.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
+
+    // Recherche dans Titre préliminaire
+    if (penalCodeData.preliminary_title && penalCodeData.preliminary_title.articles) {
+      const filteredArticles = filterArticles(penalCodeData.preliminary_title.articles);
       if (filteredArticles.length > 0) {
         results.push({
           name: penalCodeData.preliminary_title.name,
@@ -54,46 +63,50 @@ const Search = () => {
     }
 
     // Recherche dans les Livres
-    penalCodeData.books.forEach((book) => {
-      book.chapters.forEach((chapter) => {
-        const filteredArticles = chapter.articles
-          ? chapter.articles.filter(
-              (article) =>
-                article.number.toString().includes(searchTerm) ||
-                article.title.toLowerCase().includes(searchTerm.toLowerCase())
-            )
-          : [];
+    if (penalCodeData.books) {
+      penalCodeData.books.forEach((book) => {
+        if (book.chapters) {
+          book.chapters.forEach((chapter) => {
+            let chapterResults = [];
 
-        const filteredSections = chapter.sections
-          ? chapter.sections
-              .map((section) => ({
-                ...section,
-                articles: section.articles.filter(
-                  (article) =>
-                    article.number.toString().includes(searchTerm) ||
-                    article.title.toLowerCase().includes(searchTerm.toLowerCase())
-                ),
-              }))
-              .filter((section) => section.articles.length > 0)
-          : [];
+            // Recherche dans les articles du chapitre
+            if (chapter.articles) {
+              const filteredArticles = filterArticles(chapter.articles);
+              if (filteredArticles.length > 0) {
+                chapterResults.push({
+                  name: chapter.name,
+                  articles: filteredArticles,
+                });
+              }
+            }
 
-        if (filteredArticles.length > 0 || filteredSections.length > 0) {
-          results.push({
-            name: `${book.name} - ${chapter.name}`,
-            articles: filteredArticles,
-            sections: filteredSections,
+            // Recherche dans les sections du chapitre
+            if (chapter.sections) {
+              chapter.sections.forEach((section) => {
+                const filteredSectionArticles = filterArticles(section.articles);
+                if (filteredSectionArticles.length > 0) {
+                  chapterResults.push({
+                    name: section.name,
+                    articles: filteredSectionArticles,
+                  });
+                }
+              });
+            }
+
+            if (chapterResults.length > 0) {
+              results.push({
+                name: `${book.name} - ${chapter.name}`,
+                sections: chapterResults,
+              });
+            }
           });
         }
       });
-    });
+    }
 
     // Recherche dans Partie réglementaire
-    if (penalCodeData.regulatory_part) {
-      const filteredArticles = penalCodeData.regulatory_part.articles.filter(
-        (article) =>
-          article.number.toString().includes(searchTerm) ||
-          article.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+    if (penalCodeData.regulatory_part && penalCodeData.regulatory_part.articles) {
+      const filteredArticles = filterArticles(penalCodeData.regulatory_part.articles);
       if (filteredArticles.length > 0) {
         results.push({
           name: penalCodeData.regulatory_part.name,
@@ -103,12 +116,8 @@ const Search = () => {
     }
 
     // Recherche dans Dispositions finales
-    if (penalCodeData.final_provisions) {
-      const filteredArticles = penalCodeData.final_provisions.articles.filter(
-        (article) =>
-          article.number.toString().includes(searchTerm) ||
-          article.title.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+    if (penalCodeData.final_provisions && penalCodeData.final_provisions.articles) {
+      const filteredArticles = filterArticles(penalCodeData.final_provisions.articles);
       if (filteredArticles.length > 0) {
         results.push({
           name: penalCodeData.final_provisions.name,
@@ -138,7 +147,7 @@ const Search = () => {
 
       <div className="search-results">
         {searchResults.length === 0 && searchTerm && (
-          <p className="no-results">Aucun résultat trouvé pour {searchTerm}.</p>
+          <p className="no-results">Aucun résultat trouvé pour "{searchTerm}".</p>
         )}
         {searchResults.map((result, index) => (
           <div key={index} className="search-result-item">
@@ -147,21 +156,11 @@ const Search = () => {
               <ul className="article-list">
                 {result.articles.map((article) => (
                   <li key={article.number} className="article-item">
-                    <strong>Article {article.number} : {article.title}</strong>
+                    <strong>
+                      Article {article.number} : {article.title}
+                    </strong>
                     <p>{article.content}</p>
                     {article.details && <p><em>Détails : {article.details}</em></p>}
-                    {article.penalties && (
-                      <ul>
-                        {article.penalties.map((penalty, idx) => (
-                          <li key={idx}>
-                            {penalty.type}{" "}
-                            {penalty.duration ? `- ${penalty.duration}` : ""}{" "}
-                            {penalty.amount ? `- ${penalty.amount}` : ""}{" "}
-                            {penalty.condition ? `(${penalty.condition})` : ""}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
                   </li>
                 ))}
               </ul>
@@ -173,21 +172,11 @@ const Search = () => {
                   <ul className="article-list">
                     {section.articles.map((article) => (
                       <li key={article.number} className="article-item">
-                        <strong>Article {article.number} : {article.title}</strong>
+                        <strong>
+                          Article {article.number} : {article.title}
+                        </strong>
                         <p>{article.content}</p>
                         {article.details && <p><em>Détails : {article.details}</em></p>}
-                        {article.penalties && (
-                          <ul>
-                            {article.penalties.map((penalty, idx) => (
-                              <li key={idx}>
-                                {penalty.type}{" "}
-                                {penalty.duration ? `- ${penalty.duration}` : ""}{" "}
-                                {penalty.amount ? `- ${penalty.amount}` : ""}{" "}
-                                {penalty.condition ? `(${penalty.condition})` : ""}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
                       </li>
                     ))}
                   </ul>
@@ -199,79 +188,5 @@ const Search = () => {
     </div>
   );
 };
-
-Search.propTypes = {
-  penalCodeData: PropTypes.shape({
-    preliminary_title: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-          penalties: PropTypes.arrayOf(PropTypes.object),
-        })
-      ),
-    }),
-    books: PropTypes.arrayOf(
-      PropTypes.shape({
-        name: PropTypes.string,
-        chapters: PropTypes.arrayOf(
-          PropTypes.shape({
-            name: PropTypes.string,
-            articles: PropTypes.arrayOf(
-              PropTypes.shape({
-                number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-                title: PropTypes.string,
-                content: PropTypes.string,
-                details: PropTypes.string,
-                penalties: PropTypes.arrayOf(PropTypes.object),
-              })
-            ),
-            sections: PropTypes.arrayOf(
-              PropTypes.shape({
-                name: PropTypes.string,
-                articles: PropTypes.arrayOf(
-                  PropTypes.shape({
-                    number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-                    title: PropTypes.string,
-                    content: PropTypes.string,
-                    details: PropTypes.string,
-                    penalties: PropTypes.arrayOf(PropTypes.object),
-                  })
-                ),
-              })
-            ),
-          })
-        ),
-      })
-    ),
-    regulatory_part: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-          penalties: PropTypes.arrayOf(PropTypes.object),
-        })
-      ),
-    }),
-    final_provisions: PropTypes.shape({
-      name: PropTypes.string,
-      articles: PropTypes.arrayOf(
-        PropTypes.shape({
-          number: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-          title: PropTypes.string,
-          content: PropTypes.string,
-          details: PropTypes.string,
-        })
-      ),
-    }),
-  }).isRequired,
-};
-
 
 export default Search;
