@@ -86,7 +86,7 @@ const Livrelist = () => {
 
       <h1 className="livrelist-title">{penalCodeData.title}</h1>
       <p className="livrelist-last-updated">
-        Soit la loi penal de N° :2016/19 {penalCodeData.last_updated}
+        Soit la loi penal de N° :2019/020 du 24 Décembre 2019 {penalCodeData.last_updated}
       </p>
 
 
@@ -143,10 +143,11 @@ const Livrelist = () => {
 
       {/* Contenu des sections */}
       <div className="livrelist-content">
+      <Livre1 />
         {openSections.preliminary_title && (
           <div>{renderArticles(penalCodeData.preliminary_title.articles)}</div>
         )}
-        <Livre1 />
+        
         {openSections.book_2 && (
           <div>{renderChapters(penalCodeData.books.find(book => book.id === "book_2").chapters)}</div>
         )}

@@ -139,6 +139,11 @@ section .passer:hover{
   border-radius: 100%;
 }
 
+.livrelist-last-updated {
+  color: #837878;
+  font-weight: bold;
+  font-size: 25px;
+}
 
 .search-container {
   display: flex;
