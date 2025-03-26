@@ -130,6 +130,7 @@ const Search = () => {
   // Rendu de l'interface avec une seule barre de recherche
   return (
     <div className="search-container">
+    
       <h2>Rechercher un article ou une section</h2>
       <input
         type="text"

@@ -138,10 +138,14 @@ section .passer:hover{
   height: 65px;
   border-radius: 100%;
 }
-.search {
+
+
+.search-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+
 }
 
 .search-container h2 {
@@ -149,24 +153,15 @@ section .passer:hover{
   text-align: center;
 }
 
-.search input{
-  font-size: 19px;
-  font-weight: bold;
+.search-container input {
+  color: blue;
+  font-size: 20px;
   width: 350px;
-  height: 35px;
-  border-radius:10px;
-  border: 1px solid #3498db;
+  height: 30px;
+  border-radius: 8px;
+  border-color: #3498db;
 }
 
-.search button {
-  font-size: 19px;
-  margin-top: 12px;
-  font-weight: bold;
-  height: 35px;
-  width: 150px;
-  border-radius:10px;
-  border: 1px solid #3498db;
-}
 .search-result-item {
   background-color: rgba(24, 194, 236, 0.144);
   border-radius: 10px;
