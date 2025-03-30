@@ -285,7 +285,1281 @@
                 "explication": "Les parents doivent garantir une éducation non discriminatoire et respectueuse des droits de l'enfant (Convention des droits de l'enfant, intégrée dans le droit camerounais)."
               }
             ]
+          },
+
+
+
+
+
+          {
+            "chapitre": "Chapitre 5 : Des droits des époux",
+            "articles": [
+              {
+                "article": "Article 44",
+                "explication": "Les époux ont des droits et devoirs réciproques, notamment le respect mutuel, l'entraide, et la fidélité."
+              },
+              {
+                "article": "Article 45",
+                "explication": "Le régime matrimonial détermine la gestion des biens entre époux (communauté, séparation de biens, etc.)."
+              },
+              {
+                "article": "Article 46",
+                "explication": "Les époux peuvent modifier leur régime matrimonial par acte notarié après autorisation judiciaire."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 6 : Des enfants dans le mariage",
+            "articles": [
+              {
+                "article": "Article 47",
+                "explication": "Les enfants nés dans le mariage sont présumés être ceux des deux époux."
+              },
+              {
+                "article": "Article 48",
+                "explication": "Les parents doivent assurer l'éducation, la santé, et le bien-être de leurs enfants."
+              },
+              {
+                "article": "Article 49",
+                "explication": "Les enfants ont le droit d'être élevés sans discrimination et dans le respect de leur dignité."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 7 : Des enfants hors mariage",
+            "articles": [
+              {
+                "article": "Article 50",
+                "explication": "Les enfants nés hors mariage jouissent des mêmes droits que ceux nés dans le mariage, y compris en matière de filiation."
+              },
+              {
+                "article": "Article 51",
+                "explication": "La reconnaissance volontaire ou judiciaire permet d'établir la filiation des enfants naturels."
+              },
+              {
+                "article": "Article 52",
+                "explication": "Les pères biologiques des enfants naturels ont l'obligation légale de contribuer à leur entretien."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 8 : De l'adoption",
+            "articles": [
+              {
+                "article": "Article 53",
+                "explication": "L'adoption est un acte juridique qui crée un lien de filiation entre l'adoptant et l'adopté."
+              },
+              {
+                "article": "Article 54",
+                "explication": "L'adoption peut être simple ou plénière, selon les conditions fixées par la loi."
+              },
+              {
+                "article": "Article 55",
+                "explication": "L'adopté acquiert les mêmes droits que les enfants biologiques, y compris en matière de succession."
+              }
+            ]
           }
+        ]
+      },
+      {
+        "titre": "Titre IV : Des droits de la personnalité",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Droits fondamentaux",
+            "articles": [
+              {
+                "article": "Article 56",
+                "explication": "Toute personne a droit au respect de sa vie privée, de son image, et de sa réputation."
+              },
+              {
+                "article": "Article 57",
+                "explication": "Nul ne peut être privé arbitrairement de sa liberté ou de ses droits civils."
+              },
+              {
+                "article": "Article 58",
+                "explication": "Les atteintes aux droits de la personnalité peuvent donner lieu à des sanctions pénales ou civiles."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Protection des mineurs",
+            "articles": [
+              {
+                "article": "Article 59",
+                "explication": "Les mineurs bénéficient d'une protection spéciale contre toute forme d'exploitation ou de violence."
+              },
+              {
+                "article": "Article 60",
+                "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+              },
+              {
+                "article": "Article 61",
+                "explication": "Les mineurs victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Protection des personnes handicapées",
+            "articles": [
+              {
+                "article": "Article 62",
+                "explication": "Les personnes handicapées ont droit à une égalité de traitement et à une protection spéciale contre toute forme de discrimination."
+              },
+              {
+                "article": "Article 63",
+                "explication": "L'État doit garantir l'accès des personnes handicapées aux services publics, à l'éducation, et à l'emploi."
+              },
+              {
+                "article": "Article 64",
+                "explication": "Les personnes handicapées peuvent demander une assistance juridique gratuite en cas de besoin."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre V : Dispositions diverses",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Des conventions matrimoniales",
+            "articles": [
+              {
+                "article": "Article 65",
+                "explication": "Les futurs époux peuvent conclure un contrat de mariage avant le mariage pour organiser leur régime matrimonial."
+              },
+              {
+                "article": "Article 66",
+                "explication": "Les conventions matrimoniales doivent être établies par acte notarié et enregistrées auprès des autorités compétentes."
+              },
+              {
+                "article": "Article 67",
+                "explication": "Les clauses contraires à l'ordre public ou aux bonnes mœurs sont nulles."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Des donations entre époux",
+            "articles": [
+              {
+                "article": "Article 68",
+                "explication": "Les époux peuvent se faire des donations entre vifs ou par testament, sous réserve des droits réservataires."
+              },
+              {
+                "article": "Article 69",
+                "explication": "Les donations entre époux doivent être constatées par acte authentique pour être valides."
+              },
+              {
+                "article": "Article 70",
+                "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Des successions ab intestat",
+            "articles": [
+              {
+                "article": "Article 71",
+                "explication": "En l'absence de testament, les biens du défunt sont répartis selon les règles de la succession légale."
+              },
+              {
+                "article": "Article 72",
+                "explication": "Les héritiers réservataires (conjoint, enfants) ont droit à une part minimale des biens du défunt."
+              },
+              {
+                "article": "Article 73",
+                "explication": "Les collatéraux (frères, sœurs, cousins) ne peuvent hériter qu'en l'absence d'héritiers directs."
+              }
+            ]
+          },
+
+
+
+          {
+            "chapitre": "Chapitre 4 : Des droits numériques",
+            "articles": [
+              {
+                "article": "Article 74",
+                "explication": "Toute personne a droit à la protection de ses données personnelles sur Internet."
+              },
+              {
+                "article": "Article 75",
+                "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+              },
+              {
+                "article": "Article 76",
+                "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 5 : Des personnes âgées",
+            "articles": [
+              {
+                "article": "Article 77",
+                "explication": "Les personnes âgées ont droit à une protection spéciale contre toute forme de négligence ou d'abus."
+              },
+              {
+                "article": "Article 78",
+                "explication": "L'État doit garantir l'accès des personnes âgées aux soins de santé et aux pensions sociales."
+              },
+              {
+                "article": "Article 79",
+                "explication": "Les familles sont responsables de l'entretien et de la protection des personnes âgées dépendantes."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 6 : Des droits extrapatrimoniaux",
+            "articles": [
+              {
+                "article": "Article 80",
+                "explication": "Le droit à l'image est protégé par la loi, et toute utilisation non autorisée peut donner lieu à des poursuites."
+              },
+              {
+                "article": "Article 81",
+                "explication": "Le respect de la vie privée est un droit fondamental, et toute intrusion illégale est sanctionnée."
+              },
+              {
+                "article": "Article 82",
+                "explication": "La diffamation ou l'injure publique peut entraîner des sanctions civiles ou pénales."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre VI : De la responsabilité civile",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Principes généraux",
+            "articles": [
+              {
+                "article": "Article 83",
+                "explication": "Toute personne qui cause un dommage à autrui est tenue de le réparer, sauf s'il prouve qu'il n'y a pas eu faute."
+              },
+              {
+                "article": "Article 84",
+                "explication": "La réparation du dommage peut inclure des indemnités pour préjudice matériel ou moral."
+              },
+              {
+                "article": "Article 85",
+                "explication": "Les parents sont responsables des dommages causés par leurs enfants mineurs sous leur garde."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Responsabilité parentale",
+            "articles": [
+              {
+                "article": "Article 86",
+                "explication": "Les parents sont responsables des actes de leurs enfants mineurs jusqu'à ce qu'ils atteignent l'âge de majorité."
+              },
+              {
+                "article": "Article 87",
+                "explication": "Les tuteurs légaux sont également responsables des actes des mineurs placés sous leur tutelle."
+              },
+              {
+                "article": "Article 88",
+                "explication": "En cas de faute grave, les parents peuvent être déchus de leur autorité parentale."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Responsabilité professionnelle",
+            "articles": [
+              {
+                "article": "Article 89",
+                "explication": "Les professionnels (médecins, avocats, ingénieurs) sont responsables des dommages causés par leur négligence ou imprudence."
+              },
+              {
+                "article": "Article 90",
+                "explication": "Les employeurs sont responsables des dommages causés par leurs employés dans l'exercice de leurs fonctions."
+              },
+              {
+                "article": "Article 91",
+                "explication": "Les contrats professionnels doivent inclure des clauses de responsabilité pour protéger les parties."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre VII : Des obligations alimentaires",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Obligation entre époux",
+            "articles": [
+              {
+                "article": "Article 92",
+                "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
+              },
+              {
+                "article": "Article 93",
+                "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
+              },
+              {
+                "article": "Article 94",
+                "explication": "La pension alimentaire est fixée en fonction des ressources et des besoins des parties."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Obligation envers les enfants",
+            "articles": [
+              {
+                "article": "Article 95",
+                "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
+              },
+              {
+                "article": "Article 96",
+                "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
+              },
+              {
+                "article": "Article 97",
+                "explication": "Les pères biologiques d'enfants naturels sont également tenus de contribuer à leur entretien."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Obligation envers les ascendants",
+            "articles": [
+              {
+                "article": "Article 98",
+                "explication": "Les enfants ont l'obligation morale et légale de prendre soin de leurs parents âgés ou dépendants."
+              },
+              {
+                "article": "Article 99",
+                "explication": "En cas de refus, les tribunaux peuvent ordonner une contribution financière obligatoire."
+              },
+              {
+                "article": "Article 100",
+                "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
+              }
+            ]
+          },
+
+
+
+          {
+            "chapitre": "Chapitre 4 : Des successions testamentaires",
+            "articles": [
+              {
+                "article": "Article 101",
+                "explication": "Un testament peut être olographe, authentique ou mystique."
+              },
+              {
+                "article": "Article 102",
+                "explication": "Les testaments doivent respecter les règles formelles pour être valides."
+              },
+              {
+                "article": "Article 103",
+                "explication": "Les legs excessifs peuvent être réduits pour protéger les héritiers réservataires."
+              },
+              {
+                "article": "Article 104",
+                "explication": "Un testament peut être modifié ou révoqué par son auteur à tout moment."
+              },
+              {
+                "article": "Article 105",
+                "explication": "En cas de pluralité de testaments, seul le dernier valide est pris en compte."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 5 : Des donations entre vifs",
+            "articles": [
+              {
+                "article": "Article 106",
+                "explication": "Les donations entre vifs doivent être constatées par acte authentique pour être valides."
+              },
+              {
+                "article": "Article 107",
+                "explication": "Les donations peuvent être révoquées en cas d'ingratitude du donataire."
+              },
+              {
+                "article": "Article 108",
+                "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
+              },
+              {
+                "article": "Article 109",
+                "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
+              },
+              {
+                "article": "Article 110",
+                "explication": "Les donations peuvent inclure des biens meubles ou immeubles, mais doivent respecter les droits des tiers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre VIII : Des servitudes",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Servitudes légales",
+            "articles": [
+              {
+                "article": "Article 111",
+                "explication": "Les servitudes légales concernent les droits d'accès, de passage, et d'eau."
+              },
+              {
+                "article": "Article 112",
+                "explication": "Les servitudes légales sont imposées par la loi pour garantir un usage raisonnable des biens."
+              },
+              {
+                "article": "Article 113",
+                "explication": "Les servitudes légales ne peuvent être supprimées sans autorisation judiciaire."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Servitudes volontaires",
+            "articles": [
+              {
+                "article": "Article 114",
+                "explication": "Les servitudes volontaires sont établies par contrat entre propriétaires."
+              },
+              {
+                "article": "Article 115",
+                "explication": "Les servitudes volontaires doivent être constatées par écrit pour être opposables."
+              },
+              {
+                "article": "Article 116",
+                "explication": "Les servitudes volontaires cessent en cas de renonciation ou de disparition de leur objet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre IX : Des biens immatériels",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Propriété intellectuelle",
+            "articles": [
+              {
+                "article": "Article 117",
+                "explication": "Les biens immatériels incluent les droits d'auteur, les brevets, et les marques."
+              },
+              {
+                "article": "Article 118",
+                "explication": "Les créateurs de biens immatériels bénéficient d'une protection légale contre toute contrefaçon."
+              },
+              {
+                "article": "Article 119",
+                "explication": "Les droits sur les biens immatériels peuvent être transmis par succession ou vente."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Droits numériques",
+            "articles": [
+              {
+                "article": "Article 120",
+                "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+              },
+              {
+                "article": "Article 121",
+                "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+              },
+              {
+                "article": "Article 122",
+                "explication": "Les utilisateurs ont le droit de demander la suppression de leurs données personnelles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre X : Des contrats familiaux",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Contrats de mariage",
+            "articles": [
+              {
+                "article": "Article 123",
+                "explication": "Les futurs époux peuvent conclure un contrat de mariage avant le mariage pour organiser leur régime matrimonial."
+              },
+              {
+                "article": "Article 124",
+                "explication": "Les contrats de mariage doivent être établis par acte notarié et enregistrés auprès des autorités compétentes."
+              },
+              {
+                "article": "Article 125",
+                "explication": "Les clauses contraires à l'ordre public ou aux bonnes mœurs dans les contrats de mariage sont nulles."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Contrats de donation",
+            "articles": [
+              {
+                "article": "Article 126",
+                "explication": "Les donations entre membres d'une même famille doivent respecter les règles de forme et de fond."
+              },
+              {
+                "article": "Article 127",
+                "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
+              },
+              {
+                "article": "Article 128",
+                "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XI : Des droits des femmes",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Égalité des sexes",
+            "articles": [
+              {
+                "article": "Article 129",
+                "explication": "Les femmes jouissent des mêmes droits que les hommes dans tous les domaines, y compris en matière de mariage et de succession."
+              },
+              {
+                "article": "Article 130",
+                "explication": "Les violences faites aux femmes sont sanctionnées par des peines pénales et des mesures de protection."
+              },
+              {
+                "article": "Article 131",
+                "explication": "Les femmes victimes de violence conjugale peuvent bénéficier d'une ordonnance de protection."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Mariage et divorce",
+            "articles": [
+              {
+                "article": "Article 132",
+                "explication": "Le mariage nécessite le consentement libre et éclairé des deux époux. Tout mariage forcé est nul."
+              },
+              {
+                "article": "Article 133",
+                "explication": "En cas de divorce, le conjoint économiquement désavantagé peut demander une pension alimentaire."
+              },
+              {
+                "article": "Article 134",
+                "explication": "Les femmes ont le droit de participer à la gestion des biens familiaux sur un pied d'égalité."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XII : Dispositions finales",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Adaptations locales",
+            "articles": [
+              {
+                "article": "Article 135",
+                "explication": "Les dispositions du Code civil sont adaptées aux réalités culturelles et sociales du Cameroun."
+              },
+              {
+                "article": "Article 136",
+                "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+              },
+              {
+                "article": "Article 137",
+                "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Entrée en vigueur",
+            "articles": [
+              {
+                "article": "Article 138",
+                "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+              },
+              {
+                "article": "Article 139",
+                "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+              },
+              {
+                "article": "Article 140",
+                "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+              }
+            ]
+          },
+          {
+            "article": "Article 141",
+            "explication": "Les enfants ont droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
+          },
+          {
+            "article": "Article 142",
+            "explication": "Les enfants victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+          },
+          {
+            "article": "Article 143",
+            "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+          },
+          {
+            "article": "Article 144",
+            "explication": "Les enfants ont droit à une alimentation, un logement, et des soins médicaux adéquats."
+          },
+          {
+            "article": "Article 145",
+            "explication": "Les enfants placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 4 : Des personnes handicapées",
+        "articles": [
+          {
+            "article": "Article 146",
+            "explication": "Les personnes handicapées ont droit à une égalité de traitement et à une protection spéciale contre toute forme de discrimination."
+          },
+          {
+            "article": "Article 147",
+            "explication": "L'État doit garantir l'accès des personnes handicapées aux services publics, à l'éducation, et à l'emploi."
+          },
+          {
+            "article": "Article 148",
+            "explication": "Les personnes handicapées peuvent demander une assistance juridique gratuite en cas de besoin."
+          },
+          {
+            "article": "Article 149",
+            "explication": "Les employeurs sont encouragés à intégrer les personnes handicapées dans leurs effectifs."
+          },
+          {
+            "article": "Article 150",
+            "explication": "Les infrastructures publiques doivent être adaptées pour permettre l'accès des personnes handicapées."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 5 : Des droits patrimoniaux",
+        "articles": [
+          {
+            "article": "Article 151",
+            "explication": "La propriété privée est garantie par la loi, sous réserve des limitations imposées par l'intérêt général."
+          },
+          {
+            "article": "Article 152",
+            "explication": "Les biens immobiliers doivent être enregistrés auprès des autorités compétentes pour être légalement reconnus."
+          },
+          {
+            "article": "Article 153",
+            "explication": "Les conflits relatifs à la propriété sont tranchés par les tribunaux selon les règles de priorité et de possession."
+          },
+          {
+            "article": "Article 154",
+            "explication": "Les servitudes légales ou volontaires peuvent limiter l'usage exclusif d'un bien."
+          },
+          {
+            "article": "Article 155",
+            "explication": "Les successions ab intestat respectent les droits réservataires des héritiers directs."
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "titre": "Titre XIII : Dispositions transitoires",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Adaptations légales",
+        "articles": [
+          {
+            "article": "Article 156",
+            "explication": "Les dispositions du Code civil s'appliquent immédiatement aux affaires nouvelles."
+          },
+          {
+            "article": "Article 157",
+            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+          },
+          {
+            "article": "Article 158",
+            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+          },
+          {
+            "article": "Article 159",
+            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+          },
+          {
+            "article": "Article 160",
+            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Entrée en vigueur",
+        "articles": [
+          {
+            "article": "Article 161",
+            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+          },
+          {
+            "article": "Article 162",
+            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+          },
+          {
+            "article": "Article 163",
+            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+          },
+          {
+            "article": "Article 164",
+            "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+          },
+          {
+            "article": "Article 165",
+            "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XIV : Dispositions complémentaires",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : De la responsabilité civile",
+        "articles": [
+          {
+            "article": "Article 166",
+            "explication": "Toute personne qui cause un dommage à autrui est tenue de le réparer, sauf s'il prouve qu'il n'y a pas eu faute."
+          },
+          {
+            "article": "Article 167",
+            "explication": "La réparation du dommage peut inclure des indemnités pour préjudice matériel ou moral."
+          },
+          {
+            "article": "Article 168",
+            "explication": "Les parents sont responsables des dommages causés par leurs enfants mineurs sous leur garde."
+          },
+          {
+            "article": "Article 169",
+            "explication": "Les professionnels (médecins, avocats, ingénieurs) sont responsables des dommages causés par leur négligence ou imprudence."
+          },
+          {
+            "article": "Article 170",
+            "explication": "Les employeurs sont responsables des dommages causés par leurs employés dans l'exercice de leurs fonctions."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Des obligations alimentaires",
+        "articles": [
+          {
+            "article": "Article 171",
+            "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
+          },
+          {
+            "article": "Article 172",
+            "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
+          },
+          {
+            "article": "Article 173",
+            "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
+          },
+          {
+            "article": "Article 174",
+            "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
+          },
+          {
+            "article": "Article 175",
+            "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
+          }
+        ]
+      },
+
+
+
+      {
+        "chapitre": "Chapitre 3 : Des droits extrapatrimoniaux",
+        "articles": [
+          {
+            "article": "Article 176",
+            "explication": "Le droit à l'image est protégé par la loi, et toute utilisation non autorisée peut donner lieu à des poursuites."
+          },
+          {
+            "article": "Article 177",
+            "explication": "Le respect de la vie privée est un droit fondamental, et toute intrusion illégale est sanctionnée."
+          },
+          {
+            "article": "Article 178",
+            "explication": "La diffamation ou l'injure publique peut entraîner des sanctions civiles ou pénales."
+          },
+          {
+            "article": "Article 179",
+            "explication": "Les atteintes aux droits extrapatrimoniaux peuvent être réparées par une indemnité compensatoire."
+          },
+          {
+            "article": "Article 180",
+            "explication": "Les médias doivent respecter les droits des personnes lors de la diffusion d'informations."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 4 : Des droits numériques",
+        "articles": [
+          {
+            "article": "Article 181",
+            "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+          },
+          {
+            "article": "Article 182",
+            "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+          },
+          {
+            "article": "Article 183",
+            "explication": "Les utilisateurs ont le droit de demander la suppression de leurs données personnelles."
+          },
+          {
+            "article": "Article 184",
+            "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
+          },
+          {
+            "article": "Article 185",
+            "explication": "Les cyberattaques ou fraudes électroniques sont sévèrement punies par la loi."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 5 : Des personnes âgées",
+        "articles": [
+          {
+            "article": "Article 186",
+            "explication": "Les personnes âgées ont droit à une protection spéciale contre toute forme de négligence ou d'abus."
+          },
+          {
+            "article": "Article 187",
+            "explication": "L'État doit garantir l'accès des personnes âgées aux soins de santé et aux pensions sociales."
+          },
+          {
+            "article": "Article 188",
+            "explication": "Les familles sont responsables de l'entretien et de la protection des personnes âgées dépendantes."
+          },
+          {
+            "article": "Article 189",
+            "explication": "Les institutions spécialisées pour personnes âgées doivent respecter des normes strictes de qualité et de sécurité."
+          },
+          {
+            "article": "Article 190",
+            "explication": "Les personnes âgées peuvent bénéficier d'une assistance juridique gratuite en cas de besoin."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XV : Dispositions spéciales",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Des droits des femmes",
+        "articles": [
+          {
+            "article": "Article 191",
+            "explication": "Les femmes jouissent des mêmes droits que les hommes dans tous les domaines, y compris en matière de mariage et de succession."
+          },
+          {
+            "article": "Article 192",
+            "explication": "Les violences faites aux femmes sont sanctionnées par des peines pénales et des mesures de protection."
+          },
+          {
+            "article": "Article 193",
+            "explication": "Les femmes victimes de violence conjugale peuvent bénéficier d'une ordonnance de protection."
+          },
+          {
+            "article": "Article 194",
+            "explication": "Les femmes ont le droit de participer à la gestion des biens familiaux sur un pied d'égalité."
+          },
+          {
+            "article": "Article 195",
+            "explication": "Les discriminations basées sur le genre sont interdites dans tous les domaines de la vie sociale."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Des droits des enfants",
+        "articles": [
+          {
+            "article": "Article 196",
+            "explication": "Les enfants ont droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
+          },
+          {
+            "article": "Article 197",
+            "explication": "Les enfants victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+          },
+          {
+            "article": "Article 198",
+            "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+          },
+          {
+            "article": "Article 199",
+            "explication": "Les enfants placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
+          },
+          {
+            "article": "Article 200",
+            "explication": "Les enfants adoptés jouissent des mêmes droits que les enfants biologiques, y compris en matière de succession."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVI : Dispositions générales",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Principes généraux",
+        "articles": [
+          {
+            "article": "Article 201",
+            "explication": "Les dispositions du Code civil s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+          },
+          {
+            "article": "Article 202",
+            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+          },
+          {
+            "article": "Article 203",
+            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+          },
+          {
+            "article": "Article 204",
+            "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+          },
+          {
+            "article": "Article 205",
+            "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Entrée en vigueur",
+        "articles": [
+          {
+            "article": "Article 206",
+            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+          },
+          {
+            "article": "Article 207",
+            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+          },
+          {
+            "article": "Article 208",
+            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+          },
+          {
+            "article": "Article 209",
+            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+          },
+          {
+            "article": "Article 210",
+            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVII : Dispositions diverses",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Des successions",
+        "articles": [
+          {
+            "article": "Article 211",
+            "explication": "En l'absence de testament, les biens du défunt sont répartis selon les règles de la succession légale."
+          },
+          {
+            "article": "Article 212",
+            "explication": "Les héritiers réservataires (conjoint, enfants) ont droit à une part minimale des biens du défunt."
+          },
+          {
+            "article": "Article 213",
+            "explication": "Les collatéraux (frères, sœurs, cousins) ne peuvent hériter qu'en l'absence d'héritiers directs."
+          },
+          {
+            "article": "Article 214",
+            "explication": "Les legs excessifs peuvent être réduits pour protéger les droits des héritiers réservataires."
+          },
+          {
+            "article": "Article 215",
+            "explication": "Les successions avec testament respectent les clauses fixées par le défunt, sous réserve des droits réservataires."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Des donations",
+        "articles": [
+          {
+            "article": "Article 216",
+            "explication": "Les donations entre vifs doivent être constatées par acte authentique pour être valides."
+          },
+          {
+            "article": "Article 217",
+            "explication": "Les donations peuvent être révoquées en cas d'ingratitude du donataire."
+          },
+          {
+            "article": "Article 218",
+            "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
+          },
+          {
+            "article": "Article 219",
+            "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
+          },
+          {
+            "article": "Article 220",
+            "explication": "Les donations peuvent inclure des biens meubles ou immeubles, mais doivent respecter les droits des tiers."
+          }
+        ]
+      },
+
+
+
+      {
+        "chapitre": "Chapitre 3 : Des servitudes",
+        "articles": [
+          {
+            "article": "Article 221",
+            "explication": "Les servitudes légales concernent les droits d'accès, de passage, et d'eau."
+          },
+          {
+            "article": "Article 222",
+            "explication": "Les servitudes volontaires sont établies par contrat entre propriétaires."
+          },
+          {
+            "article": "Article 223",
+            "explication": "Les servitudes cessent en cas de renonciation ou de disparition de leur objet."
+          },
+          {
+            "article": "Article 224",
+            "explication": "Les servitudes peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+          },
+          {
+            "article": "Article 225",
+            "explication": "Les servitudes imposées par la loi ne peuvent être contestées que dans des cas exceptionnels."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 4 : Des biens immatériels",
+        "articles": [
+          {
+            "article": "Article 226",
+            "explication": "Les biens immatériels incluent les droits d'auteur, les brevets, et les marques."
+          },
+          {
+            "article": "Article 227",
+            "explication": "Les créateurs de biens immatériels bénéficient d'une protection légale contre toute contrefaçon."
+          },
+          {
+            "article": "Article 228",
+            "explication": "Les droits sur les biens immatériels peuvent être transmis par succession ou vente."
+          },
+          {
+            "article": "Article 229",
+            "explication": "Les contrats relatifs aux biens immatériels doivent être constatés par écrit pour être opposables."
+          },
+          {
+            "article": "Article 230",
+            "explication": "Les litiges relatifs aux biens immatériels sont tranchés par les tribunaux compétents selon les règles spécifiques."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 5 : Des obligations alimentaires",
+        "articles": [
+          {
+            "article": "Article 231",
+            "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
+          },
+          {
+            "article": "Article 232",
+            "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
+          },
+          {
+            "article": "Article 233",
+            "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
+          },
+          {
+            "article": "Article 234",
+            "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
+          },
+          {
+            "article": "Article 235",
+            "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVIII : Dispositions finales complémentaires",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Adaptations locales",
+        "articles": [
+          {
+            "article": "Article 236",
+            "explication": "Les dispositions du Code civil sont adaptées aux réalités culturelles et sociales du Cameroun."
+          },
+          {
+            "article": "Article 237",
+            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+          },
+          {
+            "article": "Article 238",
+            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+          },
+          {
+            "article": "Article 239",
+            "explication": "Les autorités locales peuvent proposer des adaptations spécifiques pour répondre aux besoins des communautés."
+          },
+          {
+            "article": "Article 240",
+            "explication": "Les modifications des coutumes locales nécessitent l'accord des communautés concernées."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Entrée en vigueur",
+        "articles": [
+          {
+            "article": "Article 241",
+            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+          },
+          {
+            "article": "Article 242",
+            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+          },
+          {
+            "article": "Article 243",
+            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+          },
+          {
+            "article": "Article 244",
+            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+          },
+          {
+            "article": "Article 245",
+            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XIX : Dispositions nouvelles",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Protection des données personnelles",
+        "articles": [
+          {
+            "article": "Article 246",
+            "explication": "Les données personnelles collectées doivent être protégées contre toute utilisation abusive."
+          },
+          {
+            "article": "Article 247",
+            "explication": "Les utilisateurs ont le droit de demander la suppression ou la correction de leurs données personnelles."
+          },
+          {
+            "article": "Article 248",
+            "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+          },
+          {
+            "article": "Article 249",
+            "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+          },
+          {
+            "article": "Article 250",
+            "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Droits des mineurs",
+        "articles": [
+          {
+            "article": "Article 251",
+            "explication": "Les mineurs bénéficient d'une protection spéciale contre toute forme d'exploitation ou de violence."
+          },
+          {
+            "article": "Article 252",
+            "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+          },
+          {
+            "article": "Article 253",
+            "explication": "Les mineurs victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+          },
+          {
+            "article": "Article 254",
+            "explication": "Les mineurs placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
+          },
+          {
+            "article": "Article 255",
+            "explication": "Les mineurs ont le droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XX : Articles divers",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Règles générales",
+        "articles": [
+          {
+            "article": "Article 256",
+            "explication": "Toute personne humaine jouit de la personnalité juridique dès sa naissance vivante."
+          },
+          {
+            "article": "Article 257",
+            "explication": "La capacité est définie comme la faculté de jouir et d'exercer des droits."
+          },
+          {
+            "article": "Article 258",
+            "explication": "Les mineurs et les majeurs protégés sont soumis à des incapacités spéciales."
+          },
+          {
+            "article": "Article 259",
+            "explication": "Les personnes handicapées jouissent des mêmes droits que toute autre personne."
+          },
+          {
+            "article": "Article 260",
+            "explication": "La disparition prolongée d'une personne peut être déclarée par un tribunal après une enquête approfondie."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Articles additionnels",
+        "articles": [
+          {
+            "article": "Article 261",
+            "explication": "Les personnes morales sont des entités distinctes des personnes physiques."
+          },
+          {
+            "article": "Article 262",
+            "explication": "Les associations doivent être enregistrées auprès des autorités compétentes."
+          },
+          {
+            "article": "Article 263",
+            "explication": "Les sociétés peuvent être civiles (non commerciales) ou commerciales."
+          },
+          {
+            "article": "Article 264",
+            "explication": "Les mariages doivent être célébrés devant un officier d'état civil."
+          },
+          {
+            "article": "Article 265",
+            "explication": "Le divorce est prononcé par un tribunal. Liquidation des biens communs."
+          }
+        ]
+      },
+
+
+  
         ]
       }
     ]
