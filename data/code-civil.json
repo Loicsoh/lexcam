@@ -1,0 +1,292 @@
+{
+    "livre": "Livre I : Des personnes",
+    "structure": [
+      {
+        "titre": "Titre I : Des personnes physiques",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : De l’existence civile",
+            "articles": [
+              {
+                "article": "Article 1",
+                "explication": "Toute personne humaine jouit de la personnalité juridique dès sa naissance vivante. La personnalité juridique confère des droits civils, notamment le droit à un nom, à une nationalité, et à une protection légale."
+              },
+              {
+                "article": "Article 2",
+                "explication": "La capacité est définie comme la faculté de jouir et d'exercer des droits. Elle se divise en capacité de jouissance (droits) et capacité d'exercice (actes)."
+              },
+              {
+                "article": "Article 3",
+                "explication": "Les mineurs et les majeurs protégés sont soumis à des incapacités spéciales. Les mineurs nécessitent une assistance légale, tandis que les majeurs protégés peuvent être placés sous tutelle ou curatelle."
+              },
+              {
+                "article": "Article 4",
+                "explication": "Les personnes handicapées jouissent des mêmes droits que toute autre personne. Des mesures spécifiques sont prévues pour leur garantir l'accès à l'état civil et aux services publics (Loi n°2010/002)."
+              },
+              {
+                "article": "Article 5",
+                "explication": "La disparition prolongée d'une personne peut être déclarée par un tribunal après une enquête approfondie."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : De la capacité",
+            "sections": [
+              {
+                "section": "Section 1 : Capacité générale",
+                "articles": [
+                  {
+                    "article": "Article 6",
+                    "explication": "La capacité générale est définie comme l'aptitude à jouir et exercer des droits. Toute personne physique est présumée capable sauf exception (mineurs, incapables)."
+                  },
+                  {
+                    "article": "Article 7",
+                    "explication": "Les personnes qui ont perdu leur discernement (maladie mentale, démence) peuvent être placées sous sauvegarde de justice."
+                  }
+                ]
+              },
+              {
+                "section": "Section 2 : Incapacités spéciales",
+                "articles": [
+                  {
+                    "article": "Article 8",
+                    "explication": "Les mineurs sont protégés par la loi contre les actes juridiques qu'ils ne peuvent pas comprendre. Exemple : un mineur ne peut pas vendre un bien immobilier sans autorisation parentale."
+                  },
+                  {
+                    "article": "Article 9",
+                    "explication": "Les majeurs protégés sont ceux qui ont perdu leur discernement. Ils peuvent être placés sous sauvegarde de justice, curatelle ou tutelle."
+                  },
+                  {
+                    "article": "Article 10",
+                    "explication": "Une personne victime de violence conjugale peut demander une ordonnance de protection auprès des tribunaux pour assurer sa sécurité (Loi n°2011/024)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : De l’état civil",
+            "sections": [
+              {
+                "section": "Section 1 : Du nom",
+                "articles": [
+                  {
+                    "article": "Article 11",
+                    "explication": "Chaque personne a le droit à un nom inscrit sur son acte de naissance. Le nom peut être modifié par décision judiciaire dans des cas exceptionnels (ex. : adoption)."
+                  },
+                  {
+                    "article": "Article 12",
+                    "explication": "Le changement de nom peut être accordé pour des raisons graves, telles que la discrimination ou la stigmatisation sociale."
+                  }
+                ]
+              },
+              {
+                "section": "Section 2 : Du domicile",
+                "articles": [
+                  {
+                    "article": "Article 13",
+                    "explication": "Le domicile est le lieu où une personne a son principal établissement. Il détermine la compétence des tribunaux et l'application de certaines lois."
+                  },
+                  {
+                    "article": "Article 14",
+                    "explication": "Le domicile légal des mineurs est celui de leurs parents ou tuteurs légaux."
+                  }
+                ]
+              },
+              {
+                "section": "Section 3 : De la nationalité",
+                "articles": [
+                  {
+                    "article": "Article 15",
+                    "explication": "La nationalité camerounaise peut être acquise par naissance sur le territoire (droit du sol), filiation (droit du sang), ou naturalisation."
+                  },
+                  {
+                    "article": "Article 16",
+                    "explication": "La nationalité peut être perdue par renonciation volontaire ou décision judiciaire (ex. : fraude)."
+                  },
+                  {
+                    "article": "Article 17",
+                    "explication": "Un enfant né au Cameroun de parents étrangers peut acquérir la nationalité camerounaise s'il y réside continuellement jusqu'à sa majorité."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 4 : De la disparition et de la mort",
+            "sections": [
+              {
+                "section": "Section 1 : Disparition",
+                "articles": [
+                  {
+                    "article": "Article 18",
+                    "explication": "Si une personne disparaît pendant une longue période, elle peut être déclarée absente par un tribunal. Ses biens sont alors gérés par un administrateur provisoire."
+                  },
+                  {
+                    "article": "Article 19",
+                    "explication": "L'absence prolongée peut entraîner la présomption de décès après une période légale de recherche infructueuse."
+                  }
+                ]
+              },
+              {
+                "section": "Section 2 : Mort",
+                "articles": [
+                  {
+                    "article": "Article 20",
+                    "explication": "La mort est prouvée par un certificat médical ou une enquête judiciaire. En cas de décès simultané (ex. : accident), la présomption de survivance s'applique."
+                  },
+                  {
+                    "article": "Article 21",
+                    "explication": "En cas de décès, les biens du défunt sont transmis selon les règles de succession légale ou testamentaire."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre II : Des personnes morales",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Dispositions générales",
+            "articles": [
+              {
+                "article": "Article 22",
+                "explication": "Les personnes morales sont des entités distinctes des personnes physiques (ex. : associations, sociétés). Elles doivent être créées selon des procédures légales (enregistrement, reconnaissance)."
+              },
+              {
+                "article": "Article 23",
+                "explication": "Les personnes morales ont une capacité juridique limitée à leur objet social (ex. : une association caritative ne peut pas vendre des armes)."
+              },
+              {
+                "article": "Article 24",
+                "explication": "Les personnes morales peuvent être dissoutes volontairement ou par décision judiciaire en cas de violation des lois."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Des associations",
+            "articles": [
+              {
+                "article": "Article 25",
+                "explication": "Les associations doivent être enregistrées auprès des autorités compétentes. Elles doivent avoir un objet licite et moral."
+              },
+              {
+                "article": "Article 26",
+                "explication": "Une association peut être dissoute par décision de ses membres ou par décision judiciaire (ex. : activités illégales)."
+              },
+              {
+                "article": "Article 27",
+                "explication": "Les associations reconnues d'utilité publique bénéficient de privilèges fiscaux et administratifs."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Des sociétés",
+            "articles": [
+              {
+                "article": "Article 28",
+                "explication": "Les sociétés peuvent être civiles (non commerciales) ou commerciales. Exemples : SARL, SA, coopératives."
+              },
+              {
+                "article": "Article 29",
+                "explication": "Les sociétés doivent être constituées selon des règles spécifiques (statuts, capital minimum)."
+              },
+              {
+                "article": "Article 30",
+                "explication": "Les associés d'une société sont responsables des dettes sociales selon les modalités définies dans les statuts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre III : De la famille",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Du mariage",
+            "sections": [
+              {
+                "section": "Section 1 : Conditions du mariage",
+                "articles": [
+                  {
+                    "article": "Article 31",
+                    "explication": "L'âge minimum pour se marier est de 18 ans pour tous, filles et garçons (réforme 2016). Exception : dispense possible pour raisons graves."
+                  },
+                  {
+                    "article": "Article 32",
+                    "explication": "Le mariage nécessite le consentement libre et éclairé des deux époux. Tout mariage forcé est nul."
+                  }
+                ]
+              },
+              {
+                "section": "Section 2 : Forme du mariage",
+                "articles": [
+                  {
+                    "article": "Article 33",
+                    "explication": "Tout mariage doit être célébré devant un officier d'état civil. Reconnaissance conditionnelle des mariages coutumiers et religieux."
+                  },
+                  {
+                    "article": "Article 34",
+                    "explication": "Les mariages polygames ne sont reconnus que s'ils respectent les conditions légales applicables."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Du divorce",
+            "articles": [
+              {
+                "article": "Article 35",
+                "explication": "Causes : divorce par consentement mutuel, pour faute (adultère, violence), ou pour altération définitive du lien conjugal."
+              },
+              {
+                "article": "Article 36",
+                "explication": "Le divorce est prononcé par un tribunal. Liquidation des biens communs."
+              },
+              {
+                "article": "Article 37",
+                "explication": "En cas de divorce, le conjoint victime de violence conjugale peut bénéficier d'une pension alimentaire majorée (Loi n°2011/024)."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : De la filiation",
+            "articles": [
+              {
+                "article": "Article 38",
+                "explication": "Enfants nés dans le mariage. Présomption de paternité."
+              },
+              {
+                "article": "Article 39",
+                "explication": "Reconnaissance volontaire ou judiciaire."
+              },
+              {
+                "article": "Article 40",
+                "explication": "Les enfants adoptés jouissent des mêmes droits que les enfants biologiques, y compris en matière de succession."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 4 : De l’autorité parentale",
+            "articles": [
+              {
+                "article": "Article 41",
+                "explication": "Obligation d’entretien, d’éducation, et de protection des enfants."
+              },
+              {
+                "article": "Article 42",
+                "explication": "Mesures de protection pour les enfants privés de parents."
+              },
+              {
+                "article": "Article 43",
+                "explication": "Les parents doivent garantir une éducation non discriminatoire et respectueuse des droits de l'enfant (Convention des droits de l'enfant, intégrée dans le droit camerounais)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
