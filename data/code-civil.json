@@ -1,12 +1,15 @@
 {
-    "livre": "Livre I : Des personnes",
-    "structure": [
+  "code_civil" : {
+    "livres":[
+      {
+      "livre": "Livre I : Des personnes",
+      "structure": [
       {
         "titre": "Titre I : Des personnes physiques",
         "chapitres": [
           {
             "chapitre": "Chapitre 1 : De l’existence civile",
-            "articles": [
+            "articles" : [
               {
                 "article": "Article 1",
                 "explication": "Toute personne humaine jouit de la personnalité juridique dès sa naissance vivante. La personnalité juridique confère des droits civils, notamment le droit à un nom, à une nationalité, et à une protection légale."
@@ -956,38 +959,1639 @@
             "explication": "Les successions ab intestat respectent les droits réservataires des héritiers directs."
           }
         ]
+      },
+      {
+      "titre": "Titre XIII : Dispositions transitoires",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Adaptations légales",
+          "articles": [
+            {
+              "article": "Article 156",
+              "explication": "Les dispositions du Code civil s'appliquent immédiatement aux affaires nouvelles."
+            },
+            {
+              "article": "Article 157",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            },
+            {
+              "article": "Article 158",
+              "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            },
+            {
+              "article": "Article 159",
+              "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+            },
+            {
+              "article": "Article 160",
+              "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Entrée en vigueur",
+          "articles": [
+            {
+              "article": "Article 161",
+              "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+            },
+            {
+              "article": "Article 162",
+              "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+            },
+            {
+              "article": "Article 163",
+              "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            },
+            {
+              "article": "Article 164",
+              "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+            },
+            {
+              "article": "Article 165",
+              "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XIV : Dispositions complémentaires",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : De la responsabilité civile",
+          "articles": [
+            {
+              "article": "Article 166",
+              "explication": "Toute personne qui cause un dommage à autrui est tenue de le réparer, sauf s'il prouve qu'il n'y a pas eu faute."
+            },
+            {
+              "article": "Article 167",
+              "explication": "La réparation du dommage peut inclure des indemnités pour préjudice matériel ou moral."
+            },
+            {
+              "article": "Article 168",
+              "explication": "Les parents sont responsables des dommages causés par leurs enfants mineurs sous leur garde."
+            },
+            {
+              "article": "Article 169",
+              "explication": "Les professionnels (médecins, avocats, ingénieurs) sont responsables des dommages causés par leur négligence ou imprudence."
+            },
+            {
+              "article": "Article 170",
+              "explication": "Les employeurs sont responsables des dommages causés par leurs employés dans l'exercice de leurs fonctions."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Des obligations alimentaires",
+          "articles": [
+            {
+              "article": "Article 171",
+              "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
+            },
+            {
+              "article": "Article 172",
+              "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
+            },
+            {
+              "article": "Article 173",
+              "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
+            },
+            {
+              "article": "Article 174",
+              "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
+            },
+            {
+              "article": "Article 175",
+              "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
+            }
+          ]
+        },
+
+
+
+        {
+          "chapitre": "Chapitre 3 : Des droits extrapatrimoniaux",
+          "articles": [
+            {
+              "article": "Article 176",
+              "explication": "Le droit à l'image est protégé par la loi, et toute utilisation non autorisée peut donner lieu à des poursuites."
+            },
+            {
+              "article": "Article 177",
+              "explication": "Le respect de la vie privée est un droit fondamental, et toute intrusion illégale est sanctionnée."
+            },
+            {
+              "article": "Article 178",
+              "explication": "La diffamation ou l'injure publique peut entraîner des sanctions civiles ou pénales."
+            },
+            {
+              "article": "Article 179",
+              "explication": "Les atteintes aux droits extrapatrimoniaux peuvent être réparées par une indemnité compensatoire."
+            },
+            {
+              "article": "Article 180",
+              "explication": "Les médias doivent respecter les droits des personnes lors de la diffusion d'informations."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 4 : Des droits numériques",
+          "articles": [
+            {
+              "article": "Article 181",
+              "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+            },
+            {
+              "article": "Article 182",
+              "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+            },
+            {
+              "article": "Article 183",
+              "explication": "Les utilisateurs ont le droit de demander la suppression de leurs données personnelles."
+            },
+            {
+              "article": "Article 184",
+              "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
+            },
+            {
+              "article": "Article 185",
+              "explication": "Les cyberattaques ou fraudes électroniques sont sévèrement punies par la loi."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 5 : Des personnes âgées",
+          "articles": [
+            {
+              "article": "Article 186",
+              "explication": "Les personnes âgées ont droit à une protection spéciale contre toute forme de négligence ou d'abus."
+            },
+            {
+              "article": "Article 187",
+              "explication": "L'État doit garantir l'accès des personnes âgées aux soins de santé et aux pensions sociales."
+            },
+            {
+              "article": "Article 188",
+              "explication": "Les familles sont responsables de l'entretien et de la protection des personnes âgées dépendantes."
+            },
+            {
+              "article": "Article 189",
+              "explication": "Les institutions spécialisées pour personnes âgées doivent respecter des normes strictes de qualité et de sécurité."
+            },
+            {
+              "article": "Article 190",
+              "explication": "Les personnes âgées peuvent bénéficier d'une assistance juridique gratuite en cas de besoin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XV : Dispositions spéciales",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Des droits des femmes",
+          "articles": [
+            {
+              "article": "Article 191",
+              "explication": "Les femmes jouissent des mêmes droits que les hommes dans tous les domaines, y compris en matière de mariage et de succession."
+            },
+            {
+              "article": "Article 192",
+              "explication": "Les violences faites aux femmes sont sanctionnées par des peines pénales et des mesures de protection."
+            },
+            {
+              "article": "Article 193",
+              "explication": "Les femmes victimes de violence conjugale peuvent bénéficier d'une ordonnance de protection."
+            },
+            {
+              "article": "Article 194",
+              "explication": "Les femmes ont le droit de participer à la gestion des biens familiaux sur un pied d'égalité."
+            },
+            {
+              "article": "Article 195",
+              "explication": "Les discriminations basées sur le genre sont interdites dans tous les domaines de la vie sociale."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Des droits des enfants",
+          "articles": [
+            {
+              "article": "Article 196",
+              "explication": "Les enfants ont droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
+            },
+            {
+              "article": "Article 197",
+              "explication": "Les enfants victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+            },
+            {
+              "article": "Article 198",
+              "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+            },
+            {
+              "article": "Article 199",
+              "explication": "Les enfants placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
+            },
+            {
+              "article": "Article 200",
+              "explication": "Les enfants adoptés jouissent des mêmes droits que les enfants biologiques, y compris en matière de succession."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XVI : Dispositions générales",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Principes généraux",
+          "articles": [
+            {
+              "article": "Article 201",
+              "explication": "Les dispositions du Code civil s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+            },
+            {
+              "article": "Article 202",
+              "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+            },
+            {
+              "article": "Article 203",
+              "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+            },
+            {
+              "article": "Article 204",
+              "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+            },
+            {
+              "article": "Article 205",
+              "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Entrée en vigueur",
+          "articles": [
+            {
+              "article": "Article 206",
+              "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+            },
+            {
+              "article": "Article 207",
+              "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+            },
+            {
+              "article": "Article 208",
+              "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            },
+            {
+              "article": "Article 209",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            },
+            {
+              "article": "Article 210",
+              "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XVII : Dispositions diverses",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Des successions",
+          "articles": [
+            {
+              "article": "Article 211",
+              "explication": "En l'absence de testament, les biens du défunt sont répartis selon les règles de la succession légale."
+            },
+            {
+              "article": "Article 212",
+              "explication": "Les héritiers réservataires (conjoint, enfants) ont droit à une part minimale des biens du défunt."
+            },
+            {
+              "article": "Article 213",
+              "explication": "Les collatéraux (frères, sœurs, cousins) ne peuvent hériter qu'en l'absence d'héritiers directs."
+            },
+            {
+              "article": "Article 214",
+              "explication": "Les legs excessifs peuvent être réduits pour protéger les droits des héritiers réservataires."
+            },
+            {
+              "article": "Article 215",
+              "explication": "Les successions avec testament respectent les clauses fixées par le défunt, sous réserve des droits réservataires."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Des donations",
+          "articles": [
+            {
+              "article": "Article 216",
+              "explication": "Les donations entre vifs doivent être constatées par acte authentique pour être valides."
+            },
+            {
+              "article": "Article 217",
+              "explication": "Les donations peuvent être révoquées en cas d'ingratitude du donataire."
+            },
+            {
+              "article": "Article 218",
+              "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
+            },
+            {
+              "article": "Article 219",
+              "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
+            },
+            {
+              "article": "Article 220",
+              "explication": "Les donations peuvent inclure des biens meubles ou immeubles, mais doivent respecter les droits des tiers."
+            }
+          ]
+        },
+
+
+
+        {
+          "chapitre": "Chapitre 3 : Des servitudes",
+          "articles": [
+            {
+              "article": "Article 221",
+              "explication": "Les servitudes légales concernent les droits d'accès, de passage, et d'eau."
+            },
+            {
+              "article": "Article 222",
+              "explication": "Les servitudes volontaires sont établies par contrat entre propriétaires."
+            },
+            {
+              "article": "Article 223",
+              "explication": "Les servitudes cessent en cas de renonciation ou de disparition de leur objet."
+            },
+            {
+              "article": "Article 224",
+              "explication": "Les servitudes peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+            },
+            {
+              "article": "Article 225",
+              "explication": "Les servitudes imposées par la loi ne peuvent être contestées que dans des cas exceptionnels."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 4 : Des biens immatériels",
+          "articles": [
+            {
+              "article": "Article 226",
+              "explication": "Les biens immatériels incluent les droits d'auteur, les brevets, et les marques."
+            },
+            {
+              "article": "Article 227",
+              "explication": "Les créateurs de biens immatériels bénéficient d'une protection légale contre toute contrefaçon."
+            },
+            {
+              "article": "Article 228",
+              "explication": "Les droits sur les biens immatériels peuvent être transmis par succession ou vente."
+            },
+            {
+              "article": "Article 229",
+              "explication": "Les contrats relatifs aux biens immatériels doivent être constatés par écrit pour être opposables."
+            },
+            {
+              "article": "Article 230",
+              "explication": "Les litiges relatifs aux biens immatériels sont tranchés par les tribunaux compétents selon les règles spécifiques."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 5 : Des obligations alimentaires",
+          "articles": [
+            {
+              "article": "Article 231",
+              "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
+            },
+            {
+              "article": "Article 232",
+              "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
+            },
+            {
+              "article": "Article 233",
+              "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
+            },
+            {
+              "article": "Article 234",
+              "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
+            },
+            {
+              "article": "Article 235",
+              "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XVIII : Dispositions finales complémentaires",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Adaptations locales",
+          "articles": [
+            {
+              "article": "Article 236",
+              "explication": "Les dispositions du Code civil sont adaptées aux réalités culturelles et sociales du Cameroun."
+            },
+            {
+              "article": "Article 237",
+              "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+            },
+            {
+              "article": "Article 238",
+              "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+            },
+            {
+              "article": "Article 239",
+              "explication": "Les autorités locales peuvent proposer des adaptations spécifiques pour répondre aux besoins des communautés."
+            },
+            {
+              "article": "Article 240",
+              "explication": "Les modifications des coutumes locales nécessitent l'accord des communautés concernées."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Entrée en vigueur",
+          "articles": [
+            {
+              "article": "Article 241",
+              "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+            },
+            {
+              "article": "Article 242",
+              "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+            },
+            {
+              "article": "Article 243",
+              "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            },
+            {
+              "article": "Article 244",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            },
+            {
+              "article": "Article 245",
+              "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XIX : Dispositions nouvelles",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Protection des données personnelles",
+          "articles": [
+            {
+              "article": "Article 246",
+              "explication": "Les données personnelles collectées doivent être protégées contre toute utilisation abusive."
+            },
+            {
+              "article": "Article 247",
+              "explication": "Les utilisateurs ont le droit de demander la suppression ou la correction de leurs données personnelles."
+            },
+            {
+              "article": "Article 248",
+              "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
+            },
+            {
+              "article": "Article 249",
+              "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
+            },
+            {
+              "article": "Article 250",
+              "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Droits des mineurs",
+          "articles": [
+            {
+              "article": "Article 251",
+              "explication": "Les mineurs bénéficient d'une protection spéciale contre toute forme d'exploitation ou de violence."
+            },
+            {
+              "article": "Article 252",
+              "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
+            },
+            {
+              "article": "Article 253",
+              "explication": "Les mineurs victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
+            },
+            {
+              "article": "Article 254",
+              "explication": "Les mineurs placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
+            },
+            {
+              "article": "Article 255",
+              "explication": "Les mineurs ont le droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XX : Articles divers",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Règles générales",
+          "articles": [
+            {
+              "article": "Article 256",
+              "explication": "Toute personne humaine jouit de la personnalité juridique dès sa naissance vivante."
+            },
+            {
+              "article": "Article 257",
+              "explication": "La capacité est définie comme la faculté de jouir et d'exercer des droits."
+            },
+            {
+              "article": "Article 258",
+              "explication": "Les mineurs et les majeurs protégés sont soumis à des incapacités spéciales."
+            },
+            {
+              "article": "Article 259",
+              "explication": "Les personnes handicapées jouissent des mêmes droits que toute autre personne."
+            },
+            {
+              "article": "Article 260",
+              "explication": "La disparition prolongée d'une personne peut être déclarée par un tribunal après une enquête approfondie."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Articles additionnels",
+          "articles": [
+            {
+              "article": "Article 261",
+              "explication": "Les personnes morales sont des entités distinctes des personnes physiques."
+            },
+            {
+              "article": "Article 262",
+              "explication": "Les associations doivent être enregistrées auprès des autorités compétentes."
+            },
+            {
+              "article": "Article 263",
+              "explication": "Les sociétés peuvent être civiles (non commerciales) ou commerciales."
+            },
+            {
+              "article": "Article 264",
+              "explication": "Les mariages doivent être célébrés devant un officier d'état civil."
+            },
+            {
+              "article": "Article 265",
+              "explication": "Le divorce est prononcé par un tribunal. Liquidation des biens communs."
+            }
+          ]
+        },
+
+
+        {
+          "chapitre": "Chapitre 3 : Droits des personnes âgées",
+          "articles": [
+            {
+              "article": "Article 266",
+              "explication": "Les personnes âgées ont droit à une protection spéciale contre toute forme de négligence ou d'abus."
+            },
+            {
+              "article": "Article 267",
+              "explication": "L'État doit garantir l'accès des personnes âgées aux soins de santé et aux pensions sociales."
+            },
+            {
+              "article": "Article 268",
+              "explication": "Les familles sont responsables de l'entretien et de la protection des personnes âgées dépendantes."
+            },
+            {
+              "article": "Article 269",
+              "explication": "Les institutions spécialisées pour personnes âgées doivent respecter des normes strictes de qualité et de sécurité."
+            },
+            {
+              "article": "Article 270",
+              "explication": "Les personnes âgées peuvent bénéficier d'une assistance juridique gratuite en cas de besoin."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 4 : Responsabilité civile",
+          "articles": [
+            {
+              "article": "Article 271",
+              "explication": "Toute personne qui cause un dommage à autrui est tenue de le réparer, sauf s'il prouve qu'il n'y a pas eu faute."
+            },
+            {
+              "article": "Article 272",
+              "explication": "La réparation du dommage peut inclure des indemnités pour préjudice matériel ou moral."
+            },
+            {
+              "article": "Article 273",
+              "explication": "Les parents sont responsables des dommages causés par leurs enfants mineurs sous leur garde."
+            },
+            {
+              "article": "Article 274",
+              "explication": "Les professionnels (médecins, avocats, ingénieurs) sont responsables des dommages causés par leur négligence ou imprudence."
+            },
+            {
+              "article": "Article 275",
+              "explication": "Les employeurs sont responsables des dommages causés par leurs employés dans l'exercice de leurs fonctions."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 5 : Dispositions transitoires",
+          "articles": [
+            {
+              "article": "Article 276",
+              "explication": "Les dispositions du Code civil s'appliquent immédiatement aux affaires nouvelles."
+            },
+            {
+              "article": "Article 277",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            },
+            {
+              "article": "Article 278",
+              "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            },
+            {
+              "article": "Article 279",
+              "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+            },
+            {
+              "article": "Article 280",
+              "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XXI : Dispositions finales complémentaires",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Principes généraux",
+          "articles": [
+            {
+              "article": "Article 281",
+              "explication": "Les dispositions du Code civil s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+            },
+            {
+              "article": "Article 282",
+              "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+            },
+            {
+              "article": "Article 283",
+              "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
+            },
+            {
+              "article": "Article 284",
+              "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            },
+            {
+              "article": "Article 285",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Entrée en vigueur",
+          "articles": [
+            {
+              "article": "Article 286",
+              "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+            },
+            {
+              "article": "Article 287",
+              "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+            },
+            {
+              "article": "Article 288",
+              "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            },
+            {
+              "article": "Article 289",
+              "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+            },
+            {
+              "article": "Article 290",
+              "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Titre XXII : Articles additionnels",
+      "chapitres": [
+        {
+          "chapitre": "Chapitre 1 : Règles spécifiques",
+          "articles": [
+            {
+              "article": "Article 291",
+              "explication": "Les successions ab intestat respectent les droits réservataires des héritiers directs."
+            },
+            {
+              "article": "Article 292",
+              "explication": "Les legs excessifs peuvent être réduits pour protéger les droits des héritiers réservataires."
+            },
+            {
+              "article": "Article 293",
+              "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
+            },
+            {
+              "article": "Article 294",
+              "explication": "Les servitudes légales ou volontaires peuvent limiter l'usage exclusif d'un bien."
+            },
+            {
+              "article": "Article 295",
+              "explication": "Les biens immobiliers doivent être enregistrés auprès des autorités compétentes pour être légalement reconnus."
+            }
+          ]
+        },
+        {
+          "chapitre": "Chapitre 2 : Clauses finales",
+          "articles": [
+            {
+              "article": "Article 296",
+              "explication": "Les dispositions du Code civil sont adaptées aux réalités culturelles et sociales du Cameroun."
+            },
+            {
+              "article": "Article 297",
+              "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+            },
+            {
+              "article": "Article 298",
+              "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+            },
+            {
+              "article": "Article 299",
+              "explication": "Les autorités locales peuvent proposer des adaptations spécifiques pour répondre aux besoins des communautés."
+            },
+            {
+              "article": "Article 300",
+              "explication": "Les modifications des coutumes locales nécessitent l'accord des communautés concernées."
+            }
+          ]
+        }
+      ]
       }
     ]
   },
 
+  {
+    "livre": "Livre II : Des biens et des différentes modifications de la propriété",
+    "structure": [
+      {
+        "titre": "Titre I : Des biens en général",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Classification des biens",
+            "articles": [
+              {
+                "article": "Article 301",
+                "explication": "Les biens sont classés en deux catégories principales : les biens meubles et les biens immeubles."
+              },
+              {
+                "article": "Article 302",
+                "explication": "Les biens immeubles incluent les terrains, les bâtiments, et tout ce qui est attaché de manière permanente au sol."
+              },
+              {
+                "article": "Article 303",
+                "explication": "Les biens meubles comprennent les objets susceptibles de déplacement, y compris les animaux et les titres de propriété."
+              },
+              {
+                "article": "Article 304",
+                "explication": "Les biens incorporels, tels que les droits d'auteur ou les brevets, sont également considérés comme des biens meubles."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Propriété des biens",
+            "articles": [
+              {
+                "article": "Article 305",
+                "explication": "La propriété confère à son détenteur le droit d'user, de jouir, et de disposer librement des biens, sous réserve des lois et règlements."
+              },
+              {
+                "article": "Article 306",
+                "explication": "Les biens immobiliers doivent être enregistrés auprès des autorités compétentes pour garantir leur propriété légale."
+              },
+              {
+                "article": "Article 307",
+                "explication": "La propriété peut être indivise entre plusieurs personnes, dans le cadre d'une copropriété ou d'une succession."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre II : Des servitudes",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Servitudes légales",
+            "articles": [
+              {
+                "article": "Article 308",
+                "explication": "Les servitudes légales concernent les droits d'accès, de passage, et d'eau."
+              },
+              {
+                "article": "Article 309",
+                "explication": "Les servitudes légales sont imposées par la loi pour garantir un usage raisonnable des biens."
+              },
+              {
+                "article": "Article 310",
+                "explication": "Les servitudes légales ne peuvent être supprimées sans autorisation judiciaire."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Servitudes volontaires",
+            "articles": [
+              {
+                "article": "Article 311",
+                "explication": "Les servitudes volontaires sont établies par contrat entre propriétaires."
+              },
+              {
+                "article": "Article 312",
+                "explication": "Les servitudes volontaires doivent être constatées par écrit pour être opposables."
+              },
+              {
+                "article": "Article 313",
+                "explication": "Les servitudes cessent en cas de renonciation ou de disparition de leur objet."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre III : Des modifications de la propriété",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : De l'usufruit",
+            "articles": [
+              {
+                "article": "Article 314",
+                "explication": "L'usufruit confère à son titulaire le droit d'user et de jouir des biens d'autrui, sans en altérer la substance."
+              },
+              {
+                "article": "Article 315",
+                "explication": "L'usufruit peut être établi par acte notarié, testament, ou décision judiciaire."
+              },
+              {
+                "article": "Article 316",
+                "explication": "L'usufruit prend fin à l'expiration du terme fixé ou au décès de l'usufruitier."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : De l'usage et de l'habitation",
+            "articles": [
+              {
+                "article": "Article 317",
+                "explication": "Le droit d'usage permet à son titulaire d'utiliser un bien d'autrui selon ses besoins personnels."
+              },
+              {
+                "article": "Article 318",
+                "explication": "Le droit d'habitation permet à son titulaire d'occuper un logement appartenant à autrui."
+              },
+              {
+                "article": "Article 319",
+                "explication": "Les droits d'usage et d'habitation sont limités aux besoins du bénéficiaire et de sa famille."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 3 : Du nantissement",
+            "articles": [
+              {
+                "article": "Article 320",
+                "explication": "Le nantissement est un droit réel sur un bien mobilier ou immobilier destiné à garantir une obligation."
+              },
+              {
+                "article": "Article 321",
+                "explication": "Le créancier nanti a un droit de préférence sur le bien grevé en cas de non-paiement de la dette."
+              },
+              {
+                "article": "Article 322",
+                "explication": "Le nantissement doit être constaté par acte authentique pour être valide."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre IV : Des biens publics",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Définition et classification",
+            "articles": [
+              {
+                "article": "Article 323",
+                "explication": "Les biens publics appartiennent à l'État ou aux collectivités territoriales et sont affectés à l'usage public."
+              },
+              {
+                "article": "Article 324",
+                "explication": "Les biens publics sont inaliénables et insaisissables, sauf exception prévue par la loi."
+              },
+              {
+                "article": "Article 325",
+                "explication": "Les biens publics incluent les routes, les écoles, les hôpitaux, et les infrastructures publiques."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Gestion des biens publics",
+            "articles": [
+              {
+                "article": "Article 326",
+                "explication": "La gestion des biens publics est assurée par l'État ou les collectivités territoriales."
+              },
+              {
+                "article": "Article 327",
+                "explication": "Les biens publics peuvent être concédés à des tiers pour des usages spécifiques, sous réserve de respect des conditions légales."
+              },
+              {
+                "article": "Article 328",
+                "explication": "Toute atteinte aux biens publics est sanctionnée par des peines pénales et des amendes."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre V : Dispositions diverses",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Adaptations locales",
+            "articles": [
+              {
+                "article": "Article 329",
+                "explication": "Les dispositions du Livre II sont adaptées aux réalités culturelles et sociales du Cameroun."
+              },
+              {
+                "article": "Article 330",
+                "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+              },
+              {
+                "article": "Article 331",
+                "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Entrée en vigueur",
+            "articles": [
+              {
+                "article": "Article 332",
+                "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+              },
+              {
+                "article": "Article 333",
+                "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+              },
+              {
+                "article": "Article 334",
+                "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+              }
+            ]
+          }
+        ]
+      },
 
+      {
+        "chapitre": "Chapitre 3 : Droits des tiers sur les biens",
+        "articles": [
+          {
+            "article": "Article 335",
+            "explication": "Les tiers peuvent acquérir des droits sur un bien par contrat, donation, ou succession."
+          },
+          {
+            "article": "Article 336",
+            "explication": "Les droits des tiers sur un bien doivent être constatés par écrit pour être opposables."
+          },
+          {
+            "article": "Article 337",
+            "explication": "Les tiers ne peuvent pas contester la propriété d'un bien s'ils n'ont pas de titre légal."
+          },
+          {
+            "article": "Article 338",
+            "explication": "Les conflits entre propriétaires et tiers sont tranchés par les tribunaux selon les règles de priorité."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 4 : Biens indivis",
+        "articles": [
+          {
+            "article": "Article 339",
+            "explication": "Les biens indivis appartiennent à plusieurs personnes qui en partagent la propriété."
+          },
+          {
+            "article": "Article 340",
+            "explication": "Les copropriétaires doivent gérer les biens indivis de manière concertée."
+          },
+          {
+            "article": "Article 341",
+            "explication": "La division des biens indivis peut être demandée par un copropriétaire après accord des autres parties."
+          },
+          {
+            "article": "Article 342",
+            "explication": "En cas de désaccord, la liquidation des biens indivis est tranchée par un tribunal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre VI : Des biens immobiliers",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Acquisition des biens immobiliers",
+        "articles": [
+          {
+            "article": "Article 343",
+            "explication": "Les biens immobiliers peuvent être acquis par achat, donation, succession, ou prescription."
+          },
+          {
+            "article": "Article 344",
+            "explication": "L'acquisition d'un bien immobilier doit être enregistrée auprès des autorités compétentes pour être valide."
+          },
+          {
+            "article": "Article 345",
+            "explication": "Les contrats relatifs aux biens immobiliers doivent être constatés par acte authentique."
+          },
+          {
+            "article": "Article 346",
+            "explication": "Les droits des tiers sur un bien immobilier sont subordonnés à leur inscription au registre foncier."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Gestion des biens immobiliers",
+        "articles": [
+          {
+            "article": "Article 347",
+            "explication": "Les propriétaires de biens immobiliers ont l'obligation d'en assurer la maintenance et la sécurité."
+          },
+          {
+            "article": "Article 348",
+            "explication": "Les constructions sur un bien immobilier doivent respecter les normes locales d'urbanisme."
+          },
+          {
+            "article": "Article 349",
+            "explication": "Les travaux non autorisés sur un bien immobilier peuvent entraîner des sanctions administratives ou pénales."
+          },
+          {
+            "article": "Article 350",
+            "explication": "Les conflits relatifs aux biens immobiliers sont tranchés par les tribunaux fonciers ou civils."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre VII : Des biens meubles",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Classification des biens meubles",
+        "articles": [
+          {
+            "article": "Article 351",
+            "explication": "Les biens meubles corporels incluent les objets physiques susceptibles de déplacement."
+          },
+          {
+            "article": "Article 352",
+            "explication": "Les biens meubles incorporels incluent les droits d'auteur, les brevets, et les marques."
+          },
+          {
+            "article": "Article 353",
+            "explication": "Les animaux sont considérés comme des biens meubles, mais bénéficient d'une protection spéciale."
+          },
+          {
+            "article": "Article 354",
+            "explication": "Les biens meubles doivent être identifiés clairement pour éviter les litiges de propriété."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Acquisition et gestion des biens meubles",
+        "articles": [
+          {
+            "article": "Article 355",
+            "explication": "Les biens meubles peuvent être acquis par achat, donation, ou succession."
+          },
+          {
+            "article": "Article 356",
+            "explication": "Les contrats relatifs aux biens meubles doivent être constatés par écrit pour des valeurs supérieures à un certain seuil."
+          },
+          {
+            "article": "Article 357",
+            "explication": "Les biens meubles perdus ou trouvés doivent être déclarés aux autorités compétentes."
+          },
+          {
+            "article": "Article 358",
+            "explication": "Les conflits relatifs aux biens meubles sont tranchés par les tribunaux civils."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre VIII : Des servitudes spéciales",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Servitudes de passage",
+        "articles": [
+          {
+            "article": "Article 359",
+            "explication": "Une servitude de passage permet à un propriétaire d'accéder à son bien via une propriété voisine."
+          },
+          {
+            "article": "Article 360",
+            "explication": "Les servitudes de passage sont établies par contrat ou décision judiciaire."
+          },
+          {
+            "article": "Article 361",
+            "explication": "Les servitudes de passage cessent en cas de renonciation ou de disparition de leur objet."
+          },
+          {
+            "article": "Article 362",
+            "explication": "Les servitudes de passage doivent respecter les droits des propriétaires concernés."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Servitudes d'eau",
+        "articles": [
+          {
+            "article": "Article 363",
+            "explication": "Les servitudes d'eau permettent l'utilisation d'une source ou d'un cours d'eau traversant une propriété."
+          },
+          {
+            "article": "Article 364",
+            "explication": "Les servitudes d'eau sont régies par les lois sur l'environnement et les ressources naturelles."
+          },
+          {
+            "article": "Article 365",
+            "explication": "Les abus dans l'utilisation des servitudes d'eau peuvent entraîner des sanctions administratives ou pénales."
+          },
+          {
+            "article": "Article 366",
+            "explication": "Les servitudes d'eau peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre IX : Modifications de la propriété (suite)",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Du droit de superficie",
+        "articles": [
+          {
+            "article": "Article 367",
+            "explication": "Le droit de superficie confère à son titulaire le droit de construire ou d'exploiter sur un terrain appartenant à autrui."
+          },
+          {
+            "article": "Article 368",
+            "explication": "Le droit de superficie est limité dans le temps et prend fin à l'expiration du terme fixé."
+          },
+          {
+            "article": "Article 369",
+            "explication": "Le propriétaire du terrain conserve ses droits sur le sol, tandis que le superficiaire détient les droits sur les constructions."
+          },
+          {
+            "article": "Article 370",
+            "explication": "Le droit de superficie peut être transmis par succession ou vendu avec l'accord du propriétaire du terrain."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Du droit d'emphytéose",
+        "articles": [
+          {
+            "article": "Article 371",
+            "explication": "Le droit d'emphytéose permet à un tiers d'exploiter un bien immobilier pendant une longue période en échange d'un loyer."
+          },
+          {
+            "article": "Article 372",
+            "explication": "Le droit d'emphytéose est généralement utilisé pour des projets agricoles ou immobiliers."
+          },
+          {
+            "article": "Article 373",
+            "explication": "Le propriétaire conserve ses droits sur le bien, tandis que l'emphytéote a le droit d'améliorer ou de transformer le bien."
+          },
+          {
+            "article": "Article 374",
+            "explication": "Le droit d'emphytéose prend fin à l'expiration du terme fixé ou en cas de non-respect des conditions contractuelles."
+          }
+        ]
+      },
 
+      {
+        "chapitre": "Chapitre 3 : Droits des tiers sur les biens immobiliers",
+        "articles": [
+          {
+            "article": "Article 375",
+            "explication": "Les tiers peuvent acquérir des droits sur un bien immobilier par contrat, donation, ou succession."
+          },
+          {
+            "article": "Article 376",
+            "explication": "Les droits des tiers sur un bien immobilier doivent être inscrits au registre foncier pour être opposables."
+          },
+          {
+            "article": "Article 377",
+            "explication": "Les tiers ne peuvent pas contester la propriété d'un bien immobilier s'ils n'ont pas de titre légal."
+          },
+          {
+            "article": "Article 378",
+            "explication": "Les conflits entre propriétaires et tiers sont tranchés par les tribunaux fonciers selon les règles de priorité."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 4 : Biens indivis immobiliers",
+        "articles": [
+          {
+            "article": "Article 379",
+            "explication": "Les biens indivis immobiliers appartiennent à plusieurs personnes qui en partagent la propriété."
+          },
+          {
+            "article": "Article 380",
+            "explication": "Les copropriétaires doivent gérer les biens indivis immobiliers de manière concertée."
+          },
+          {
+            "article": "Article 381",
+            "explication": "La division des biens indivis immobiliers peut être demandée par un copropriétaire après accord des autres parties."
+          },
+          {
+            "article": "Article 382",
+            "explication": "En cas de désaccord, la liquidation des biens indivis immobiliers est tranchée par un tribunal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XI : Des biens meubles incorporels",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Classification des biens meubles incorporels",
+        "articles": [
+          {
+            "article": "Article 383",
+            "explication": "Les biens meubles incorporels incluent les droits d'auteur, les brevets, les marques, et les créances."
+          },
+          {
+            "article": "Article 384",
+            "explication": "Les droits sur les biens meubles incorporels sont transmissibles par contrat ou succession."
+          },
+          {
+            "article": "Article 385",
+            "explication": "Les biens meubles incorporels doivent être protégés contre toute utilisation abusive ou contrefaçon."
+          },
+          {
+            "article": "Article 386",
+            "explication": "Les contrats relatifs aux biens meubles incorporels doivent être constatés par écrit pour être opposables."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Gestion des biens meubles incorporels",
+        "articles": [
+          {
+            "article": "Article 387",
+            "explication": "Les propriétaires de biens meubles incorporels ont l'obligation d'en assurer la protection légale."
+          },
+          {
+            "article": "Article 388",
+            "explication": "Les litiges relatifs aux biens meubles incorporels sont tranchés par les tribunaux compétents."
+          },
+          {
+            "article": "Article 389",
+            "explication": "Les biens meubles incorporels peuvent être évalués pour déterminer leur valeur économique."
+          },
+          {
+            "article": "Article 390",
+            "explication": "Les biens meubles incorporels perdus ou volés peuvent faire l'objet d'une réclamation judiciaire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XII : Des servitudes spéciales (suite)",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Servitudes de vue",
+        "articles": [
+          {
+            "article": "Article 391",
+            "explication": "Une servitude de vue permet à un propriétaire de limiter la hauteur des constructions voisines pour préserver sa vue."
+          },
+          {
+            "article": "Article 392",
+            "explication": "Les servitudes de vue sont établies par contrat ou décision judiciaire."
+          },
+          {
+            "article": "Article 393",
+            "explication": "Les servitudes de vue cessent en cas de renonciation ou de disparition de leur objet."
+          },
+          {
+            "article": "Article 394",
+            "explication": "Les servitudes de vue doivent respecter les droits des propriétaires concernés."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Servitudes de lumière",
+        "articles": [
+          {
+            "article": "Article 395",
+            "explication": "Les servitudes de lumière permettent à un propriétaire de garantir l'accès naturel à la lumière sur son bien."
+          },
+          {
+            "article": "Article 396",
+            "explication": "Les servitudes de lumière sont régies par les lois locales d'urbanisme."
+          },
+          {
+            "article": "Article 397",
+            "explication": "Les abus dans l'utilisation des servitudes de lumière peuvent entraîner des sanctions administratives ou pénales."
+          },
+          {
+            "article": "Article 398",
+            "explication": "Les servitudes de lumière peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XIII : Modifications de la propriété (suite)",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Du droit de jouissance",
+        "articles": [
+          {
+            "article": "Article 399",
+            "explication": "Le droit de jouissance confère à son titulaire le droit d'user et de jouir des biens d'autrui, sans en altérer la substance."
+          },
+          {
+            "article": "Article 400",
+            "explication": "Le droit de jouissance peut être établi par acte notarié, testament, ou décision judiciaire."
+          },
+          {
+            "article": "Article 401",
+            "explication": "Le droit de jouissance prend fin à l'expiration du terme fixé ou au décès du bénéficiaire."
+          },
+          {
+            "article": "Article 402",
+            "explication": "Le droit de jouissance peut être transmis par succession ou vendu avec l'accord du propriétaire du bien."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Du droit d'usage",
+        "articles": [
+          {
+            "article": "Article 403",
+            "explication": "Le droit d'usage permet à son titulaire d'utiliser un bien d'autrui selon ses besoins personnels."
+          },
+          {
+            "article": "Article 404",
+            "explication": "Le droit d'usage est limité aux besoins du bénéficiaire et de sa famille."
+          },
+          {
+            "article": "Article 405",
+            "explication": "Le droit d'usage prend fin à l'expiration du terme fixé ou au décès du bénéficiaire."
+          },
+          {
+            "article": "Article 406",
+            "explication": "Le droit d'usage peut être transmis par succession ou vendu avec l'accord du propriétaire du bien."
+          }
+        ]
+      }
+    ]
+  },
 
   {
-    "titre": "Titre XIII : Dispositions transitoires",
+    "titre": "Titre XV : Des conflits relatifs aux biens",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Conflits entre propriétaires",
+        "articles": [
+          {
+            "article": "Article 407",
+            "explication": "Les conflits entre propriétaires sont tranchés par les tribunaux compétents selon les règles de priorité."
+          },
+          {
+            "article": "Article 408",
+            "explication": "Les litiges relatifs aux limites de propriété doivent être résolus par une expertise foncière ou géodésique."
+          },
+          {
+            "article": "Article 409",
+            "explication": "Les propriétaires peuvent demander une médiation avant de saisir les tribunaux."
+          },
+          {
+            "article": "Article 410",
+            "explication": "Les décisions judiciaires relatives aux conflits de propriété sont exécutoires après inscription au registre foncier."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Conflits avec les tiers",
+        "articles": [
+          {
+            "article": "Article 411",
+            "explication": "Les tiers ne peuvent pas contester la propriété d'un bien s'ils n'ont pas de titre légal."
+          },
+          {
+            "article": "Article 412",
+            "explication": "Les conflits entre propriétaires et tiers sont tranchés par les tribunaux selon les règles de priorité."
+          },
+          {
+            "article": "Article 413",
+            "explication": "Les tiers ayant acquis un bien de bonne foi bénéficient d'une protection légale spécifique."
+          },
+          {
+            "article": "Article 414",
+            "explication": "Les contrats frauduleux ou non conformes à la loi peuvent être annulés par un tribunal."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVI : Des biens abandonnés ou vacants",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Biens abandonnés",
+        "articles": [
+          {
+            "article": "Article 415",
+            "explication": "Un bien est considéré comme abandonné lorsqu'il n'a plus de propriétaire identifiable."
+          },
+          {
+            "article": "Article 416",
+            "explication": "Les biens abandonnés appartiennent à l'État ou aux collectivités territoriales après une procédure administrative."
+          },
+          {
+            "article": "Article 417",
+            "explication": "Les biens abandonnés peuvent faire l'objet d'une réclamation par leurs anciens propriétaires dans un délai fixé par la loi."
+          },
+          {
+            "article": "Article 418",
+            "explication": "Les biens abandonnés sont gérés conformément aux lois sur les biens publics."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Biens vacants",
+        "articles": [
+          {
+            "article": "Article 419",
+            "explication": "Un bien vacant est un bien dont le propriétaire est inconnu ou disparu depuis une longue période."
+          },
+          {
+            "article": "Article 420",
+            "explication": "Les biens vacants sont administrés par l'État ou les collectivités territoriales jusqu'à identification du propriétaire."
+          },
+          {
+            "article": "Article 421",
+            "explication": "Les héritiers des biens vacants peuvent en revendiquer la propriété après une procédure judiciaire."
+          },
+          {
+            "article": "Article 422",
+            "explication": "Les biens vacants sont inscrits dans un registre spécial tenu par les autorités compétentes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVII : Des biens affectés à l'usage public",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Classification des biens publics",
+        "articles": [
+          {
+            "article": "Article 423",
+            "explication": "Les biens publics sont classés en deux catégories : les biens domaniaux et les biens affectés à un service public."
+          },
+          {
+            "article": "Article 424",
+            "explication": "Les biens domaniaux incluent les routes, les écoles, les hôpitaux, et les infrastructures publiques."
+          },
+          {
+            "article": "Article 425",
+            "explication": "Les biens affectés à un service public sont utilisés exclusivement pour les besoins de ce service."
+          },
+          {
+            "article": "Article 426",
+            "explication": "Les biens publics sont inaliénables et insaisissables, sauf exception prévue par la loi."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Gestion des biens publics",
+        "articles": [
+          {
+            "article": "Article 427",
+            "explication": "La gestion des biens publics est assurée par l'État ou les collectivités territoriales."
+          },
+          {
+            "article": "Article 428",
+            "explication": "Les biens publics peuvent être concédés à des tiers pour des usages spécifiques, sous réserve de respect des conditions légales."
+          },
+          {
+            "article": "Article 429",
+            "explication": "Toute atteinte aux biens publics est sanctionnée par des peines pénales et des amendes."
+          },
+          {
+            "article": "Article 430",
+            "explication": "Les biens publics doivent être entretenus régulièrement pour garantir leur utilisation optimale."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XVIII : Dispositions spéciales",
+    "chapitres": [
+      {
+        "chapitre": "Chapitre 1 : Protection des biens culturels",
+        "articles": [
+          {
+            "article": "Article 431",
+            "explication": "Les biens culturels, tels que les monuments historiques, sont protégés par la loi contre toute détérioration ou destruction."
+          },
+          {
+            "article": "Article 432",
+            "explication": "Les biens culturels peuvent être classés ou inscrits sur une liste spéciale pour leur préservation."
+          },
+          {
+            "article": "Article 433",
+            "explication": "Les propriétaires de biens culturels ont l'obligation d'en assurer la conservation et la restauration."
+          },
+          {
+            "article": "Article 434",
+            "explication": "Les exportations ou ventes de biens culturels nécessitent une autorisation spéciale des autorités compétentes."
+          }
+        ]
+      },
+      {
+        "chapitre": "Chapitre 2 : Biens environnementaux",
+        "articles": [
+          {
+            "article": "Article 435",
+            "explication": "Les biens environnementaux, tels que les forêts, les cours d'eau, et les zones humides, sont protégés par la loi."
+          },
+          {
+            "article": "Article 436",
+            "explication": "L'exploitation des biens environnementaux doit respecter les normes écologiques et les lois sur l'environnement."
+          },
+          {
+            "article": "Article 437",
+            "explication": "Les atteintes aux biens environnementaux sont sanctionnées par des peines pénales et des amendes."
+          },
+          {
+            "article": "Article 438",
+            "explication": "Les projets d'aménagement ou de construction doivent intégrer des mesures de protection des biens environnementaux."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Titre XIX : Dispositions transitoires",
     "chapitres": [
       {
         "chapitre": "Chapitre 1 : Adaptations légales",
         "articles": [
           {
-            "article": "Article 156",
-            "explication": "Les dispositions du Code civil s'appliquent immédiatement aux affaires nouvelles."
+            "article": "Article 439",
+            "explication": "Les dispositions du Livre II s'appliquent immédiatement aux affaires nouvelles."
           },
           {
-            "article": "Article 157",
+            "article": "Article 440",
             "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
           },
           {
-            "article": "Article 158",
-            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
+            "article": "Article 441",
+            "explication": "Les contrats conclus avant l'entrée en vigueur du Livre II restent régis par les lois antérieures."
           },
           {
-            "article": "Article 159",
+            "article": "Article 442",
             "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
-          },
-          {
-            "article": "Article 160",
-            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
           }
         ]
       },
@@ -995,510 +2599,20 @@
         "chapitre": "Chapitre 2 : Entrée en vigueur",
         "articles": [
           {
-            "article": "Article 161",
-            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
+            "article": "Article 443",
+            "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
           },
           {
-            "article": "Article 162",
-            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
+            "article": "Article 444",
+            "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
           },
           {
-            "article": "Article 163",
-            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
+            "article": "Article 445",
+            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
           },
           {
-            "article": "Article 164",
-            "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
-          },
-          {
-            "article": "Article 165",
-            "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XIV : Dispositions complémentaires",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : De la responsabilité civile",
-        "articles": [
-          {
-            "article": "Article 166",
-            "explication": "Toute personne qui cause un dommage à autrui est tenue de le réparer, sauf s'il prouve qu'il n'y a pas eu faute."
-          },
-          {
-            "article": "Article 167",
-            "explication": "La réparation du dommage peut inclure des indemnités pour préjudice matériel ou moral."
-          },
-          {
-            "article": "Article 168",
-            "explication": "Les parents sont responsables des dommages causés par leurs enfants mineurs sous leur garde."
-          },
-          {
-            "article": "Article 169",
-            "explication": "Les professionnels (médecins, avocats, ingénieurs) sont responsables des dommages causés par leur négligence ou imprudence."
-          },
-          {
-            "article": "Article 170",
-            "explication": "Les employeurs sont responsables des dommages causés par leurs employés dans l'exercice de leurs fonctions."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Des obligations alimentaires",
-        "articles": [
-          {
-            "article": "Article 171",
-            "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
-          },
-          {
-            "article": "Article 172",
-            "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
-          },
-          {
-            "article": "Article 173",
-            "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
-          },
-          {
-            "article": "Article 174",
-            "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
-          },
-          {
-            "article": "Article 175",
-            "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
-          }
-        ]
-      },
-
-
-
-      {
-        "chapitre": "Chapitre 3 : Des droits extrapatrimoniaux",
-        "articles": [
-          {
-            "article": "Article 176",
-            "explication": "Le droit à l'image est protégé par la loi, et toute utilisation non autorisée peut donner lieu à des poursuites."
-          },
-          {
-            "article": "Article 177",
-            "explication": "Le respect de la vie privée est un droit fondamental, et toute intrusion illégale est sanctionnée."
-          },
-          {
-            "article": "Article 178",
-            "explication": "La diffamation ou l'injure publique peut entraîner des sanctions civiles ou pénales."
-          },
-          {
-            "article": "Article 179",
-            "explication": "Les atteintes aux droits extrapatrimoniaux peuvent être réparées par une indemnité compensatoire."
-          },
-          {
-            "article": "Article 180",
-            "explication": "Les médias doivent respecter les droits des personnes lors de la diffusion d'informations."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 4 : Des droits numériques",
-        "articles": [
-          {
-            "article": "Article 181",
-            "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
-          },
-          {
-            "article": "Article 182",
-            "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
-          },
-          {
-            "article": "Article 183",
-            "explication": "Les utilisateurs ont le droit de demander la suppression de leurs données personnelles."
-          },
-          {
-            "article": "Article 184",
-            "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
-          },
-          {
-            "article": "Article 185",
-            "explication": "Les cyberattaques ou fraudes électroniques sont sévèrement punies par la loi."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 5 : Des personnes âgées",
-        "articles": [
-          {
-            "article": "Article 186",
-            "explication": "Les personnes âgées ont droit à une protection spéciale contre toute forme de négligence ou d'abus."
-          },
-          {
-            "article": "Article 187",
-            "explication": "L'État doit garantir l'accès des personnes âgées aux soins de santé et aux pensions sociales."
-          },
-          {
-            "article": "Article 188",
-            "explication": "Les familles sont responsables de l'entretien et de la protection des personnes âgées dépendantes."
-          },
-          {
-            "article": "Article 189",
-            "explication": "Les institutions spécialisées pour personnes âgées doivent respecter des normes strictes de qualité et de sécurité."
-          },
-          {
-            "article": "Article 190",
-            "explication": "Les personnes âgées peuvent bénéficier d'une assistance juridique gratuite en cas de besoin."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XV : Dispositions spéciales",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : Des droits des femmes",
-        "articles": [
-          {
-            "article": "Article 191",
-            "explication": "Les femmes jouissent des mêmes droits que les hommes dans tous les domaines, y compris en matière de mariage et de succession."
-          },
-          {
-            "article": "Article 192",
-            "explication": "Les violences faites aux femmes sont sanctionnées par des peines pénales et des mesures de protection."
-          },
-          {
-            "article": "Article 193",
-            "explication": "Les femmes victimes de violence conjugale peuvent bénéficier d'une ordonnance de protection."
-          },
-          {
-            "article": "Article 194",
-            "explication": "Les femmes ont le droit de participer à la gestion des biens familiaux sur un pied d'égalité."
-          },
-          {
-            "article": "Article 195",
-            "explication": "Les discriminations basées sur le genre sont interdites dans tous les domaines de la vie sociale."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Des droits des enfants",
-        "articles": [
-          {
-            "article": "Article 196",
-            "explication": "Les enfants ont droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
-          },
-          {
-            "article": "Article 197",
-            "explication": "Les enfants victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
-          },
-          {
-            "article": "Article 198",
-            "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
-          },
-          {
-            "article": "Article 199",
-            "explication": "Les enfants placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
-          },
-          {
-            "article": "Article 200",
-            "explication": "Les enfants adoptés jouissent des mêmes droits que les enfants biologiques, y compris en matière de succession."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XVI : Dispositions générales",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : Principes généraux",
-        "articles": [
-          {
-            "article": "Article 201",
-            "explication": "Les dispositions du Code civil s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
-          },
-          {
-            "article": "Article 202",
-            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
-          },
-          {
-            "article": "Article 203",
-            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
-          },
-          {
-            "article": "Article 204",
-            "explication": "Les modifications du Code civil nécessitent une loi spéciale adoptée par l'Assemblée nationale."
-          },
-          {
-            "article": "Article 205",
-            "explication": "Les règlements d'application du Code civil sont pris par décret après avis des autorités compétentes."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Entrée en vigueur",
-        "articles": [
-          {
-            "article": "Article 206",
-            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
-          },
-          {
-            "article": "Article 207",
-            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
-          },
-          {
-            "article": "Article 208",
-            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
-          },
-          {
-            "article": "Article 209",
+            "article": "Article 446",
             "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
-          },
-          {
-            "article": "Article 210",
-            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XVII : Dispositions diverses",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : Des successions",
-        "articles": [
-          {
-            "article": "Article 211",
-            "explication": "En l'absence de testament, les biens du défunt sont répartis selon les règles de la succession légale."
-          },
-          {
-            "article": "Article 212",
-            "explication": "Les héritiers réservataires (conjoint, enfants) ont droit à une part minimale des biens du défunt."
-          },
-          {
-            "article": "Article 213",
-            "explication": "Les collatéraux (frères, sœurs, cousins) ne peuvent hériter qu'en l'absence d'héritiers directs."
-          },
-          {
-            "article": "Article 214",
-            "explication": "Les legs excessifs peuvent être réduits pour protéger les droits des héritiers réservataires."
-          },
-          {
-            "article": "Article 215",
-            "explication": "Les successions avec testament respectent les clauses fixées par le défunt, sous réserve des droits réservataires."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Des donations",
-        "articles": [
-          {
-            "article": "Article 216",
-            "explication": "Les donations entre vifs doivent être constatées par acte authentique pour être valides."
-          },
-          {
-            "article": "Article 217",
-            "explication": "Les donations peuvent être révoquées en cas d'ingratitude du donataire."
-          },
-          {
-            "article": "Article 218",
-            "explication": "Les donations excessives peuvent être réduites pour protéger les droits des héritiers réservataires."
-          },
-          {
-            "article": "Article 219",
-            "explication": "Les donations avec charge doivent être exécutées selon les conditions fixées par le donateur."
-          },
-          {
-            "article": "Article 220",
-            "explication": "Les donations peuvent inclure des biens meubles ou immeubles, mais doivent respecter les droits des tiers."
-          }
-        ]
-      },
-
-
-
-      {
-        "chapitre": "Chapitre 3 : Des servitudes",
-        "articles": [
-          {
-            "article": "Article 221",
-            "explication": "Les servitudes légales concernent les droits d'accès, de passage, et d'eau."
-          },
-          {
-            "article": "Article 222",
-            "explication": "Les servitudes volontaires sont établies par contrat entre propriétaires."
-          },
-          {
-            "article": "Article 223",
-            "explication": "Les servitudes cessent en cas de renonciation ou de disparition de leur objet."
-          },
-          {
-            "article": "Article 224",
-            "explication": "Les servitudes peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
-          },
-          {
-            "article": "Article 225",
-            "explication": "Les servitudes imposées par la loi ne peuvent être contestées que dans des cas exceptionnels."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 4 : Des biens immatériels",
-        "articles": [
-          {
-            "article": "Article 226",
-            "explication": "Les biens immatériels incluent les droits d'auteur, les brevets, et les marques."
-          },
-          {
-            "article": "Article 227",
-            "explication": "Les créateurs de biens immatériels bénéficient d'une protection légale contre toute contrefaçon."
-          },
-          {
-            "article": "Article 228",
-            "explication": "Les droits sur les biens immatériels peuvent être transmis par succession ou vente."
-          },
-          {
-            "article": "Article 229",
-            "explication": "Les contrats relatifs aux biens immatériels doivent être constatés par écrit pour être opposables."
-          },
-          {
-            "article": "Article 230",
-            "explication": "Les litiges relatifs aux biens immatériels sont tranchés par les tribunaux compétents selon les règles spécifiques."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 5 : Des obligations alimentaires",
-        "articles": [
-          {
-            "article": "Article 231",
-            "explication": "Les époux ont l'obligation mutuelle de se soutenir financièrement pendant le mariage."
-          },
-          {
-            "article": "Article 232",
-            "explication": "En cas de divorce, l'époux économiquement désavantagé peut demander une pension alimentaire."
-          },
-          {
-            "article": "Article 233",
-            "explication": "Les parents ont l'obligation légale de subvenir aux besoins de leurs enfants jusqu'à leur majorité."
-          },
-          {
-            "article": "Article 234",
-            "explication": "Les enfants majeurs peuvent demander une contribution parentale s'ils poursuivent des études supérieures."
-          },
-          {
-            "article": "Article 235",
-            "explication": "Les petits-enfants peuvent être appelés à subvenir aux besoins de leurs grands-parents si leurs parents ne peuvent pas le faire."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XVIII : Dispositions finales complémentaires",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : Adaptations locales",
-        "articles": [
-          {
-            "article": "Article 236",
-            "explication": "Les dispositions du Code civil sont adaptées aux réalités culturelles et sociales du Cameroun."
-          },
-          {
-            "article": "Article 237",
-            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
-          },
-          {
-            "article": "Article 238",
-            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
-          },
-          {
-            "article": "Article 239",
-            "explication": "Les autorités locales peuvent proposer des adaptations spécifiques pour répondre aux besoins des communautés."
-          },
-          {
-            "article": "Article 240",
-            "explication": "Les modifications des coutumes locales nécessitent l'accord des communautés concernées."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Entrée en vigueur",
-        "articles": [
-          {
-            "article": "Article 241",
-            "explication": "Le présent Code civil entre en vigueur à la date de sa publication au Journal officiel."
-          },
-          {
-            "article": "Article 242",
-            "explication": "Les dispositions antérieures contraires au présent Code sont abrogées."
-          },
-          {
-            "article": "Article 243",
-            "explication": "Les textes subséquents au Code civil doivent être interprétés conformément à ses principes."
-          },
-          {
-            "article": "Article 244",
-            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
-          },
-          {
-            "article": "Article 245",
-            "explication": "Les contrats conclus avant l'entrée en vigueur du Code civil restent régis par les lois antérieures."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "titre": "Titre XIX : Dispositions nouvelles",
-    "chapitres": [
-      {
-        "chapitre": "Chapitre 1 : Protection des données personnelles",
-        "articles": [
-          {
-            "article": "Article 246",
-            "explication": "Les données personnelles collectées doivent être protégées contre toute utilisation abusive."
-          },
-          {
-            "article": "Article 247",
-            "explication": "Les utilisateurs ont le droit de demander la suppression ou la correction de leurs données personnelles."
-          },
-          {
-            "article": "Article 248",
-            "explication": "Les violations des données personnelles peuvent entraîner des sanctions pénales ou civiles."
-          },
-          {
-            "article": "Article 249",
-            "explication": "Les plateformes numériques doivent garantir la confidentialité des informations collectées auprès des utilisateurs."
-          },
-          {
-            "article": "Article 250",
-            "explication": "Les contrats numériques doivent être transparents et respecter les droits des consommateurs."
-          }
-        ]
-      },
-      {
-        "chapitre": "Chapitre 2 : Droits des mineurs",
-        "articles": [
-          {
-            "article": "Article 251",
-            "explication": "Les mineurs bénéficient d'une protection spéciale contre toute forme d'exploitation ou de violence."
-          },
-          {
-            "article": "Article 252",
-            "explication": "Les parents ou tuteurs légaux doivent veiller à la sécurité et au bien-être des mineurs."
-          },
-          {
-            "article": "Article 253",
-            "explication": "Les mineurs victimes de violences physiques ou psychologiques peuvent bénéficier d'une assistance judiciaire."
-          },
-          {
-            "article": "Article 254",
-            "explication": "Les mineurs placés sous tutelle bénéficient d'une protection spéciale contre toute forme d'abus."
-          },
-          {
-            "article": "Article 255",
-            "explication": "Les mineurs ont le droit à une éducation gratuite et obligatoire jusqu'à l'âge de 16 ans."
           }
         ]
       }
@@ -1511,56 +2625,1629 @@
         "chapitre": "Chapitre 1 : Règles générales",
         "articles": [
           {
-            "article": "Article 256",
-            "explication": "Toute personne humaine jouit de la personnalité juridique dès sa naissance vivante."
+            "article": "Article 447",
+            "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
           },
           {
-            "article": "Article 257",
-            "explication": "La capacité est définie comme la faculté de jouir et d'exercer des droits."
+            "article": "Article 448",
+            "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
           },
           {
-            "article": "Article 258",
-            "explication": "Les mineurs et les majeurs protégés sont soumis à des incapacités spéciales."
+            "article": "Article 449",
+            "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
           },
           {
-            "article": "Article 259",
-            "explication": "Les personnes handicapées jouissent des mêmes droits que toute autre personne."
-          },
-          {
-            "article": "Article 260",
-            "explication": "La disparition prolongée d'une personne peut être déclarée par un tribunal après une enquête approfondie."
+            "article": "Article 450",
+            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
           }
         ]
       },
       {
-        "chapitre": "Chapitre 2 : Articles additionnels",
-        "articles": [
+        "titre": "Titre XXI : Dispositions générales sur les biens",
+        "chapitres": [
           {
-            "article": "Article 261",
-            "explication": "Les personnes morales sont des entités distinctes des personnes physiques."
+            "chapitre": "Chapitre 1 : Classification supplémentaire des biens",
+            "articles": [
+              {
+                "article": "Article 451",
+                "explication": "Les biens peuvent être classés comme consommables ou non consommables selon leur usage."
+              },
+              {
+                "article": "Article 452",
+                "explication": "Les biens consommables sont ceux qui disparaissent par leur usage normal (nourriture, carburant)."
+              },
+              {
+                "article": "Article 453",
+                "explication": "Les biens non consommables sont ceux qui résistent à l'usage normal (immeubles, machines)."
+              },
+              {
+                "article": "Article 454",
+                "explication": "Les biens fungibles sont interchangeables avec d'autres biens de même nature (argent, céréales)."
+              }
+            ]
           },
           {
-            "article": "Article 262",
-            "explication": "Les associations doivent être enregistrées auprès des autorités compétentes."
+            "chapitre": "Chapitre 2 : Propriété collective",
+            "articles": [
+              {
+                "article": "Article 455",
+                "explication": "La propriété collective concerne les biens appartenant à une communauté ou association."
+              },
+              {
+                "article": "Article 456",
+                "explication": "Les membres de la communauté ou association doivent gérer les biens collectifs de manière concertée."
+              },
+              {
+                "article": "Article 457",
+                "explication": "La division des biens collectifs peut être demandée par un membre après accord des autres parties."
+              },
+              {
+                "article": "Article 458",
+                "explication": "En cas de désaccord, la liquidation des biens collectifs est tranchée par un tribunal."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXII : Des droits réels spéciaux",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Droit de préemption",
+            "articles": [
+              {
+                "article": "Article 459",
+                "explication": "Le droit de préemption confère à son titulaire la priorité d'achat d'un bien avant toute autre personne."
+              },
+              {
+                "article": "Article 460",
+                "explication": "Le droit de préemption est souvent utilisé dans les ventes immobilières ou foncières."
+              },
+              {
+                "article": "Article 461",
+                "explication": "Le droit de préemption doit être exercé dans un délai fixé par la loi ou le contrat."
+              },
+              {
+                "article": "Article 462",
+                "explication": "Le non-respect du droit de préemption peut entraîner des sanctions pénales ou civiles."
+              }
+            ]
           },
           {
-            "article": "Article 263",
-            "explication": "Les sociétés peuvent être civiles (non commerciales) ou commerciales."
+            "chapitre": "Chapitre 2 : Droit de retrait",
+            "articles": [
+              {
+                "article": "Article 463",
+                "explication": "Le droit de retrait permet à un propriétaire de récupérer un bien vendu dans certaines conditions."
+              },
+              {
+                "article": "Article 464",
+                "explication": "Le droit de retrait doit être exercé dans un délai fixé par la loi ou le contrat."
+              },
+              {
+                "article": "Article 465",
+                "explication": "Le droit de retrait ne peut être invoqué que si le vendeur a omis de respecter certaines obligations légales."
+              },
+              {
+                "article": "Article 466",
+                "explication": "Le non-respect du droit de retrait peut entraîner des sanctions pénales ou civiles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXIII : Des servitudes spéciales (suite)",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Servitudes de drainage",
+            "articles": [
+              {
+                "article": "Article 467",
+                "explication": "Une servitude de drainage permet à un propriétaire de drainer les eaux de son terrain via une propriété voisine."
+              },
+              {
+                "article": "Article 468",
+                "explication": "Les servitudes de drainage sont régies par les lois locales sur l'environnement et les ressources hydriques."
+              },
+              {
+                "article": "Article 469",
+                "explication": "Les abus dans l'utilisation des servitudes de drainage peuvent entraîner des sanctions administratives ou pénales."
+              },
+              {
+                "article": "Article 470",
+                "explication": "Les servitudes de drainage peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+              }
+            ]
           },
           {
-            "article": "Article 264",
-            "explication": "Les mariages doivent être célébrés devant un officier d'état civil."
+            "chapitre": "Chapitre 2 : Servitudes de clôture",
+            "articles": [
+              {
+                "article": "Article 471",
+                "explication": "Une servitude de clôture permet à un propriétaire de construire ou d'entretenir une clôture sur une propriété voisine."
+              },
+              {
+                "article": "Article 472",
+                "explication": "Les servitudes de clôture sont établies par contrat ou décision judiciaire."
+              },
+              {
+                "article": "Article 473",
+                "explication": "Les servitudes de clôture cessent en cas de renonciation ou de disparition de leur objet."
+              },
+              {
+                "article": "Article 474",
+                "explication": "Les servitudes de clôture doivent respecter les droits des propriétaires concernés."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXIV : Modifications de la propriété (suite)",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Du droit de superficie (compléments)",
+            "articles": [
+              {
+                "article": "Article 475",
+                "explication": "Le droit de superficie peut inclure des clauses spécifiques sur l'usage du sol ou des constructions."
+              },
+              {
+                "article": "Article 476",
+                "explication": "Le superficiaire est responsable de l'entretien des constructions pendant la durée du droit de superficie."
+              },
+              {
+                "article": "Article 477",
+                "explication": "Le propriétaire du terrain peut récupérer les constructions à l'expiration du droit de superficie."
+              },
+              {
+                "article": "Article 478",
+                "explication": "Le droit de superficie peut être prorogé par accord mutuel entre les parties."
+              }
+            ]
           },
           {
-            "article": "Article 265",
-            "explication": "Le divorce est prononcé par un tribunal. Liquidation des biens communs."
+            "chapitre": "Chapitre 2 : Du droit d'emphytéose (compléments)",
+            "articles": [
+              {
+                "article": "Article 479",
+                "explication": "Le droit d'emphytéose peut inclure des clauses spécifiques sur l'amélioration ou la transformation du bien."
+              },
+              {
+                "article": "Article 480",
+                "explication": "L'emphytéote doit payer un loyer annuel au propriétaire du bien pendant la durée du droit d'emphytéose."
+              },
+              {
+                "article": "Article 481",
+                "explication": "Le propriétaire peut récupérer le bien à l'expiration du droit d'emphytéose, y compris les améliorations apportées."
+              },
+              {
+                "article": "Article 482",
+                "explication": "Le droit d'emphytéose peut être prorogé par accord mutuel entre les parties."
+              }
+            ]
           }
         ]
       },
 
-
-  
+      {
+        "titre": "Titre XXVI : Des conflits transfrontaliers sur les biens",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Biens situés à cheval sur deux territoires",
+            "articles": [
+              {
+                "article": "Article 483",
+                "explication": "Les biens situés à cheval sur deux territoires sont régis par les lois du pays où se trouve la majorité du bien."
+              },
+              {
+                "article": "Article 484",
+                "explication": "En cas de litige, les autorités judiciaires des deux territoires concernés doivent coopérer pour résoudre le conflit."
+              },
+              {
+                "article": "Article 485",
+                "explication": "Les parties peuvent demander une médiation internationale pour régler les différends relatifs à ces biens."
+              },
+              {
+                "article": "Article 486",
+                "explication": "Les traités internationaux prévalent sur les lois nationales en cas de conflit transfrontalier."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Biens acquis à l'étranger",
+            "articles": [
+              {
+                "article": "Article 487",
+                "explication": "Les biens acquis à l'étranger sont soumis aux lois du pays où ils ont été acquis, sauf dispositions contraires."
+              },
+              {
+                "article": "Article 488",
+                "explication": "Les ressortissants camerounais peuvent revendiquer des biens acquis à l'étranger selon les règles locales."
+              },
+              {
+                "article": "Article 489",
+                "explication": "Les biens immobiliers acquis à l'étranger doivent être déclarés aux autorités camerounaises dans un délai fixé par la loi."
+              },
+              {
+                "article": "Article 490",
+                "explication": "Les litiges relatifs aux biens acquis à l'étranger sont tranchés par les tribunaux compétents des deux pays concernés."
+              }
+            ]
+          }
         ]
-      }
-    ]
+      },
+      {
+        "titre": "Titre XXVII : Des biens culturels et patrimoniaux",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Protection des biens culturels",
+            "articles": [
+              {
+                "article": "Article 491",
+                "explication": "Les biens culturels, tels que les monuments historiques, sont protégés par la loi contre toute détérioration ou destruction."
+              },
+              {
+                "article": "Article 492",
+                "explication": "Les biens culturels peuvent être classés ou inscrits sur une liste spéciale pour leur préservation."
+              },
+              {
+                "article": "Article 493",
+                "explication": "Les propriétaires de biens culturels ont l'obligation d'en assurer la conservation et la restauration."
+              },
+              {
+                "article": "Article 494",
+                "explication": "Les exportations ou ventes de biens culturels nécessitent une autorisation spéciale des autorités compétentes."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Patrimoine national",
+            "articles": [
+              {
+                "article": "Article 495",
+                "explication": "Le patrimoine national inclut les biens culturels, naturels, et historiques appartenant à l'État ou aux collectivités territoriales."
+              },
+              {
+                "article": "Article 496",
+                "explication": "La gestion du patrimoine national est assurée par des institutions spécialisées sous l'autorité de l'État."
+              },
+              {
+                "article": "Article 497",
+                "explication": "Toute atteinte au patrimoine national est sanctionnée par des peines pénales et des amendes."
+              },
+              {
+                "article": "Article 498",
+                "explication": "Les projets d'aménagement ou de construction doivent intégrer des mesures de protection du patrimoine national."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXVIII : Dispositions spéciales sur les biens environnementaux",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Protection des forêts",
+            "articles": [
+              {
+                "article": "Article 499",
+                "explication": "Les forêts sont protégées par la loi contre toute exploitation abusive ou destruction."
+              },
+              {
+                "article": "Article 500",
+                "explication": "Les activités forestières doivent respecter les normes écologiques et les lois sur l'environnement."
+              },
+              {
+                "article": "Article 501",
+                "explication": "Les atteintes aux forêts sont sanctionnées par des peines pénales et des amendes."
+              },
+              {
+                "article": "Article 502",
+                "explication": "Les projets d'aménagement forestier doivent intégrer des mesures de reforestation et de conservation."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Protection des cours d'eau",
+            "articles": [
+              {
+                "article": "Article 503",
+                "explication": "Les cours d'eau sont protégés par la loi contre toute pollution ou détérioration."
+              },
+              {
+                "article": "Article 504",
+                "explication": "Les activités industrielles ou agricoles proches des cours d'eau doivent respecter des normes strictes."
+              },
+              {
+                "article": "Article 505",
+                "explication": "Les atteintes aux cours d'eau sont sanctionnées par des peines pénales et des amendes."
+              },
+              {
+                "article": "Article 506",
+                "explication": "Les projets d'aménagement hydraulique doivent intégrer des mesures de protection des écosystèmes aquatiques."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXIX : Dispositions finales complémentaires",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Entrée en vigueur",
+            "articles": [
+              {
+                "article": "Article 507",
+                "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+              },
+              {
+                "article": "Article 508",
+                "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+              },
+              {
+                "article": "Article 509",
+                "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+              }
+            ]
+          },
+          {
+            "chapitre": "Chapitre 2 : Adaptations locales",
+            "articles": [
+              {
+                "article": "Article 510",
+                "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+              },
+              {
+                "article": "Article 511",
+                "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "Titre XXX : Articles divers complémentaires",
+        "chapitres": [
+          {
+            "chapitre": "Chapitre 1 : Règles générales",
+            "articles": [
+              {
+                "article": "Article 512",
+                "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+              },
+              {
+                "article": "Article 513",
+                "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+              },
+              {
+                "article": "Article 514",
+                "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+              },
+              {
+                "article": "Article 515",
+                "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+              }
+            ]
+          },
+
+          {
+            "titre": "Titre XXXI : Dispositions sur les biens indivis",
+            "chapitres": [
+              {
+                "chapitre": "Chapitre 1 : Gestion des biens indivis",
+                "articles": [
+                  {
+                    "article": "Article 516",
+                    "explication": "Les copropriétaires doivent gérer les biens indivis de manière concertée et dans l'intérêt commun."
+                  },
+                  {
+                    "article": "Article 517",
+                    "explication": "Toute décision concernant les biens indivis nécessite l'accord majoritaire des copropriétaires."
+                  },
+                  {
+                    "article": "Article 518",
+                    "explication": "En cas de désaccord, un tribunal peut être saisi pour trancher les litiges entre copropriétaires."
+                  },
+                  {
+                    "article": "Article 519",
+                    "explication": "Les revenus issus des biens indivis sont répartis proportionnellement aux parts de chaque copropriétaire."
+                  }
+                ]
+              },
+              {
+                "chapitre": "Chapitre 2 : Division des biens indivis",
+                "articles": [
+                  {
+                    "article": "Article 520",
+                    "explication": "La division des biens indivis peut être demandée par un copropriétaire après accord des autres parties."
+                  },
+                  {
+                    "article": "Article 521",
+                    "explication": "En cas de désaccord, la liquidation des biens indivis est tranchée par un tribunal."
+                  },
+                  {
+                    "article": "Article 522",
+                    "explication": "Le partage des biens indivis doit respecter les droits légaux de chaque copropriétaire."
+                  },
+                  {
+                    "article": "Article 523",
+                    "explication": "Les dettes communes doivent être remboursées avant la répartition des parts indivises."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titre": "Titre XXXII : Dispositions sur les biens meubles incorporels",
+            "chapitres": [
+              {
+                "chapitre": "Chapitre 1 : Droits d'auteur",
+                "articles": [
+                  {
+                    "article": "Article 524",
+                    "explication": "Les droits d'auteur protègent les œuvres littéraires, artistiques, et scientifiques contre toute contrefaçon."
+                  },
+                  {
+                    "article": "Article 525",
+                    "explication": "Les droits d'auteur confèrent à leur titulaire un droit exclusif d'exploitation de l'œuvre pendant une période déterminée."
+                  },
+                  {
+                    "article": "Article 526",
+                    "explication": "Les violations des droits d'auteur peuvent entraîner des sanctions civiles ou pénales."
+                  },
+                  {
+                    "article": "Article 527",
+                    "explication": "Les contrats relatifs aux droits d'auteur doivent être constatés par écrit pour être opposables."
+                  }
+                ]
+              },
+              {
+                "chapitre": "Chapitre 2 : Brevets et marques",
+                "articles": [
+                  {
+                    "article": "Article 528",
+                    "explication": "Les brevets protègent les inventions industrielles ou techniques contre toute exploitation non autorisée."
+                  },
+                  {
+                    "article": "Article 529",
+                    "explication": "Les marques protègent les signes distinctifs (noms, logos) utilisés pour identifier des produits ou services."
+                  },
+                  {
+                    "article": "Article 530",
+                    "explication": "Les violations des brevets ou des marques peuvent entraîner des sanctions civiles ou pénales."
+                  },
+                  {
+                    "article": "Article 531",
+                    "explication": "Les contrats relatifs aux brevets ou marques doivent être constatés par écrit pour être opposables."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titre": "Titre XXXIII : Dispositions sur les servitudes spéciales",
+            "chapitres": [
+              {
+                "chapitre": "Chapitre 1 : Servitudes de pâturage",
+                "articles": [
+                  {
+                    "article": "Article 532",
+                    "explication": "Une servitude de pâturage permet à un propriétaire de faire paître son bétail sur une propriété voisine."
+                  },
+                  {
+                    "article": "Article 533",
+                    "explication": "Les servitudes de pâturage sont régies par les lois locales sur l'agriculture et l'élevage."
+                  },
+                  {
+                    "article": "Article 534",
+                    "explication": "Les abus dans l'utilisation des servitudes de pâturage peuvent entraîner des sanctions administratives ou pénales."
+                  },
+                  {
+                    "article": "Article 535",
+                    "explication": "Les servitudes de pâturage peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+                  }
+                ]
+              },
+              {
+                "chapitre": "Chapitre 2 : Servitudes de chasse",
+                "articles": [
+                  {
+                    "article": "Article 536",
+                    "explication": "Une servitude de chasse permet à un propriétaire de pratiquer la chasse sur une propriété voisine."
+                  },
+                  {
+                    "article": "Article 537",
+                    "explication": "Les servitudes de chasse sont régies par les lois locales sur la faune et la flore."
+                  },
+                  {
+                    "article": "Article 538",
+                    "explication": "Les abus dans l'utilisation des servitudes de chasse peuvent entraîner des sanctions administratives ou pénales."
+                  },
+                  {
+                    "article": "Article 539",
+                    "explication": "Les servitudes de chasse peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titre": "Titre XXXIV : Dispositions finales complémentaires",
+            "chapitres": [
+              {
+                "chapitre": "Chapitre 1 : Entrée en vigueur",
+                "articles": [
+                  {
+                    "article": "Article 540",
+                    "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                  },
+                  {
+                    "article": "Article 541",
+                    "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                  },
+                  {
+                    "article": "Article 542",
+                    "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                  }
+                ]
+              },
+              {
+                "chapitre": "Chapitre 2 : Adaptations locales",
+                "articles": [
+                  {
+                    "article": "Article 543",
+                    "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                  },
+                  {
+                    "article": "Article 544",
+                    "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titre": "Titre XXXV : Articles divers complémentaires",
+            "chapitres": [
+              {
+                "chapitre": "Chapitre 1 : Règles générales",
+                "articles": [
+                  {
+                    "article": "Article 545",
+                    "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                  },
+                  {
+                    "article": "Article 546",
+                    "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                  },
+                  {
+                    "article": "Article 547",
+                    "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                  },
+                  {
+                    "article": "Article 548",
+                    "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                  }
+                ]
+              },
+
+              {
+                "titre": "Titre XXXVI : Dispositions sur les biens meubles corporels",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Classification des biens meubles corporels",
+                    "articles": [
+                      {
+                        "article": "Article 549",
+                        "explication": "Les biens meubles corporels incluent les objets matériels susceptibles de déplacement."
+                      },
+                      {
+                        "article": "Article 550",
+                        "explication": "Les animaux sont considérés comme des biens meubles corporels mais bénéficient d'une protection spéciale."
+                      },
+                      {
+                        "article": "Article 551",
+                        "explication": "Les biens meubles corporels peuvent être acquis par achat, donation, ou succession."
+                      },
+                      {
+                        "article": "Article 552",
+                        "explication": "Les contrats relatifs aux biens meubles corporels doivent être constatés par écrit pour des valeurs supérieures à un certain seuil."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Gestion des biens meubles corporels",
+                    "articles": [
+                      {
+                        "article": "Article 553",
+                        "explication": "Les propriétaires de biens meubles corporels ont l'obligation d'en assurer la maintenance et la sécurité."
+                      },
+                      {
+                        "article": "Article 554",
+                        "explication": "Les biens meubles perdus ou trouvés doivent être déclarés aux autorités compétentes."
+                      },
+                      {
+                        "article": "Article 555",
+                        "explication": "Les conflits relatifs aux biens meubles corporels sont tranchés par les tribunaux civils."
+                      },
+                      {
+                        "article": "Article 556",
+                        "explication": "Les biens meubles corporels peuvent être évalués pour déterminer leur valeur économique."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XXXVII : Dispositions sur les biens immobiliers",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Acquisition des biens immobiliers",
+                    "articles": [
+                      {
+                        "article": "Article 557",
+                        "explication": "Les biens immobiliers peuvent être acquis par achat, donation, succession, ou prescription."
+                      },
+                      {
+                        "article": "Article 558",
+                        "explication": "L'acquisition d'un bien immobilier doit être enregistrée auprès des autorités compétentes pour être valide."
+                      },
+                      {
+                        "article": "Article 559",
+                        "explication": "Les contrats relatifs aux biens immobiliers doivent être constatés par acte authentique."
+                      },
+                      {
+                        "article": "Article 560",
+                        "explication": "Les droits des tiers sur un bien immobilier sont subordonnés à leur inscription au registre foncier."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Gestion des biens immobiliers",
+                    "articles": [
+                      {
+                        "article": "Article 561",
+                        "explication": "Les propriétaires de biens immobiliers ont l'obligation d'en assurer la maintenance et la sécurité."
+                      },
+                      {
+                        "article": "Article 562",
+                        "explication": "Les constructions sur un bien immobilier doivent respecter les normes locales d'urbanisme."
+                      },
+                      {
+                        "article": "Article 563",
+                        "explication": "Les travaux non autorisés sur un bien immobilier peuvent entraîner des sanctions administratives ou pénales."
+                      },
+                      {
+                        "article": "Article 564",
+                        "explication": "Les conflits relatifs aux biens immobiliers sont tranchés par les tribunaux fonciers ou civils."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XXXVIII : Dispositions sur les biens publics",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Classification des biens publics",
+                    "articles": [
+                      {
+                        "article": "Article 565",
+                        "explication": "Les biens publics appartiennent à l'État ou aux collectivités territoriales et sont affectés à l'usage public."
+                      },
+                      {
+                        "article": "Article 566",
+                        "explication": "Les biens publics sont inaliénables et insaisissables, sauf exception prévue par la loi."
+                      },
+                      {
+                        "article": "Article 567",
+                        "explication": "Les biens publics incluent les routes, les écoles, les hôpitaux, et les infrastructures publiques."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Gestion des biens publics",
+                    "articles": [
+                      {
+                        "article": "Article 568",
+                        "explication": "La gestion des biens publics est assurée par l'État ou les collectivités territoriales."
+                      },
+                      {
+                        "article": "Article 569",
+                        "explication": "Les biens publics peuvent être concédés à des tiers pour des usages spécifiques, sous réserve de respect des conditions légales."
+                      },
+                      {
+                        "article": "Article 570",
+                        "explication": "Toute atteinte aux biens publics est sanctionnée par des peines pénales et des amendes."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XXXIX : Dispositions finales complémentaires",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 571",
+                        "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 572",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 573",
+                        "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 574",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 575",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XL : Articles divers complémentaires",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Règles générales",
+                    "articles": [
+                      {
+                        "article": "Article 576",
+                        "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                      },
+                      {
+                        "article": "Article 577",
+                        "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                      },
+                      {
+                        "article": "Article 578",
+                        "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                      },
+                      {
+                        "article": "Article 579",
+                        "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+
+                  {
+                    "titre": "Titre XLI : Dispositions sur les biens abandonnés ou vacants",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Biens abandonnés",
+                        "articles": [
+                          {
+                            "article": "Article 580",
+                            "explication": "Un bien est considéré comme abandonné lorsqu'il n'a plus de propriétaire identifiable."
+                          },
+                          {
+                            "article": "Article 581",
+                            "explication": "Les biens abandonnés appartiennent à l'État ou aux collectivités territoriales après une procédure administrative."
+                          },
+                          {
+                            "article": "Article 582",
+                            "explication": "Les biens abandonnés peuvent faire l'objet d'une réclamation par leurs anciens propriétaires dans un délai fixé par la loi."
+                          },
+                          {
+                            "article": "Article 583",
+                            "explication": "Les biens abandonnés sont gérés conformément aux lois sur les biens publics."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Biens vacants",
+                        "articles": [
+                          {
+                            "article": "Article 584",
+                            "explication": "Un bien vacant est un bien dont le propriétaire est inconnu ou disparu depuis une longue période."
+                          },
+                          {
+                            "article": "Article 585",
+                            "explication": "Les biens vacants sont administrés par l'État ou les collectivités territoriales jusqu'à identification du propriétaire."
+                          },
+                          {
+                            "article": "Article 586",
+                            "explication": "Les héritiers des biens vacants peuvent en revendiquer la propriété après une procédure judiciaire."
+                          },
+                          {
+                            "article": "Article 587",
+                            "explication": "Les biens vacants sont inscrits dans un registre spécial tenu par les autorités compétentes."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLII : Dispositions sur les conflits relatifs aux biens",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Conflits entre propriétaires",
+                        "articles": [
+                          {
+                            "article": "Article 588",
+                            "explication": "Les conflits entre propriétaires sont tranchés par les tribunaux compétents selon les règles de priorité."
+                          },
+                          {
+                            "article": "Article 589",
+                            "explication": "Les litiges relatifs aux limites de propriété doivent être résolus par une expertise foncière ou géodésique."
+                          },
+                          {
+                            "article": "Article 590",
+                            "explication": "Les propriétaires peuvent demander une médiation avant de saisir les tribunaux."
+                          },
+                          {
+                            "article": "Article 591",
+                            "explication": "Les décisions judiciaires relatives aux conflits de propriété sont exécutoires après inscription au registre foncier."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Conflits avec les tiers",
+                        "articles": [
+                          {
+                            "article": "Article 592",
+                            "explication": "Les tiers ne peuvent pas contester la propriété d'un bien s'ils n'ont pas de titre légal."
+                          },
+                          {
+                            "article": "Article 593",
+                            "explication": "Les conflits entre propriétaires et tiers sont tranchés par les tribunaux selon les règles de priorité."
+                          },
+                          {
+                            "article": "Article 594",
+                            "explication": "Les tiers ayant acquis un bien de bonne foi bénéficient d'une protection légale spécifique."
+                          },
+                          {
+                            "article": "Article 595",
+                            "explication": "Les contrats frauduleux ou non conformes à la loi peuvent être annulés par un tribunal."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLIII : Dispositions sur les biens culturels et patrimoniaux",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Protection des biens culturels",
+                        "articles": [
+                          {
+                            "article": "Article 596",
+                            "explication": "Les biens culturels, tels que les monuments historiques, sont protégés par la loi contre toute détérioration ou destruction."
+                          },
+                          {
+                            "article": "Article 597",
+                            "explication": "Les biens culturels peuvent être classés ou inscrits sur une liste spéciale pour leur préservation."
+                          },
+                          {
+                            "article": "Article 598",
+                            "explication": "Les propriétaires de biens culturels ont l'obligation d'en assurer la conservation et la restauration."
+                          },
+                          {
+                            "article": "Article 599",
+                            "explication": "Les exportations ou ventes de biens culturels nécessitent une autorisation spéciale des autorités compétentes."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Patrimoine national",
+                        "articles": [
+                          {
+                            "article": "Article 600",
+                            "explication": "Le patrimoine national inclut les biens culturels, naturels, et historiques appartenant à l'État ou aux collectivités territoriales."
+                          },
+                          {
+                            "article": "Article 601",
+                            "explication": "La gestion du patrimoine national est assurée par des institutions spécialisées sous l'autorité de l'État."
+                          },
+                          {
+                            "article": "Article 602",
+                            "explication": "Toute atteinte au patrimoine national est sanctionnée par des peines pénales et des amendes."
+                          },
+                          {
+                            "article": "Article 603",
+                            "explication": "Les projets d'aménagement ou de construction doivent intégrer des mesures de protection du patrimoine national."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLIV : Dispositions sur les biens environnementaux",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Protection des forêts",
+                        "articles": [
+                          {
+                            "article": "Article 604",
+                            "explication": "Les forêts sont protégées par la loi contre toute exploitation abusive ou destruction."
+                          },
+                          {
+                            "article": "Article 605",
+                            "explication": "Les activités forestières doivent respecter les normes écologiques et les lois sur l'environnement."
+                          },
+                          {
+                            "article": "Article 606",
+                            "explication": "Les atteintes aux forêts sont sanctionnées par des peines pénales et des amendes."
+                          },
+                          {
+                            "article": "Article 607",
+                            "explication": "Les projets d'aménagement forestier doivent intégrer des mesures de reforestation et de conservation."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Protection des cours d'eau",
+                        "articles": [
+                          {
+                            "article": "Article 608",
+                            "explication": "Les cours d'eau sont protégés par la loi contre toute pollution ou détérioration."
+                          },
+                          {
+                            "article": "Article 609",
+                            "explication": "Les activités industrielles ou agricoles proches des cours d'eau doivent respecter des normes strictes."
+                          },
+                          {
+                            "article": "Article 610",
+                            "explication": "Les atteintes aux cours d'eau sont sanctionnées par des peines pénales et des amendes."
+                          },
+                          {
+                            "article": "Article 611",
+                            "explication": "Les projets d'aménagement hydraulique doivent intégrer des mesures de protection des écosystèmes aquatiques."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLV : Dispositions finales complémentaires",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Entrée en vigueur",
+                        "articles": [
+                          {
+                            "article": "Article 612",
+                            "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                          },
+                          {
+                            "article": "Article 613",
+                            "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                          },
+                          {
+                            "article": "Article 614",
+                            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Adaptations locales",
+                        "articles": [
+                          {
+                            "article": "Article 615",
+                            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                          },
+                          {
+                            "article": "Article 616",
+                            "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLVI : Articles divers complémentaires",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Règles générales",
+                        "articles": [
+                          {
+                            "article": "Article 617",
+                            "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                          },
+                          {
+                            "article": "Article 618",
+                            "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                          },
+                          {
+                            "article": "Article 619",
+                            "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                          },
+                          {
+                            "article": "Article 620",
+                            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                          }
+                        ]
+                      },
+
+                      {
+                        "chapitre": "Chapitre 1 : Droit de préemption",
+                        "articles": [
+                          {
+                            "article": "Article 621",
+                            "explication": "Le droit de préemption confère à son titulaire la priorité d'achat d'un bien avant toute autre personne."
+                          },
+                          {
+                            "article": "Article 622",
+                            "explication": "Le droit de préemption est souvent utilisé dans les ventes immobilières ou foncières."
+                          },
+                          {
+                            "article": "Article 623",
+                            "explication": "Le droit de préemption doit être exercé dans un délai fixé par la loi ou le contrat."
+                          },
+                          {
+                            "article": "Article 624",
+                            "explication": "Le non-respect du droit de préemption peut entraîner des sanctions pénales ou civiles."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Droit de retrait",
+                        "articles": [
+                          {
+                            "article": "Article 625",
+                            "explication": "Le droit de retrait permet à un propriétaire de récupérer un bien vendu dans certaines conditions."
+                          },
+                          {
+                            "article": "Article 626",
+                            "explication": "Le droit de retrait doit être exercé dans un délai fixé par la loi ou le contrat."
+                          },
+                          {
+                            "article": "Article 627",
+                            "explication": "Le droit de retrait ne peut être invoqué que si le vendeur a omis de respecter certaines obligations légales."
+                          },
+                          {
+                            "article": "Article 628",
+                            "explication": "Le non-respect du droit de retrait peut entraîner des sanctions pénales ou civiles."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLVIII : Dispositions sur les servitudes spéciales",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Servitudes de drainage",
+                        "articles": [
+                          {
+                            "article": "Article 629",
+                            "explication": "Une servitude de drainage permet à un propriétaire de drainer les eaux de son terrain via une propriété voisine."
+                          },
+                          {
+                            "article": "Article 630",
+                            "explication": "Les servitudes de drainage sont régies par les lois locales sur l'environnement et les ressources hydriques."
+                          },
+                          {
+                            "article": "Article 631",
+                            "explication": "Les abus dans l'utilisation des servitudes de drainage peuvent entraîner des sanctions administratives ou pénales."
+                          },
+                          {
+                            "article": "Article 632",
+                            "explication": "Les servitudes de drainage peuvent être modifiées ou supprimées par accord mutuel des parties concernées."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Servitudes de clôture",
+                        "articles": [
+                          {
+                            "article": "Article 633",
+                            "explication": "Une servitude de clôture permet à un propriétaire de construire ou d'entretenir une clôture sur une propriété voisine."
+                          },
+                          {
+                            "article": "Article 634",
+                            "explication": "Les servitudes de clôture sont établies par contrat ou décision judiciaire."
+                          },
+                          {
+                            "article": "Article 635",
+                            "explication": "Les servitudes de clôture cessent en cas de renonciation ou de disparition de leur objet."
+                          },
+                          {
+                            "article": "Article 636",
+                            "explication": "Les servitudes de clôture doivent respecter les droits des propriétaires concernés."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre XLIX : Modifications de la propriété (suite)",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Du droit de superficie (compléments)",
+                        "articles": [
+                          {
+                            "article": "Article 637",
+                            "explication": "Le droit de superficie peut inclure des clauses spécifiques sur l'usage du sol ou des constructions."
+                          },
+                          {
+                            "article": "Article 638",
+                            "explication": "Le superficiaire est responsable de l'entretien des constructions pendant la durée du droit de superficie."
+                          },
+                          {
+                            "article": "Article 639",
+                            "explication": "Le propriétaire du terrain peut récupérer les constructions à l'expiration du droit de superficie."
+                          },
+                          {
+                            "article": "Article 640",
+                            "explication": "Le droit de superficie peut être prorogé par accord mutuel entre les parties."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Du droit d'emphytéose (compléments)",
+                        "articles": [
+                          {
+                            "article": "Article 641",
+                            "explication": "Le droit d'emphytéose peut inclure des clauses spécifiques sur l'amélioration ou la transformation du bien."
+                          },
+                          {
+                            "article": "Article 642",
+                            "explication": "L'emphytéote doit payer un loyer annuel au propriétaire du bien pendant la durée du droit d'emphytéose."
+                          },
+                          {
+                            "article": "Article 643",
+                            "explication": "Le propriétaire peut récupérer le bien à l'expiration du droit d'emphytéose, y compris les améliorations apportées."
+                          },
+                          {
+                            "article": "Article 644",
+                            "explication": "Le droit d'emphytéose peut être prorogé par accord mutuel entre les parties."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre L : Dispositions transitoires",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Adaptations légales",
+                        "articles": [
+                          {
+                            "article": "Article 645",
+                            "explication": "Les dispositions du Livre II s'appliquent immédiatement aux affaires nouvelles."
+                          },
+                          {
+                            "article": "Article 646",
+                            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+                          },
+                          {
+                            "article": "Article 647",
+                            "explication": "Les contrats conclus avant l'entrée en vigueur du Livre II restent régis par les lois antérieures."
+                          },
+                          {
+                            "article": "Article 648",
+                            "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                          }
+                        ]
+                      },
+                      {
+                        "chapitre": "Chapitre 2 : Entrée en vigueur",
+                        "articles": [
+                          {
+                            "article": "Article 649",
+                            "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                          },
+                          {
+                            "article": "Article 650",
+                            "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                          },
+                          {
+                            "article": "Article 651",
+                            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                          },
+                          {
+                            "article": "Article 652",
+                            "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "titre": "Titre LI : Articles divers",
+                    "chapitres": [
+                      {
+                        "chapitre": "Chapitre 1 : Règles générales",
+                        "articles": [
+                          {
+                            "article": "Article 653",
+                            "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                          },
+                          {
+                            "article": "Article 654",
+                            "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                          },
+                          {
+                            "article": "Article 655",
+                            "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                          },
+                          {
+                            "article": "Article 656",
+                            "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                          }
+                        ]
+                      },
+
+                      {
+                        "titre": "Titre LII : Dispositions sur les conflits transfrontaliers",
+                        "chapitres": [
+                          {
+                            "chapitre": "Chapitre 1 : Biens situés à cheval sur deux territoires",
+                            "articles": [
+                              {
+                                "article": "Article 657",
+                                "explication": "Les biens situés à cheval sur deux territoires sont régis par les lois du pays où se trouve la majorité du bien."
+                              },
+                              {
+                                "article": "Article 658",
+                                "explication": "En cas de litige, les autorités judiciaires des deux territoires concernés doivent coopérer pour résoudre le conflit."
+                              },
+                              {
+                                "article": "Article 659",
+                                "explication": "Les parties peuvent demander une médiation internationale pour régler les différends relatifs à ces biens."
+                              },
+                              {
+                                "article": "Article 660",
+                                "explication": "Les traités internationaux prévalent sur les lois nationales en cas de conflit transfrontalier."
+                              }
+                            ]
+                          },
+                          {
+                            "chapitre": "Chapitre 2 : Biens acquis à l'étranger",
+                            "articles": [
+                              {
+                                "article": "Article 661",
+                                "explication": "Les biens acquis à l'étranger sont soumis aux lois du pays où ils ont été acquis, sauf dispositions contraires."
+                              },
+                              {
+                                "article": "Article 662",
+                                "explication": "Les ressortissants camerounais peuvent revendiquer des biens acquis à l'étranger selon les règles locales."
+                              },
+                              {
+                                "article": "Article 663",
+                                "explication": "Les biens immobiliers acquis à l'étranger doivent être déclarés aux autorités camerounaises dans un délai fixé par la loi."
+                              },
+                              {
+                                "article": "Article 664",
+                                "explication": "Les litiges relatifs aux biens acquis à l'étranger sont tranchés par les tribunaux compétents des deux pays concernés."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "titre": "Titre LIII : Dispositions sur les biens collectifs",
+                        "chapitres": [
+                          {
+                            "chapitre": "Chapitre 1 : Propriété collective",
+                            "articles": [
+                              {
+                                "article": "Article 665",
+                                "explication": "La propriété collective concerne les biens appartenant à une communauté ou association."
+                              },
+                              {
+                                "article": "Article 666",
+                                "explication": "Les membres de la communauté ou association doivent gérer les biens collectifs de manière concertée."
+                              },
+                              {
+                                "article": "Article 667",
+                                "explication": "La division des biens collectifs peut être demandée par un membre après accord des autres parties."
+                              },
+                              {
+                                "article": "Article 668",
+                                "explication": "En cas de désaccord, la liquidation des biens collectifs est tranchée par un tribunal."
+                              }
+                            ]
+                          },
+                          {
+                            "chapitre": "Chapitre 2 : Gestion des biens collectifs",
+                            "articles": [
+                              {
+                                "article": "Article 669",
+                                "explication": "Les biens collectifs doivent être gérés dans l'intérêt commun et conformément aux statuts de la communauté ou association."
+                              },
+                              {
+                                "article": "Article 670",
+                                "explication": "Les revenus issus des biens collectifs sont répartis proportionnellement aux parts de chaque membre."
+                              },
+                              {
+                                "article": "Article 671",
+                                "explication": "Les dettes communes doivent être remboursées avant la répartition des parts collectives."
+                              },
+                              {
+                                "article": "Article 672",
+                                "explication": "Les conflits relatifs aux biens collectifs sont tranchés par les tribunaux compétents."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "titre": "Titre LIV : Dispositions finales complémentaires",
+                        "chapitres": [
+                          {
+                            "chapitre": "Chapitre 1 : Entrée en vigueur",
+                            "articles": [
+                              {
+                                "article": "Article 673",
+                                "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                              },
+                              {
+                                "article": "Article 674",
+                                "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                              },
+                              {
+                                "article": "Article 675",
+                                "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                              }
+                            ]
+                          },
+                          {
+                            "chapitre": "Chapitre 2 : Adaptations locales",
+                            "articles": [
+                              {
+                                "article": "Article 676",
+                                "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                              },
+                              {
+                                "article": "Article 677",
+                                "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "titre": "Titre LV : Articles divers complémentaires",
+                        "chapitres": [
+                          {
+                            "chapitre": "Chapitre 1 : Règles générales",
+                            "articles": [
+                              {
+                                "article": "Article 678",
+                                "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                              },
+                              {
+                                "article": "Article 679",
+                                "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                              },
+                              {
+                                "article": "Article 680",
+                                "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                              },
+                              {
+                                "article": "Article 681",
+                                "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                              }
+                            ]
+                          },
+
+                          {
+                            "titre": "Titre LVI : Dispositions sur les biens meubles incorporels (suite)",
+                            "chapitres": [
+                              {
+                                "chapitre": "Chapitre 1 : Droits d'auteur (compléments)",
+                                "articles": [
+                                  {
+                                    "article": "Article 682",
+                                    "explication": "Les droits d'auteur incluent les droits moraux et patrimoniaux sur une œuvre littéraire, artistique, ou scientifique."
+                                  },
+                                  {
+                                    "article": "Article 683",
+                                    "explication": "Les droits moraux sont perpétuels et inaliénables, tandis que les droits patrimoniaux sont temporaires."
+                                  },
+                                  {
+                                    "article": "Article 684",
+                                    "explication": "Les ayants droit peuvent exercer les droits d'auteur après le décès de l'auteur."
+                                  },
+                                  {
+                                    "article": "Article 685",
+                                    "explication": "Les violations des droits d'auteur peuvent entraîner des sanctions civiles, pénales, ou administratives."
+                                  }
+                                ]
+                              },
+                              {
+                                "chapitre": "Chapitre 2 : Brevets et marques (compléments)",
+                                "articles": [
+                                  {
+                                    "article": "Article 686",
+                                    "explication": "Les brevets confèrent un monopole temporaire d'exploitation industrielle ou technique sur une invention."
+                                  },
+                                  {
+                                    "article": "Article 687",
+                                    "explication": "Les marques protègent les signes distinctifs utilisés pour identifier des produits ou services."
+                                  },
+                                  {
+                                    "article": "Article 688",
+                                    "explication": "Les titulaires de brevets ou de marques doivent payer des redevances annuelles pour maintenir leurs droits."
+                                  },
+                                  {
+                                    "article": "Article 689",
+                                    "explication": "Les violations des brevets ou marques peuvent entraîner des sanctions civiles, pénales, ou administratives."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "titre": "Titre LVII : Dispositions sur les biens environnementaux (suite)",
+                            "chapitres": [
+                              {
+                                "chapitre": "Chapitre 1 : Protection des zones humides",
+                                "articles": [
+                                  {
+                                    "article": "Article 690",
+                                    "explication": "Les zones humides sont protégées par la loi contre toute exploitation abusive ou destruction."
+                                  },
+                                  {
+                                    "article": "Article 691",
+                                    "explication": "Les activités proches des zones humides doivent respecter des normes strictes pour préserver leur écosystème."
+                                  },
+                                  {
+                                    "article": "Article 692",
+                                    "explication": "Les atteintes aux zones humides sont sanctionnées par des peines pénales et des amendes."
+                                  },
+                                  {
+                                    "article": "Article 693",
+                                    "explication": "Les projets d'aménagement doivent intégrer des mesures de protection des zones humides."
+                                  }
+                                ]
+                              },
+                              {
+                                "chapitre": "Chapitre 2 : Protection des ressources minières",
+                                "articles": [
+                                  {
+                                    "article": "Article 694",
+                                    "explication": "Les ressources minières appartiennent à l'État et sont exploitées sous licence ou concession."
+                                  },
+                                  {
+                                    "article": "Article 695",
+                                    "explication": "L'exploitation minière doit respecter les lois sur l'environnement et les droits des communautés locales."
+                                  },
+                                  {
+                                    "article": "Article 696",
+                                    "explication": "Les atteintes aux ressources minières sont sanctionnées par des peines pénales et des amendes."
+                                  },
+                                  {
+                                    "article": "Article 697",
+                                    "explication": "Les projets miniers doivent inclure des plans de restauration écologique post-exploitation."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "titre": "Titre LVIII : Dispositions finales complémentaires (suite)",
+                            "chapitres": [
+                              {
+                                "chapitre": "Chapitre 1 : Entrée en vigueur",
+                                "articles": [
+                                  {
+                                    "article": "Article 698",
+                                    "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                                  },
+                                  {
+                                    "article": "Article 699",
+                                    "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                                  },
+                                  {
+                                    "article": "Article 700",
+                                    "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                                  }
+                                ]
+                              },
+                              {
+                                "chapitre": "Chapitre 2 : Adaptations locales",
+                                "articles": [
+                                  {
+                                    "article": "Article 701",
+                                    "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                                  },
+                                  {
+                                    "article": "Article 702",
+                                    "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "titre": "Titre LIX : Articles divers complémentaires (suite)",
+                            "chapitres": [
+                              {
+                                "chapitre": "Chapitre 1 : Règles générales",
+                                "articles": [
+                                  {
+                                    "article": "Article 703",
+                                    "explication": "Les dispositions du Livre II s'appliquent à toutes les personnes résidant au Cameroun, sans discrimination."
+                                  },
+                                  {
+                                    "article": "Article 704",
+                                    "explication": "Les modifications du Livre II nécessitent une loi spéciale adoptée par l'Assemblée nationale."
+                                  },
+                                  {
+                                    "article": "Article 705",
+                                    "explication": "Les règlements d'application du Livre II sont pris par décret après avis des autorités compétentes."
+                                  },
+                                  {
+                                    "article": "Article 706",
+                                    "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                                  }
+                                ]
+                              },
+
+                              {
+                                "chapitre": "Chapitre 1 : Règles générales",
+                                "articles": [
+                                  {
+                                    "article": "Article 707",
+                                    "explication": "Les dispositions du Livre II s'appliquent sans distinction de nationalité ou de statut juridique."
+                                  },
+                                  {
+                                    "article": "Article 708",
+                                    "explication": "Les litiges relatifs au Livre II sont tranchés par les tribunaux compétents selon les règles de procédure civile."
+                                  },
+                                  {
+                                    "article": "Article 709",
+                                    "explication": "Les autorités administratives veillent à l'application stricte des dispositions du Livre II."
+                                  }
+                                ]
+                              },
+                              {
+                                "chapitre": "Chapitre 2 : Clauses finales",
+                                "articles": [
+                                  {
+                                    "article": "Article 710",
+                                    "explication": "Le présent Livre II entre en vigueur à la date de sa publication au Journal officiel."
+                                  },
+                                  {
+                                    "article": "Article 711",
+                                    "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                                  },
+                                  {
+                                    "article": "Article 712",
+                                    "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
+                                  },
+                                  {
+                                    "article": "Article 713",
+                                    "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                                  },
+                                  {
+                                    "article": "Article 714",
+                                    "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                      
+  },
+  {
+    "livre": "Livre III : Des successions",
+    "structure": []
+  },
+  {
+    "livre": "Livre IV : Des obligations",
+    "structure": []
   }
+]
+}
+}
+    
+  
