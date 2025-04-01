@@ -1743,11 +1743,12 @@
         }
       ]
       }
-    ]
-  }
+  
+      ]}  
+      ]}
 ]},
 
-  {
+  {[
     "livre": "Livre II : Des biens et des différentes modifications de la propriété",
     "structure": [
       {
@@ -4238,17 +4239,20 @@
                             ]
                           }
                       
-  },
-  {
-    "livre": "Livre III : Des successions",
-    "structure": []
-  },
-  {
-    "livre": "Livre IV : Des obligations",
-    "structure": []
-  }
-]
+                    ]},
+          {
+            "livre": "Livre III : Des successions",
+            "structure": []
+          },
+          {
+            "livre": "Livre IV : Des obligations",
+            "structure": []
+          }
+        ]
+        }
+        }
 }
-}
+} 
+  }}       
     
   
