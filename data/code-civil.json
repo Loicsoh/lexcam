@@ -1745,8 +1745,7 @@
       }
   
       ]}  
-      ]}
-]},
+      ]},
 
   {[
     "livre": "Livre II : Des biens et des différentes modifications de la propriété",
@@ -2666,8 +2665,9 @@
                 "article": "Article 454",
                 "explication": "Les biens fungibles sont interchangeables avec d'autres biens de même nature (argent, céréales)."
               }
+            ]}
             ]
-          },
+        },
           {
             "chapitre": "Chapitre 2 : Propriété collective",
             "articles": [
@@ -3056,6 +3056,7 @@
                     "article": "Article 519",
                     "explication": "Les revenus issus des biens indivis sont répartis proportionnellement aux parts de chaque copropriétaire."
                   }
+                ]}
                 ]
               },
               {
@@ -3257,6 +3258,7 @@
                         "article": "Article 552",
                         "explication": "Les contrats relatifs aux biens meubles corporels doivent être constatés par écrit pour des valeurs supérieures à un certain seuil."
                       }
+                    ]}
                     ]
                   },
                   {
@@ -3280,7 +3282,6 @@
                       }
                     ]
                   }
-                ]
               },
               {
                 "titre": "Titre XXXVII : Dispositions sur les biens immobiliers",
@@ -3425,7 +3426,8 @@
                         "article": "Article 579",
                         "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
                       }
-                    ]
+                    ]}
+                ]
                   },
 
                   {
@@ -3472,7 +3474,7 @@
                             "explication": "Les biens vacants sont inscrits dans un registre spécial tenu par les autorités compétentes."
                           }
                         ]
-                      }
+                        }
                     ]
                   },
                   {
@@ -4249,10 +4251,7 @@
             "structure": []
           }
         ]
-        }
-        }
-}
-} 
-  }}       
+      }
+}       
     
   
