@@ -1,5 +1,4 @@
-{
-  "code_civil" : {
+ { "code_civil" : {
     "livres":[
       {
       "livre": "Livre I : Des personnes",
@@ -1744,10 +1743,9 @@
       ]
       }
   
-      ]}  
-      ]},
-
-  {[
+      ]
+    },
+  {
     "livre": "Livre II : Des biens et des différentes modifications de la propriété",
     "structure": [
       {
@@ -3234,7 +3232,9 @@
                     "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
                   }
                 ]
-              },
+              }
+            ]
+          },
 
               {
                 "titre": "Titre XXXVI : Dispositions sur les biens meubles corporels",
@@ -3258,7 +3258,6 @@
                         "article": "Article 552",
                         "explication": "Les contrats relatifs aux biens meubles corporels doivent être constatés par écrit pour des valeurs supérieures à un certain seuil."
                       }
-                    ]}
                     ]
                   },
                   {
@@ -3281,8 +3280,11 @@
                         "explication": "Les biens meubles corporels peuvent être évalués pour déterminer leur valeur économique."
                       }
                     ]
+                 
                   }
+                ]
               },
+              
               {
                 "titre": "Titre XXXVII : Dispositions sur les biens immobiliers",
                 "chapitres": [
@@ -3426,9 +3428,10 @@
                         "article": "Article 579",
                         "explication": "Les textes subséquents au Livre II doivent être interprétés conformément à ses principes."
                       }
-                    ]}
+                    ]
+                  }
                 ]
-                  },
+              },
 
                   {
                     "titre": "Titre XLI : Dispositions sur les biens abandonnés ou vacants",
@@ -4240,8 +4243,7 @@
                               }
                             ]
                           }
-                      
-                    ]},
+                        ]},
           {
             "livre": "Livre III : Des successions",
             "structure": []
@@ -4252,6 +4254,8 @@
           }
         ]
       }
-}       
-    
+    ]
+  }
+}
+  
   
