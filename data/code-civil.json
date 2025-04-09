@@ -4246,16 +4246,1785 @@
                         ]},
           {
             "livre": "Livre III : Des successions",
-            "structure": []
+            "structure": [
+              {
+                "titre": "Titre I : Dispositions générales sur les obligations",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Notion et sources des obligations",
+                    "articles": [
+                      {
+                        "article": "Article 715",
+                        "explication": "Les obligations sont des liens juridiques par lesquels une personne est tenue d'exécuter une prestation envers une autre."
+                      },
+                      {
+                        "article": "Article 716",
+                        "explication": "Les obligations peuvent naître de la loi, du contrat, des actes unilatéraux, ou des faits illicites."
+                      },
+                      {
+                        "article": "Article 717",
+                        "explication": "Les obligations légales sont celles imposées par la loi sans nécessité d'un accord entre les parties."
+                      },
+                      {
+                        "article": "Article 718",
+                        "explication": "Les obligations contractuelles découlent d'un accord mutuel entre les parties."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Classification des obligations",
+                    "articles": [
+                      {
+                        "article": "Article 719",
+                        "explication": "Les obligations peuvent être classées en obligations de résultat ou obligations de moyens."
+                      },
+                      {
+                        "article": "Article 720",
+                        "explication": "Une obligation de résultat implique l'obligation d'atteindre un objectif précis."
+                      },
+                      {
+                        "article": "Article 721",
+                        "explication": "Une obligation de moyens implique l'obligation de mettre en œuvre tous les efforts nécessaires pour atteindre un objectif."
+                      },
+                      {
+                        "article": "Article 722",
+                        "explication": "Les obligations peuvent également être classées comme personnelles ou réelles selon leur nature."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre II : Les contrats",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Formation des contrats",
+                    "articles": [
+                      {
+                        "article": "Article 723",
+                        "explication": "Un contrat est formé par le consentement mutuel des parties sur un objet et une cause licites."
+                      },
+                      {
+                        "article": "Article 724",
+                        "explication": "Le consentement doit être libre, éclairé, et exempt de vices tels que l'erreur, le dol, ou la violence."
+                      },
+                      {
+                        "article": "Article 725",
+                        "explication": "L'objet du contrat doit être licite, possible, et déterminé ou déterminable."
+                      },
+                      {
+                        "article": "Article 726",
+                        "explication": "La cause du contrat doit être licite et conforme à l'ordre public et aux bonnes mœurs."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Validité des contrats",
+                    "articles": [
+                      {
+                        "article": "Article 727",
+                        "explication": "Un contrat valide produit ses effets entre les parties dès sa formation."
+                      },
+                      {
+                        "article": "Article 728",
+                        "explication": "Les contrats doivent respecter les règles de forme prévues par la loi pour être opposables."
+                      },
+                      {
+                        "article": "Article 729",
+                        "explication": "Les contrats conclus sous condition suspensive ne produisent leurs effets qu'à la réalisation de la condition."
+                      },
+                      {
+                        "article": "Article 730",
+                        "explication": "Les contrats conclus sous condition résolutoire cessent de produire effet si la condition se réalise."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre III : Exécution des obligations",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Règles générales d'exécution",
+                    "articles": [
+                      {
+                        "article": "Article 731",
+                        "explication": "Les obligations doivent être exécutées conformément à leur contenu et dans les délais convenus."
+                      },
+                      {
+                        "article": "Article 732",
+                        "explication": "En cas de silence ou d'ambiguïté, les obligations sont interprétées selon les usages et la bonne foi."
+                      },
+                      {
+                        "article": "Article 733",
+                        "explication": "L'exécution des obligations peut être forcée par voie judiciaire en cas de non-respect."
+                      },
+                      {
+                        "article": "Article 734",
+                        "explication": "Les obligations doivent être exécutées au lieu convenu ou, à défaut, au lieu prévu par la loi."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Inexécution des obligations",
+                    "articles": [
+                      {
+                        "article": "Article 735",
+                        "explication": "L'inexécution d'une obligation peut entraîner des sanctions civiles, pénales, ou administratives."
+                      },
+                      {
+                        "article": "Article 736",
+                        "explication": "Le créancier peut demander réparation des dommages causés par l'inexécution."
+                      },
+                      {
+                        "article": "Article 737",
+                        "explication": "Le débiteur peut être libéré de son obligation en cas de force majeure ou d'imprévision."
+                      },
+                      {
+                        "article": "Article 738",
+                        "explication": "La force majeure est un événement imprévisible, irrésistible, et extérieur qui empêche l'exécution de l'obligation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre IV : Extinction des obligations",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Modes d'extinction des obligations",
+                    "articles": [
+                      {
+                        "article": "Article 739",
+                        "explication": "Les obligations s'éteignent par leur accomplissement, la novation, la compensation, ou la prescription."
+                      },
+                      {
+                        "article": "Article 740",
+                        "explication": "L'accomplissement est le mode normal d'extinction des obligations."
+                      },
+                      {
+                        "article": "Article 741",
+                        "explication": "La novation remplace une obligation existante par une nouvelle obligation."
+                      },
+                      {
+                        "article": "Article 742",
+                        "explication": "La compensation permet d'éteindre des obligations réciproques entre deux parties."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Prescription des obligations",
+                    "articles": [
+                      {
+                        "article": "Article 743",
+                        "explication": "La prescription est un mode d'extinction des obligations par l'écoulement d'un délai légal."
+                      },
+                      {
+                        "article": "Article 744",
+                        "explication": "La prescription est suspendue en cas de force majeure ou d'empêchement légal."
+                      },
+                      {
+                        "article": "Article 745",
+                        "explication": "Le délai de prescription varie selon la nature de l'obligation et les dispositions légales applicables."
+                      },
+                      {
+                        "article": "Article 746",
+                        "explication": "La prescription peut être interrompue par des actes tels qu'une mise en demeure ou une assignation en justice."
+                      }
+                    ]
+                  }
+                ]
+              },
+
+              {
+                "titre": "Titre V : Les quasi-contrats",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Notion et caractéristiques des quasi-contrats",
+                    "articles": [
+                      {
+                        "article": "Article 747",
+                        "explication": "Les quasi-contrats sont des situations juridiques créées par la loi sans l'intervention d'un contrat formel."
+                      },
+                      {
+                        "article": "Article 748",
+                        "explication": "Les quasi-contrats incluent la gestion d'affaires, l'enrichissement sans cause, et autres situations similaires."
+                      },
+                      {
+                        "article": "Article 749",
+                        "explication": "Les quasi-contrats reposent sur les principes d'équité et de bonne foi."
+                      },
+                      {
+                        "article": "Article 750",
+                        "explication": "Les quasi-contrats produisent des effets obligatoires entre les parties concernées."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : La gestion d'affaires",
+                    "articles": [
+                      {
+                        "article": "Article 751",
+                        "explication": "La gestion d'affaires est l'administration volontaire des affaires d'autrui sans mandat explicite."
+                      },
+                      {
+                        "article": "Article 752",
+                        "explication": "Le gestionnaire doit agir dans l'intérêt du propriétaire des affaires et rendre compte de ses actes."
+                      },
+                      {
+                        "article": "Article 753",
+                        "explication": "Le propriétaire des affaires peut demander réparation des dommages causés par une gestion négligente."
+                      },
+                      {
+                        "article": "Article 754",
+                        "explication": "En cas de gestion bénéfique, le propriétaire des affaires doit indemniser le gestionnaire pour ses frais et efforts."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 3 : L'enrichissement sans cause",
+                    "articles": [
+                      {
+                        "article": "Article 755",
+                        "explication": "L'enrichissement sans cause est l'enrichissement d'une personne au détriment d'une autre sans justification légale."
+                      },
+                      {
+                        "article": "Article 756",
+                        "explication": "Le créancier peut demander restitution de ce qui a été indûment versé ou transféré."
+                      },
+                      {
+                        "article": "Article 757",
+                        "explication": "L'enrichissement sans cause ne donne pas lieu à restitution si elle résulte d'une obligation légale ou contractuelle."
+                      },
+                      {
+                        "article": "Article 758",
+                        "explication": "La restitution doit être proportionnelle à l'enrichissement injustifié."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre VI : Les faits illicites",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Responsabilité civile délictuelle",
+                    "articles": [
+                      {
+                        "article": "Article 759",
+                        "explication": "Toute personne qui cause un dommage à autrui par un fait illicite est tenue de le réparer."
+                      },
+                      {
+                        "article": "Article 760",
+                        "explication": "Un fait illicite peut résulter d'une action intentionnelle, d'une négligence, ou d'une imprudence."
+                      },
+                      {
+                        "article": "Article 761",
+                        "explication": "La responsabilité civile suppose l'existence d'un préjudice, d'un lien de causalité, et d'une faute."
+                      },
+                      {
+                        "article": "Article 762",
+                        "explication": "Le préjudice peut être matériel, moral, ou économique, et doit être évalué pour déterminer le montant de la réparation."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Réparation du dommage",
+                    "articles": [
+                      {
+                        "article": "Article 763",
+                        "explication": "La réparation du dommage vise à rétablir la victime dans la situation où elle se serait trouvée sans le fait illicite."
+                      },
+                      {
+                        "article": "Article 764",
+                        "explication": "La réparation peut consister en une indemnité pécuniaire ou en une prestation en nature."
+                      },
+                      {
+                        "article": "Article 765",
+                        "explication": "Le juge fixe le montant de l'indemnité en tenant compte de la gravité du préjudice et des circonstances."
+                      },
+                      {
+                        "article": "Article 766",
+                        "explication": "En cas de pluralité de responsables, la solidarité peut être engagée pour la réparation du dommage."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre VII : Les obligations spéciales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Obligations alimentaires",
+                    "articles": [
+                      {
+                        "article": "Article 767",
+                        "explication": "Les obligations alimentaires sont des obligations de soutien financier dues aux membres de la famille dans le besoin."
+                      },
+                      {
+                        "article": "Article 768",
+                        "explication": "Les obligations alimentaires incluent la nourriture, le logement, les soins médicaux, et l'éducation."
+                      },
+                      {
+                        "article": "Article 769",
+                        "explication": "Les obligations alimentaires sont modulables selon les ressources du débiteur et les besoins du créancier."
+                      },
+                      {
+                        "article": "Article 770",
+                        "explication": "Les obligations alimentaires cessent en cas de décès du créancier ou de disparition du besoin."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Obligations professionnelles",
+                    "articles": [
+                      {
+                        "article": "Article 771",
+                        "explication": "Les obligations professionnelles découlent des activités exercées par une personne dans le cadre de sa profession."
+                      },
+                      {
+                        "article": "Article 772",
+                        "explication": "Les obligations professionnelles doivent respecter les règles éthiques et déontologiques applicables."
+                      },
+                      {
+                        "article": "Article 773",
+                        "explication": "Les violations des obligations professionnelles peuvent entraîner des sanctions disciplinaires ou pénales."
+                      },
+                      {
+                        "article": "Article 774",
+                        "explication": "Les obligations professionnelles peuvent inclure des clauses de confidentialité ou de non-concurrence."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre VIII : Dispositions finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 775",
+                        "explication": "Le présent Livre III entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 776",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 777",
+                        "explication": "Les textes subséquents au Livre III doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 778",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 779",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+                ]
+              },
+
+              {
+                "titre": "Titre IX : Les obligations solidaires",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Solidarité active",
+                    "articles": [
+                      {
+                        "article": "Article 780",
+                        "explication": "La solidarité active existe lorsque plusieurs créanciers peuvent réclamer la même obligation au débiteur."
+                      },
+                      {
+                        "article": "Article 781",
+                        "explication": "Le paiement au profit d'un créancier libère le débiteur envers tous les autres créanciers solidaires."
+                      },
+                      {
+                        "article": "Article 782",
+                        "explication": "Les créanciers solidaires doivent se partager le montant reçu proportionnellement à leurs droits respectifs."
+                      },
+                      {
+                        "article": "Article 783",
+                        "explication": "En cas de contestation, le débiteur peut exiger une preuve de l'accord entre les créanciers solidaires."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Solidarité passive",
+                    "articles": [
+                      {
+                        "article": "Article 784",
+                        "explication": "La solidarité passive existe lorsque plusieurs débiteurs sont tenus conjointement d'une même obligation."
+                      },
+                      {
+                        "article": "Article 785",
+                        "explication": "Le créancier peut réclamer l'intégralité de la dette à l'un des débiteurs solidaires."
+                      },
+                      {
+                        "article": "Article 786",
+                        "explication": "Le débiteur qui a payé la dette peut se retourner contre les autres débiteurs solidaires pour obtenir leur quote-part."
+                      },
+                      {
+                        "article": "Article 787",
+                        "explication": "Les débiteurs solidaires doivent contribuer proportionnellement à leurs engagements respectifs."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre X : Les obligations indivisibles",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature des obligations indivisibles",
+                    "articles": [
+                      {
+                        "article": "Article 788",
+                        "explication": "Une obligation est indivisible lorsque son objet ne peut pas être divisé matériellement ou juridiquement."
+                      },
+                      {
+                        "article": "Article 789",
+                        "explication": "Les obligations indivisibles impliquent que chaque partie doit exécuter ou recevoir la totalité de la prestation."
+                      },
+                      {
+                        "article": "Article 790",
+                        "explication": "L'indivisibilité peut résulter de la nature de l'objet ou d'une stipulation expresse des parties."
+                      },
+                      {
+                        "article": "Article 791",
+                        "explication": "En cas d'inexécution partielle, l'obligation reste due dans son intégralité."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets des obligations indivisibles",
+                    "articles": [
+                      {
+                        "article": "Article 792",
+                        "explication": "Les créanciers indivisibles doivent agir conjointement pour réclamer l'exécution de l'obligation."
+                      },
+                      {
+                        "article": "Article 793",
+                        "explication": "Les débiteurs indivisibles sont tenus solidairement de l'exécution de l'obligation."
+                      },
+                      {
+                        "article": "Article 794",
+                        "explication": "La libération d'un débiteur indivisible libère tous les autres débiteurs."
+                      },
+                      {
+                        "article": "Article 795",
+                        "explication": "Les obligations indivisibles cessent en cas de division ou de destruction de l'objet."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XI : Les obligations conditionnelles",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Obligations sous condition suspensive",
+                    "articles": [
+                      {
+                        "article": "Article 796",
+                        "explication": "Une obligation sous condition suspensive ne produit ses effets qu'à la réalisation de la condition."
+                      },
+                      {
+                        "article": "Article 797",
+                        "explication": "La condition suspensive doit être possible, licite, et non contraire à l'ordre public."
+                      },
+                      {
+                        "article": "Article 798",
+                        "explication": "En attendant la réalisation de la condition, les parties doivent s'abstenir de tout acte contraire à l'obligation."
+                      },
+                      {
+                        "article": "Article 799",
+                        "explication": "La réalisation de la condition suspensive est constatée par les parties ou par un tiers désigné."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Obligations sous condition résolutoire",
+                    "articles": [
+                      {
+                        "article": "Article 800",
+                        "explication": "Une obligation sous condition résolutoire cesse de produire effet si la condition se réalise."
+                      },
+                      {
+                        "article": "Article 801",
+                        "explication": "La condition résolutoire doit être possible, licite, et non contraire à l'ordre public."
+                      },
+                      {
+                        "article": "Article 802",
+                        "explication": "En attendant la réalisation de la condition, l'obligation reste pleinement exécutable."
+                      },
+                      {
+                        "article": "Article 803",
+                        "explication": "La réalisation de la condition résolutoire entraîne la restitution des prestations déjà effectuées."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XII : Les obligations à terme",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature des obligations à terme",
+                    "articles": [
+                      {
+                        "article": "Article 804",
+                        "explication": "Une obligation à terme est une obligation dont l'exécution est différée jusqu'à une date fixée."
+                      },
+                      {
+                        "article": "Article 805",
+                        "explication": "Le terme peut être certain ou incertain, mais il doit être raisonnable et prévisible."
+                      },
+                      {
+                        "article": "Article 806",
+                        "explication": "En cas de retard dans l'exécution, le créancier peut demander des dommages-intérêts."
+                      },
+                      {
+                        "article": "Article 807",
+                        "explication": "Le débiteur peut exécuter l'obligation avant le terme si cela n'est pas prohibé par le contrat."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets des obligations à terme",
+                    "articles": [
+                      {
+                        "article": "Article 808",
+                        "explication": "Les obligations à terme produisent leurs effets dès leur formation, mais leur exécution est différée."
+                      },
+                      {
+                        "article": "Article 809",
+                        "explication": "Le créancier ne peut pas exiger l'exécution avant l'expiration du terme, sauf accord des parties."
+                      },
+                      {
+                        "article": "Article 810",
+                        "explication": "Le débiteur peut anticiper l'exécution si cela ne porte pas préjudice au créancier."
+                      },
+                      {
+                        "article": "Article 811",
+                        "explication": "En cas de force majeure, le terme peut être suspendu ou reporté."
+                      }
+                    ]
+                  }
+                ]
+              },
+
+              {
+                "titre": "Titre XIII : Les obligations alternatives",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature des obligations alternatives",
+                    "articles": [
+                      {
+                        "article": "Article 812",
+                        "explication": "Une obligation alternative est une obligation où le débiteur a le choix entre plusieurs prestations."
+                      },
+                      {
+                        "article": "Article 813",
+                        "explication": "Le choix doit être effectué par le débiteur, sauf stipulation contraire dans le contrat."
+                      },
+                      {
+                        "article": "Article 814",
+                        "explication": "Si l'une des prestations devient impossible, l'obligation se transforme en obligation simple sur la prestation restante."
+                      },
+                      {
+                        "article": "Article 815",
+                        "explication": "Le créancier ne peut pas forcer le débiteur à choisir une prestation spécifique, sauf en cas de mauvaise foi."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets des obligations alternatives",
+                    "articles": [
+                      {
+                        "article": "Article 816",
+                        "explication": "Le choix du débiteur doit être notifié au créancier pour que l'obligation devienne exécutable."
+                      },
+                      {
+                        "article": "Article 817",
+                        "explication": "En cas de retard dans le choix, le créancier peut demander la désignation judiciaire d'une prestation."
+                      },
+                      {
+                        "article": "Article 818",
+                        "explication": "Si toutes les prestations deviennent impossibles, l'obligation s'éteint par la force majeure."
+                      },
+                      {
+                        "article": "Article 819",
+                        "explication": "Les obligations alternatives sont régies par les principes généraux des obligations, sauf dispositions spécifiques."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XIV : Les obligations successives",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature des obligations successives",
+                    "articles": [
+                      {
+                        "article": "Article 820",
+                        "explication": "Une obligation successive est une obligation qui se renouvelle périodiquement selon un intervalle fixé."
+                      },
+                      {
+                        "article": "Article 821",
+                        "explication": "Les obligations successives incluent les loyers, les salaires, et les pensions alimentaires."
+                      },
+                      {
+                        "article": "Article 822",
+                        "explication": "Chaque échéance constitue une obligation distincte, mais elles sont liées par leur origine commune."
+                      },
+                      {
+                        "article": "Article 823",
+                        "explication": "Le non-paiement d'une échéance peut entraîner la résiliation de l'obligation successive."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets des obligations successives",
+                    "articles": [
+                      {
+                        "article": "Article 824",
+                        "explication": "Le créancier peut réclamer le paiement des échéances impayées, même après la fin de l'obligation."
+                      },
+                      {
+                        "article": "Article 825",
+                        "explication": "Le débiteur peut demander une révision des modalités de l'obligation en cas de changement de circonstances."
+                      },
+                      {
+                        "article": "Article 826",
+                        "explication": "La prescription des échéances successives court à partir de chaque échéance individuelle."
+                      },
+                      {
+                        "article": "Article 827",
+                        "explication": "Les obligations successives cessent en cas de résiliation, de novation, ou de décès des parties."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XV : Les obligations complexes",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Obligations cumulatives",
+                    "articles": [
+                      {
+                        "article": "Article 828",
+                        "explication": "Une obligation cumulative est une obligation où plusieurs prestations doivent être exécutées simultanément."
+                      },
+                      {
+                        "article": "Article 829",
+                        "explication": "Le créancier peut exiger l'exécution intégrale des prestations cumulatives."
+                      },
+                      {
+                        "article": "Article 830",
+                        "explication": "En cas d'inexécution partielle, le créancier peut demander réparation pour le préjudice subi."
+                      },
+                      {
+                        "article": "Article 831",
+                        "explication": "Les obligations cumulatives sont soumises aux règles générales des obligations."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Obligations conjointes",
+                    "articles": [
+                      {
+                        "article": "Article 832",
+                        "explication": "Une obligation conjointe est une obligation où plusieurs prestations doivent être exécutées ensemble."
+                      },
+                      {
+                        "article": "Article 833",
+                        "explication": "Le créancier ne peut pas exiger une prestation isolée sans l'accord des parties."
+                      },
+                      {
+                        "article": "Article 834",
+                        "explication": "En cas d'inexécution partielle, l'obligation reste due dans son intégralité."
+                      },
+                      {
+                        "article": "Article 835",
+                        "explication": "Les obligations conjointes cessent si l'une des prestations devient impossible."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre XVI : Dispositions transitoires et finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Adaptations légales",
+                    "articles": [
+                      {
+                        "article": "Article 836",
+                        "explication": "Les dispositions du Livre III s'appliquent immédiatement aux affaires nouvelles."
+                      },
+                      {
+                        "article": "Article 837",
+                        "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+                      },
+                      {
+                        "article": "Article 838",
+                        "explication": "Les contrats conclus avant l'entrée en vigueur du Livre III restent régis par les lois antérieures."
+                      },
+                      {
+                        "article": "Article 839",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 840",
+                        "explication": "Le présent Livre III entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 841",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 842",
+                        "explication": "Les textes subséquents au Livre III doivent être interprétés conformément à ses principes."
+                      },
+                      {
+                        "article": "Article 843",
+                        "explication": "Les affaires en cours sont jugées conformément aux lois en vigueur au moment de leur introduction."
+                      }
+                    ]
+                  }
+                ]
+              }
+          
+            ]
           },
           {
-            "livre": "Livre IV : Des obligations",
-            "structure": []
+            "livre": "Livre IV : Des sûretés",
+            "structure": [
+              {
+                "titre": "Titre I : Dispositions générales sur les sûretés",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature et classification des sûretés",
+                    "articles": [
+                      {
+                        "article": "Article 844",
+                        "explication": "Les sûretés sont des mécanismes juridiques destinés à garantir l'exécution d'une obligation."
+                      },
+                      {
+                        "article": "Article 845",
+                        "explication": "Les sûretés peuvent être classées en sûretés réelles et sûretés personnelles."
+                      },
+                      {
+                        "article": "Article 846",
+                        "explication": "Les sûretés réelles confèrent un droit direct sur un bien, tandis que les sûretés personnelles reposent sur l'engagement d'une tierce personne."
+                      },
+                      {
+                        "article": "Article 847",
+                        "explication": "Les sûretés doivent respecter les règles de publicité pour être opposables aux tiers."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Publicité des sûretés",
+                    "articles": [
+                      {
+                        "article": "Article 848",
+                        "explication": "La publicité des sûretés est assurée par leur inscription dans un registre officiel ou par un acte authentique."
+                      },
+                      {
+                        "article": "Article 849",
+                        "explication": "L'inscription des sûretés permet de protéger les droits des créanciers et des tiers de bonne foi."
+                      },
+                      {
+                        "article": "Article 850",
+                        "explication": "Les sûretés non publiées ne sont pas opposables aux tiers."
+                      },
+                      {
+                        "article": "Article 851",
+                        "explication": "Les frais de publicité des sûretés sont à la charge du débiteur ou du créancier selon les modalités convenues."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre II : Les sûretés réelles",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : L'hypothèque",
+                    "articles": [
+                      {
+                        "article": "Article 852",
+                        "explication": "L'hypothèque est une sûreté réelle constituée sur un bien immobilier pour garantir une obligation."
+                      },
+                      {
+                        "article": "Article 853",
+                        "explication": "L'hypothèque doit être constatée par acte authentique et inscrite au registre foncier."
+                      },
+                      {
+                        "article": "Article 854",
+                        "explication": "Le créancier hypothécaire a un droit de préférence sur le bien grevé en cas de non-paiement."
+                      },
+                      {
+                        "article": "Article 855",
+                        "explication": "L'hypothèque peut être levée par remboursement intégral de la dette ou par accord des parties."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Le privilège",
+                    "articles": [
+                      {
+                        "article": "Article 856",
+                        "explication": "Le privilège est une sûreté réelle légale donnant un droit de préférence sur certains biens du débiteur."
+                      },
+                      {
+                        "article": "Article 857",
+                        "explication": "Les privilèges peuvent être généraux (portant sur tous les biens du débiteur) ou spéciaux (portant sur un bien précis)."
+                      },
+                      {
+                        "article": "Article 858",
+                        "explication": "Les privilèges spéciaux ont priorité sur les privilèges généraux et les hypothèques."
+                      },
+                      {
+                        "article": "Article 859",
+                        "explication": "Les privilèges sont régis par la loi et ne nécessitent pas d'inscription pour être opposables."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 3 : Le nantissement",
+                    "articles": [
+                      {
+                        "article": "Article 860",
+                        "explication": "Le nantissement est une sûreté réelle constituée sur un bien meuble pour garantir une obligation."
+                      },
+                      {
+                        "article": "Article 861",
+                        "explication": "Le nantissement peut porter sur des biens corporels (matériels) ou incorporels (droits)."
+                      },
+                      {
+                        "article": "Article 862",
+                        "explication": "Le créancier nanti a un droit de suite et de préférence sur le bien grevé en cas de non-paiement."
+                      },
+                      {
+                        "article": "Article 863",
+                        "explication": "Le nantissement doit être constaté par écrit pour être valable."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre III : Les sûretés personnelles",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : La caution",
+                    "articles": [
+                      {
+                        "article": "Article 864",
+                        "explication": "La caution est une sûreté personnelle où une tierce personne s'engage à payer la dette du débiteur en cas de défaillance."
+                      },
+                      {
+                        "article": "Article 865",
+                        "explication": "L'engagement de la caution doit être constaté par écrit pour être valable."
+                      },
+                      {
+                        "article": "Article 866",
+                        "explication": "La caution bénéficie des mêmes droits et recours que le créancier contre le débiteur principal."
+                      },
+                      {
+                        "article": "Article 867",
+                        "explication": "La caution peut exiger une libération proportionnelle si elle est solidaire avec d'autres cautions."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : La garantie autonome",
+                    "articles": [
+                      {
+                        "article": "Article 868",
+                        "explication": "La garantie autonome est une obligation indépendante de la validité de l'obligation principale."
+                      },
+                      {
+                        "article": "Article 869",
+                        "explication": "La garantie autonome est souvent utilisée dans les contrats commerciaux et financiers."
+                      },
+                      {
+                        "article": "Article 870",
+                        "explication": "Le garant autonome s'engage à payer sur simple demande conforme aux termes du contrat."
+                      },
+                      {
+                        "article": "Article 871",
+                        "explication": "La garantie autonome ne peut être contestée que pour fraude manifeste ou abus de droit."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre IV : Extinction des sûretés",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Modes d'extinction",
+                    "articles": [
+                      {
+                        "article": "Article 872",
+                        "explication": "Les sûretés s'éteignent par paiement de la dette, novation, prescription, ou renonciation."
+                      },
+                      {
+                        "article": "Article 873",
+                        "explication": "La réalisation de la sûreté (vente du bien grevé) entraîne son extinction."
+                      },
+                      {
+                        "article": "Article 874",
+                        "explication": "La prescription des sûretés varie selon leur nature et les dispositions légales applicables."
+                      },
+                      {
+                        "article": "Article 875",
+                        "explication": "La renonciation aux sûretés doit être constatée par écrit pour être valable."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets de l'extinction",
+                    "articles": [
+                      {
+                        "article": "Article 876",
+                        "explication": "L'extinction des sûretés libère le bien grevé ou la caution de toute obligation."
+                      },
+                      {
+                        "article": "Article 877",
+                        "explication": "Le créancier doit restituer les titres ou documents relatifs à la sûreté après son extinction."
+                      },
+                      {
+                        "article": "Article 878",
+                        "explication": "En cas de vente forcée, le produit de la vente est affecté au remboursement de la dette garantie."
+                      },
+                      {
+                        "article": "Article 879",
+                        "explication": "Les sûretés éteintes ne peuvent être réactivées sans un nouvel acte de constitution."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre V : Dispositions finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 880",
+                        "explication": "Le présent Livre IV entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 881",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 882",
+                        "explication": "Les textes subséquents au Livre IV doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 883",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 884",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "livre": "Livre V : Du droit des personnes",
+            "structure": [
+              {
+                "titre": "Titre I : Dispositions générales sur les personnes",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature juridique des personnes",
+                    "articles": [
+                      {
+                        "article": "Article 885",
+                        "explication": "Les personnes sont des entités juridiques titulaires de droits et d'obligations."
+                      },
+                      {
+                        "article": "Article 886",
+                        "explication": "Les personnes peuvent être physiques (êtres humains) ou morales (entités créées par la loi)."
+                      },
+                      {
+                        "article": "Article 887",
+                        "explication": "Les personnes physiques ont une capacité juridique dès leur naissance."
+                      },
+                      {
+                        "article": "Article 888",
+                        "explication": "Les personnes morales acquièrent leur personnalité juridique à leur constitution légale."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Capacité juridique",
+                    "articles": [
+                      {
+                        "article": "Article 889",
+                        "explication": "La capacité juridique est l'aptitude à exercer des droits et à contracter des obligations."
+                      },
+                      {
+                        "article": "Article 890",
+                        "explication": "La capacité peut être pleine (majeurs sains d'esprit) ou restreinte (mineurs, incapables)."
+                      },
+                      {
+                        "article": "Article 891",
+                        "explication": "La capacité peut être affectée par des circonstances telles que la minorité, la tutelle, ou l'interdiction judiciaire."
+                      },
+                      {
+                        "article": "Article 892",
+                        "explication": "Les personnes morales exercent leur capacité juridique par l'intermédiaire de leurs représentants légaux."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre II : Les personnes physiques",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Naissance et état civil",
+                    "articles": [
+                      {
+                        "article": "Article 893",
+                        "explication": "La naissance confère automatiquement la personnalité juridique à l'enfant."
+                      },
+                      {
+                        "article": "Article 894",
+                        "explication": "L'état civil comprend les informations relatives à l'identité d'une personne (nom, prénom, date de naissance, etc.)."
+                      },
+                      {
+                        "article": "Article 895",
+                        "explication": "L'état civil est établi par un acte officiel (acte de naissance, jugement supplétif si nécessaire)."
+                      },
+                      {
+                        "article": "Article 896",
+                        "explication": "Les erreurs dans les actes d'état civil peuvent être corrigées par voie administrative ou judiciaire."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : La nationalité",
+                    "articles": [
+                      {
+                        "article": "Article 897",
+                        "explication": "La nationalité détermine l'appartenance d'une personne à un État et ses droits liés à cette appartenance."
+                      },
+                      {
+                        "article": "Article 898",
+                        "explication": "La nationalité camerounaise peut être acquise par filiation, naissance sur le territoire, naturalisation, ou mariage."
+                      },
+                      {
+                        "article": "Article 899",
+                        "explication": "La perte de la nationalité est régie par la loi et ne peut pas être arbitraire."
+                      },
+                      {
+                        "article": "Article 900",
+                        "explication": "Les conflits de nationalité sont tranchés conformément aux traités internationaux et aux lois locales."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 3 : Le nom et le domicile",
+                    "articles": [
+                      {
+                        "article": "Article 901",
+                        "explication": "Le nom est un élément essentiel de l'identité juridique d'une personne physique."
+                      },
+                      {
+                        "article": "Article 902",
+                        "explication": "Le changement de nom est soumis à une procédure judiciaire et doit être justifié."
+                      },
+                      {
+                        "article": "Article 903",
+                        "explication": "Le domicile est le lieu où une personne a son principal établissement ou réside habituellement."
+                      },
+                      {
+                        "article": "Article 904",
+                        "explication": "Le domicile légal peut être imposé par la loi (par exemple, pour les mineurs ou les personnes sous tutelle)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre III : Les personnes morales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Constitution et reconnaissance",
+                    "articles": [
+                      {
+                        "article": "Article 905",
+                        "explication": "Les personnes morales sont constituées par la loi ou par un acte volontaire (association, société, fondation)."
+                      },
+                      {
+                        "article": "Article 906",
+                        "explication": "La reconnaissance d'une personne morale nécessite son immatriculation au registre compétent."
+                      },
+                      {
+                        "article": "Article 907",
+                        "explication": "Les personnes morales doivent respecter les lois sur leur objet social, leur fonctionnement, et leur dissolution."
+                      },
+                      {
+                        "article": "Article 908",
+                        "explication": "Les personnes morales peuvent être dissoutes par décision judiciaire ou administrative en cas d'illégalité."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Capacité et responsabilité",
+                    "articles": [
+                      {
+                        "article": "Article 909",
+                        "explication": "Les personnes morales ont une capacité juridique limitée à leur objet social."
+                      },
+                      {
+                        "article": "Article 910",
+                        "explication": "Les personnes morales peuvent agir en justice à travers leurs représentants légaux."
+                      },
+                      {
+                        "article": "Article 911",
+                        "explication": "La responsabilité des personnes morales est engagée pour les actes de leurs organes ou représentants."
+                      },
+                      {
+                        "article": "Article 912",
+                        "explication": "Les personnes morales peuvent être sanctionnées pénalement ou administrativement selon la gravité des faits."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre IV : Les incapacités",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Incapacité naturelle",
+                    "articles": [
+                      {
+                        "article": "Article 913",
+                        "explication": "L'incapacité naturelle résulte de la minorité, de troubles mentaux, ou de maladies graves."
+                      },
+                      {
+                        "article": "Article 914",
+                        "explication": "Les mineurs sont représentés par leurs parents ou tuteurs légaux pour exercer leurs droits."
+                      },
+                      {
+                        "article": "Article 915",
+                        "explication": "Les majeurs sous tutelle ou curatelle sont assistés ou représentés dans leurs actes juridiques."
+                      },
+                      {
+                        "article": "Article 916",
+                        "explication": "L'incapacité naturelle est levée par la majorité, la guérison, ou une décision judiciaire."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Incapacité légale",
+                    "articles": [
+                      {
+                        "article": "Article 917",
+                        "explication": "L'incapacité légale est imposée par la loi pour protéger certaines catégories de personnes."
+                      },
+                      {
+                        "article": "Article 918",
+                        "explication": "Les personnes interdites judiciairement perdent certains droits civiques ou patrimoniaux."
+                      },
+                      {
+                        "article": "Article 919",
+                        "explication": "L'incapacité légale peut être temporaire ou permanente selon les circonstances."
+                      },
+                      {
+                        "article": "Article 920",
+                        "explication": "La levée de l'incapacité légale nécessite une révision judiciaire ou administrative."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre V : Dispositions finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 921",
+                        "explication": "Le présent Livre V entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 922",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 923",
+                        "explication": "Les textes subséquents au Livre V doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 924",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 925",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+
+                ]
+              }
+            ]
+          },
+
+          {
+            "livre": "Livre VI : Du droit de la famille",
+            "structure": [
+              {
+                "titre": "Titre I : Le mariage",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Conditions du mariage",
+                    "articles": [
+                      {
+                        "article": "Article 926",
+                        "explication": "Le mariage est un acte juridique par lequel deux personnes s'unissent légalement."
+                      },
+                      {
+                        "article": "Article 927",
+                        "explication": "Les futurs époux doivent avoir atteint l'âge légal de mariage (18 ans) ou obtenir une dispense spéciale."
+                      },
+                      {
+                        "article": "Article 928",
+                        "explication": "Le consentement libre et éclairé des époux est une condition essentielle à la validité du mariage."
+                      },
+                      {
+                        "article": "Article 929",
+                        "explication": "Le mariage est interdit entre personnes ayant des liens de parenté proche ou d'alliance."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Forme et célébration du mariage",
+                    "articles": [
+                      {
+                        "article": "Article 930",
+                        "explication": "Le mariage doit être célébré publiquement devant un officier d'état civil compétent."
+                      },
+                      {
+                        "article": "Article 931",
+                        "explication": "La célébration religieuse du mariage n'a pas d'effet juridique sans la formalité civile."
+                      },
+                      {
+                        "article": "Article 932",
+                        "explication": "Un acte de mariage doit être dressé et inscrit dans les registres d'état civil."
+                      },
+                      {
+                        "article": "Article 933",
+                        "explication": "Toute irrégularité dans la forme du mariage peut entraîner son annulation."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre II : Les effets du mariage",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Droits et devoirs des époux",
+                    "articles": [
+                      {
+                        "article": "Article 934",
+                        "explication": "Les époux ont des droits et devoirs réciproques, notamment le respect, la fidélité, et le soutien mutuel."
+                      },
+                      {
+                        "article": "Article 935",
+                        "explication": "Les époux doivent contribuer aux charges du mariage proportionnellement à leurs ressources."
+                      },
+                      {
+                        "article": "Article 936",
+                        "explication": "Chaque époux conserve sa capacité juridique personnelle, sauf exceptions prévues par la loi."
+                      },
+                      {
+                        "article": "Article 937",
+                        "explication": "Les biens acquis pendant le mariage sont régis par le régime matrimonial choisi ou appliqué."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Régimes matrimoniaux",
+                    "articles": [
+                      {
+                        "article": "Article 938",
+                        "explication": "Les époux peuvent choisir un régime matrimonial avant ou après le mariage (communauté, séparation de biens, etc.)."
+                      },
+                      {
+                        "article": "Article 939",
+                        "explication": "En l'absence de choix, le régime légal de communauté réduite aux acquêts s'applique."
+                      },
+                      {
+                        "article": "Article 940",
+                        "explication": "Le changement de régime matrimonial nécessite une autorisation judiciaire et doit respecter les droits des tiers."
+                      },
+                      {
+                        "article": "Article 941",
+                        "explication": "Les dettes contractées pour les besoins du ménage engagent les deux époux solidairement."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre III : La dissolution du mariage",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Le divorce",
+                    "articles": [
+                      {
+                        "article": "Article 942",
+                        "explication": "Le divorce met fin au mariage conformément à la loi et libère les époux de leurs obligations conjugales."
+                      },
+                      {
+                        "article": "Article 943",
+                        "explication": "Le divorce peut être demandé par consentement mutuel ou pour des motifs légaux (faute, altération définitive du lien conjugal)."
+                      },
+                      {
+                        "article": "Article 944",
+                        "explication": "Le juge fixe les modalités de la séparation, y compris la garde des enfants et le partage des biens."
+                      },
+                      {
+                        "article": "Article 945",
+                        "explication": "Les époux divorcés peuvent se remarier après expiration des délais légaux."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : La séparation de corps",
+                    "articles": [
+                      {
+                        "article": "Article 946",
+                        "explication": "La séparation de corps maintient le mariage mais suspend les devoirs conjugaux."
+                      },
+                      {
+                        "article": "Article 947",
+                        "explication": "La séparation de corps peut être prononcée pour faute ou par consentement mutuel."
+                      },
+                      {
+                        "article": "Article 948",
+                        "explication": "Les effets patrimoniaux de la séparation de corps sont similaires à ceux du divorce."
+                      },
+                      {
+                        "article": "Article 949",
+                        "explication": "La réconciliation des époux met fin à la séparation de corps."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre IV : La filiation",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Établissement de la filiation",
+                    "articles": [
+                      {
+                        "article": "Article 950",
+                        "explication": "La filiation peut être établie par l'acte de naissance ou par reconnaissance volontaire."
+                      },
+                      {
+                        "article": "Article 951",
+                        "explication": "En cas de contestation, la filiation peut être établie ou contestée par voie judiciaire."
+                      },
+                      {
+                        "article": "Article 952",
+                        "explication": "La filiation adoptive confère les mêmes droits et devoirs qu'une filiation naturelle."
+                      },
+                      {
+                        "article": "Article 953",
+                        "explication": "L'enfant né hors mariage a les mêmes droits que l'enfant légitime."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Droits et devoirs des parents et des enfants",
+                    "articles": [
+                      {
+                        "article": "Article 954",
+                        "explication": "Les parents ont l'obligation d'élever, d'éduquer, et de soutenir leurs enfants."
+                      },
+                      {
+                        "article": "Article 955",
+                        "explication": "Les enfants ont le droit au respect, à l'affection, et à l'éducation de leurs parents."
+                      },
+                      {
+                        "article": "Article 956",
+                        "explication": "Les parents exercent l'autorité parentale conjointement, sauf décision judiciaire contraire."
+                      },
+                      {
+                        "article": "Article 957",
+                        "explication": "L'autorité parentale cesse à la majorité ou à l'émancipation de l'enfant."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre V : La succession",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Ouverture de la succession",
+                    "articles": [
+                      {
+                        "article": "Article 958",
+                        "explication": "La succession s'ouvre au moment du décès et au lieu du dernier domicile du défunt."
+                      },
+                      {
+                        "article": "Article 959",
+                        "explication": "Les héritiers succèdent selon les règles légales ou en vertu d'un testament valide."
+                      },
+                      {
+                        "article": "Article 960",
+                        "explication": "Le patrimoine du défunt comprend ses biens, dettes, et droits transmissibles."
+                      },
+                      {
+                        "article": "Article 961",
+                        "explication": "Les héritiers peuvent accepter ou renoncer à la succession dans un délai légal."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Ordre de succession",
+                    "articles": [
+                      {
+                        "article": "Article 962",
+                        "explication": "Les descendants du défunt sont prioritaires dans l'ordre de succession."
+                      },
+                      {
+                        "article": "Article 963",
+                        "explication": "En l'absence de descendants, les ascendants et collatéraux proches héritent selon un ordre défini."
+                      },
+                      {
+                        "article": "Article 964",
+                        "explication": "Le conjoint survivant bénéficie d'une réserve héréditaire ou d'une quotité légale."
+                      },
+                      {
+                        "article": "Article 965",
+                        "explication": "Les donations entre vifs sont prises en compte dans le calcul des parts successorales."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre VI : Dispositions finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 966",
+                        "explication": "Le présent Livre VI entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 967",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 968",
+                        "explication": "Les textes subséquents au Livre VI doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 969",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 970",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "livre": "Livre VII : Des successions",
+            "structure": [
+              {
+                "titre": "Titre I : Ouverture de la succession",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Causes et effets de l'ouverture",
+                    "articles": [
+                      {
+                        "article": "Article 971",
+                        "explication": "La succession s'ouvre au moment du décès de la personne et au lieu de son dernier domicile."
+                      },
+                      {
+                        "article": "Article 972",
+                        "explication": "Les biens, droits, et obligations du défunt constituent l'actif successoral."
+                      },
+                      {
+                        "article": "Article 973",
+                        "explication": "Les dettes du défunt sont à la charge de la succession et doivent être payées avant le partage."
+                      },
+                      {
+                        "article": "Article 974",
+                        "explication": "Les héritiers peuvent accepter ou renoncer à la succession dans un délai légal."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Qualité d'héritier",
+                    "articles": [
+                      {
+                        "article": "Article 975",
+                        "explication": "Les héritiers sont les personnes appelées à succéder au défunt selon la loi ou le testament."
+                      },
+                      {
+                        "article": "Article 976",
+                        "explication": "Les héritiers peuvent être légaux (par la loi) ou testamentaires (désignés par le défunt)."
+                      },
+                      {
+                        "article": "Article 977",
+                        "explication": "Un héritier peut accepter purement et simplement la succession ou sous bénéfice d'inventaire."
+                      },
+                      {
+                        "article": "Article 978",
+                        "explication": "La renonciation à la succession doit être expresse et constatée par acte authentique."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre II : L'ordre de succession",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Succession légale",
+                    "articles": [
+                      {
+                        "article": "Article 979",
+                        "explication": "En l'absence de testament, la succession est régie par les règles légales de succession."
+                      },
+                      {
+                        "article": "Article 980",
+                        "explication": "Les descendants du défunt sont prioritaires dans l'ordre de succession."
+                      },
+                      {
+                        "article": "Article 981",
+                        "explication": "En l'absence de descendants, les ascendants et collatéraux proches héritent selon un ordre défini."
+                      },
+                      {
+                        "article": "Article 982",
+                        "explication": "Le conjoint survivant bénéficie d'une réserve héréditaire ou d'une quotité légale."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Succession testamentaire",
+                    "articles": [
+                      {
+                        "article": "Article 983",
+                        "explication": "Un testament permet au défunt de désigner ses héritiers et de fixer leurs parts respectives."
+                      },
+                      {
+                        "article": "Article 984",
+                        "explication": "Le testament peut être olographe, authentique, ou mystique selon sa forme."
+                      },
+                      {
+                        "article": "Article 985",
+                        "explication": "Les dispositions testamentaires ne peuvent pas porter atteinte aux droits réservataires des héritiers."
+                      },
+                      {
+                        "article": "Article 986",
+                        "explication": "Un testament peut être révoqué ou modifié à tout moment par le testateur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre III : La réserve héréditaire",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Nature et calcul de la réserve",
+                    "articles": [
+                      {
+                        "article": "Article 987",
+                        "explication": "La réserve héréditaire est la part du patrimoine du défunt qui revient obligatoirement aux héritiers réservataires."
+                      },
+                      {
+                        "article": "Article 988",
+                        "explication": "Les héritiers réservataires incluent les descendants, le conjoint survivant, et parfois les ascendants."
+                      },
+                      {
+                        "article": "Article 989",
+                        "explication": "La réserve est calculée sur la base de l'actif net successoral après déduction des dettes."
+                      },
+                      {
+                        "article": "Article 990",
+                        "explication": "Les donations entre vifs sont prises en compte dans le calcul de la réserve héréditaire."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Réduction pour atteinte à la réserve",
+                    "articles": [
+                      {
+                        "article": "Article 991",
+                        "explication": "Toute disposition testamentaire ou donation portant atteinte à la réserve est réductible."
+                      },
+                      {
+                        "article": "Article 992",
+                        "explication": "Les héritiers réservataires peuvent demander la réduction des libéralités excessives."
+                      },
+                      {
+                        "article": "Article 993",
+                        "explication": "La réduction est opérée par priorité sur les donations les plus récentes."
+                      },
+                      {
+                        "article": "Article 994",
+                        "explication": "Le juge fixe les modalités de la réduction après examen des droits des parties concernées."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre IV : Le partage des biens",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Conditions et formalités du partage",
+                    "articles": [
+                      {
+                        "article": "Article 995",
+                        "explication": "Le partage des biens successoraux est obligatoire pour mettre fin à l'indivision."
+                      },
+                      {
+                        "article": "Article 996",
+                        "explication": "Le partage peut être amiable (par accord des héritiers) ou judiciaire (par décision du tribunal)."
+                      },
+                      {
+                        "article": "Article 997",
+                        "explication": "Un inventaire des biens successoraux doit être dressé avant le partage."
+                      },
+                      {
+                        "article": "Article 998",
+                        "explication": "Les héritiers doivent s'accorder sur la répartition des biens ou soumettre le litige au juge."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Effets du partage",
+                    "articles": [
+                      {
+                        "article": "Article 999",
+                        "explication": "Le partage met fin à l'indivision et attribue les biens aux héritiers selon leur part respective."
+                      },
+                      {
+                        "article": "Article 1000",
+                        "explication": "Les héritiers supportent les dettes successoriales proportionnellement à leurs parts."
+                      },
+                      {
+                        "article": "Article 1001",
+                        "explication": "Le partage peut être contesté en cas d'injustice manifeste ou de fraude."
+                      },
+                      {
+                        "article": "Article 1002",
+                        "explication": "Une fois validé, le partage est irrévocable sauf décision judiciaire spécifique."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "titre": "Titre V : Dispositions finales",
+                "chapitres": [
+                  {
+                    "chapitre": "Chapitre 1 : Entrée en vigueur",
+                    "articles": [
+                      {
+                        "article": "Article 1003",
+                        "explication": "Le présent Livre VII entre en vigueur à la date de sa publication au Journal officiel."
+                      },
+                      {
+                        "article": "Article 1004",
+                        "explication": "Les dispositions antérieures contraires au présent Livre sont abrogées."
+                      },
+                      {
+                        "article": "Article 1005",
+                        "explication": "Les textes subséquents au Livre VII doivent être interprétés conformément à ses principes."
+                      }
+                    ]
+                  },
+                  {
+                    "chapitre": "Chapitre 2 : Adaptations locales",
+                    "articles": [
+                      {
+                        "article": "Article 1006",
+                        "explication": "Les coutumes locales sont prises en compte dans l'application des lois, sous réserve des principes fondamentaux."
+                      },
+                      {
+                        "article": "Article 1007",
+                        "explication": "Les conflits entre coutumes et lois écrites sont tranchés par les tribunaux en faveur des droits fondamentaux."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
+
         ]
       }
     ]
   }
-}
+}       
+
   
   
