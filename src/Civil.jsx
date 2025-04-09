@@ -1,3 +1,4 @@
+import Livrecodecivil from "./Livrecodecivil";
 import Navbar from "./Navbar";
 
 const Civil = () => {
@@ -5,6 +6,8 @@ const Civil = () => {
         <div className="civil">
             <Navbar />
             <h1>code civil</h1>
+
+            <Livrecodecivil />
         </div>
      );
 }
